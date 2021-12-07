@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Époque</title>
     <style>
+body {
+    font-family: epoque;
+
+}
+
 header {
     display: block;
     background-color: black;
@@ -17,6 +22,8 @@ header {
 }
 h1{
     text-align: center;
+    font-size: 6em;
+    color: white;
 }
 p, pre, body, a{
     margin: 0;
@@ -38,23 +45,16 @@ p {
     text-align: center;
     padding-bottom: 20px;
 }
-pre {
-    display: block;
+.center {
     position: absolute;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
-    font-weight: 700;
-    padding: 18px 10px 10px 0;
-    background-color: rgba(255, 255, 255, 0.192);
-    max-width: 480px;
-    border-radius: 8px;
+    max-width: 460px;
     height: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0 220px 0 220px;
+    transform: translate(-100, -30%);
+    margin: 0 auto 0 auto;
 }
 
-.prologo {
+#prologo {
     background-color: rgb(252, 253, 253);
     width: 100%;
     background-image: url("imagens/background001.png"); 
@@ -100,6 +100,7 @@ pre {
     z-index: 2;
 }
 footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     text-align: center;
     color: white;
@@ -154,9 +155,9 @@ footer {
     <h1>mudar cabeçalho</h1>
     
 </header>
-    <section class="prologo">
+    <section id="prologo">
         <h1 class="center">ÉPOQUE</h1>
-        <p>An Opentype font family that invokes the golden age</p>
+        <p class="center">An Opentype font family that invokes the golden age</p>
     </section>
 <section class="branca1">
     <p id="desc" class="center">
@@ -178,7 +179,7 @@ footer {
 </section>
 
 <footer>
-    <small>Produzido como portfólio de Rafael Ferreira >> <a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-3-de-5-40-horas/">html5/css3 de gustavo guanabara</a><<</small>
+    <small>Produzido como portfólio de Rafael Ferreira</small>
 </footer>
 </body>
 </html>
