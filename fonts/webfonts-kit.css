@@ -43,7 +43,7 @@
 
 @font-face {
     font-family: "Epoque-36";
-    src: url('../GitHub/Epoque/fonts/webfonts/EpoqueLightIt/font.woff2') format('woff2'), url('../GitHub/Epoque/fonts/webfonts/EpoqueLightIt/font.woff') format('woff');
+    src: url('../GitHub/Epoque/fonts/webfonts/EpoqueLightIt/Epoque-45-Light.otf') format('OpenType'), url('../GitHub/Epoque/fonts/webfonts/EpoqueLightIt/font.woff') format('woff');
 }
 
 @font-face {
