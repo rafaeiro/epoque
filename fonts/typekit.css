@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'epoque-light';
-    src: url('epoque_45_light-webfont.woff2') format('woff2'),
-         url('epoque_45_light-webfont.woff') format('woff');
+    src: url('../fonts/epoque_45_light-webfont.woff2') format('woff2'),
+         url('../fonts/epoque_45_light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -14,8 +14,8 @@
 
 @font-face {
     font-family: 'epoque-light';
-    src: url('epoque_46_light_italic-webfont.woff2') format('woff2'),
-         url('epoque_46_light_italic-webfont.woff') format('woff');
+    src: url('../fonts/epoque_46_light_italic-webfont.woff2') format('woff2'),
+         url('../fonts/epoque_46_light_italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -24,8 +24,8 @@
 
 @font-face {
     font-family: 'epoque-light';
-    src: url('epoque_65_bold-webfont.woff2') format('woff2'),
-         url('epoque_65_bold-webfont.woff') format('woff');
+    src: url('../fonts/epoque_65_bold-webfont.woff2') format('woff2'),
+         url('../fonts/epoque_65_bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 
@@ -36,8 +36,8 @@
 
 @font-face {
     font-family: 'epoque-light';
-    src: url('epoque_66_bold_italic-webfont.woff2') format('woff2'),
-         url('epoque_66_bold_italic-webfont.woff') format('woff');
+    src: url('../fonts/epoque_66_bold_italic-webfont.woff2') format('woff2'),
+         url('../fonts/epoque_66_bold_italic-webfont.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 
@@ -46,8 +46,8 @@
 
 @font-face {
     font-family: 'epoque';
-    src: url('epoque_55_roman-webfont.woff2') format('woff2'),
-         url('epoque_55_roman-webfont.woff') format('woff');
+    src: url('../fonts/epoque_55_roman-webfont.woff2') format('woff2'),
+         url('../fonts/epoque_55_roman-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -56,8 +56,8 @@
 
 @font-face {
     font-family: 'epoque';
-    src: url('epoque_56_roman_italic-webfont.woff2') format('woff2'),
-         url('epoque_56_roman_italic-webfont.woff') format('woff');
+    src: url('../fonts/epoque_56_roman_italic-webfont.woff2') format('woff2'),
+         url('../fonts/epoque_56_roman_italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -66,8 +66,8 @@
 
 @font-face {
     font-family: 'epoque';
-    src: url('epoque_75_black-webfont.woff2') format('woff2'),
-         url('epoque_75_black-webfont.woff') format('woff');
+    src: url('../fonts/epoque_75_black-webfont.woff2') format('woff2'),
+         url('../fonts/epoque_75_black-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 
@@ -76,8 +76,8 @@
 
 @font-face {
     font-family: 'epoque';
-    src: url('epoque_76_bold_italic-webfont.woff2') format('woff2'),
-         url('epoque_76_bold_italic-webfont.woff') format('woff');
+    src: url('../fonts/epoque_76_bold_italic-webfont.woff2') format('woff2'),
+         url('../fonts/epoque_76_bold_italic-webfont.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 
