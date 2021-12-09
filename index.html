@@ -9,6 +9,8 @@
     <style>
 * {
     font-family: 'epoque';
+    color: lavender;
+
 }
 
 header {
@@ -27,7 +29,7 @@ section>h1 {
     padding-top: 60px;
 }
 
-p, pre, body, a, span{
+p, pre, a, span, h1, h2,{
     margin: 0;
 	padding: 0;
 	border: 0;
@@ -37,7 +39,11 @@ p, pre, body, a, span{
     text-decoration: none;
     }
 body {
+    margin: 0;
+	padding: 0;
+	border: 0;
     position: relative;
+    width: 100%;
 }
 section {
     position: relative;
@@ -91,44 +97,248 @@ section {
     text-align: left;
     margin: 0 294px 0 294px;
     padding-top: 96px;
-    font-size: 1.4em;
+    font-size: 1.42em;
     line-height: 1.3em;
+    font-weight: bold;
 }
-.paginas {
+#pesos {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 3em;
+}
+#p96 {
+    float: left;
+    width: 30%;
+    padding: 0 12px 0 12px;
+}
+#p96:hover {
+    font-style: italic;
+    color: #499bf8;
+}
+#p96::after{
+    content: "Light 96pt";  
+}
+#p96:hover::after{
+    content: "Light it 96pt";
+}
+#p96::first-line{
+    font-family: 'epoque-light';
+    font-weight: normal;
+    display: block;
+    font-size: 12em;
+    float: left;;  
+}
+#p48 {
+    float: left;
+    width: 24%;
+    padding: 89px 12px 0px 12px;
+    line-height: 7.05em;
+}
+#p48:hover {
+    font-style: italic;
+    color: #499bf8;
+}
+#p48::after{
+    content: "Roman 48pt";  
+}
+#p48:hover::after{
+    content: "Roman it 48pt";
+}
+#p48::first-line {
+    font-family: 'epoque';
+    font-weight: normal;
+    display: inline-block;
+    font-size: 6em;
+    float: left;
+}
+#p32 {
+    float: left;
+    width: 20%;
+    padding: 106px 12px 0px 12px;
+    line-height: 6.255em;
+}
+#p32:hover {
+    font-style: italic;
+    color: #499bf8;
+}
+#p32::after{
+    content: "Bold 32pt";  
+}
+#p32:hover::after{
+    content: "Bold it 32pt";
+}
+#p32::first-line {
+    font-family: 'epoque';
+    font-weight: normal;
+    display: block;
+    padding: 200px 12px 0 12px;
+    font-size: 4em;
+    float: left;
+
+}
+#p24 {
+    float: left;
+    padding: 118px 12px 0 0;
+    width: 18%;
+    line-height: 5.80em;
+}
+#p24:hover {
+    font-style: italic;
+    color: #499bf8;
+}
+
+#p24::after{
+    content: "Black 24pt";
+}
+#p24:hover::after{
+    content: "Black it 24pt";
+}
+#p24::first-line {
+    font-family: 'epoque';
+    font-weight: normal;
+    display: block;
+    font-size: 3em;
+}
+#paginas {
+    position: relative;
     background-color: #04456A;
-    width: 100%;
+    height: 520px;
     box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.68) ;
-    z-index: 15;
 }
+
 .superior {
     position: absolute;
-    z-index: 1;
+    z-index: 2;
+    display: block;
     font: bold normal 8em/1.15 'epoque', sans-serif;
     color: lavender;
-    background-color: #04456ac7 ;
+    background-color: #04456ae8 ;
+    clear: both;
+    margin: 50vh 15vh 0 6vh;
 }
-#marquise {
-    display: inherit;
+.superior>span{
+    text-transform: uppercase;
+}
+div#video {
+    height: 98vh;
+    position: relative;
+    display: block;
+}
+video#marquise {
+    position: static;
     width: 98.5vw;
     margin: 0 auto 0 auto;
-    padding: 0px;
-    border: 0px;
-    z-index: -1000;
+    z-index: 5;
 }
 
 .final {
-    height: 72vh;
-    background-color: #04456A;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    z-index: 2;
+    position: relative;
+    height: 82vh;
+    background-color: white;
+    padding-top: 10hv;
+    padding-bottom: 10hv;
+    z-index: 1000;
+    bottom: 0;
+}
+.slider {
+    display: block;
+    height: 512px;
+    width: 1024px;
+    margin: auto;
+    margin-top: 24px;
+    position: relative;
+}
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.slider input{
+    display: none;
+}
+.slider label {
+    background-color: #499bf8;
+    bottom: 24px;
+    cursor: pointer;
+    display: block;
+    height: 18px;
+    position: absolute;
+    width: 18px;
+    border-radius: 50%;
+    z-index: 10;
+    opacity: 75%;
+}
+.slider li:nth-child(1) label {
+    left: 46px;
+}
+.slider li:nth-child(2) label {
+    left: 92px;
+}
+.slider li:nth-child(3) label {
+    left: 138px;
+}
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+    transition-duration: .6s;
+}
+#info {
+    padding: 50px;
+}
+#info article{
+    position: relative;
+    display: block;
+    max-width: 320px;
+    float: left;
+    margin: 0 11px;
+
+    z-index: -1;
+}
+#estreito{
+    width: 200px;
+}
+article>h3{
+    color: #04456ae8;
+    font: bold italic 2.5em/1em 'epoque', sans-serif;
+    letter-spacing: -0.04em;
+    margin: 24px auto 0 auto;
+    text-transform: uppercase;
+}
+
+#info p{
+    font: normal normal 1.11em/1.3 'epoque';
+    color: #04456ae8;
+    padding: 24px 0;
+    margin: 0;
+}
+.clean {
+    clear: both;
+    width: 10px;
 }
 footer {
+    width: 100%;
+    bottom: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     text-align: center;
     color: white;
     line-height: 1.2em;
+    z-index: 2001;
 }
 @media screen and (min-width: 640px) and (max-width: 960px) {
     pre {
@@ -181,29 +391,76 @@ footer {
 </header>
     <section id="prologo">
         <h1 class="center">ÉPOQU<span>E</span></h1>
-        <p lang="en">An Opentype font family that invokes the golden age</p>
+        <p lang="en">Uma família tipográfica Opentype que evoca a era de ouro</p>
     </section>
 <section class="branca1">
     <p id="desc">
-    A fonte <a href="https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque/">Époque</a> surgiu inicialmente para composição de um catálogo de moda com alguns materiais da Amazônia brasileira. As peças da coleção utilizavam a borracha natural como principal matéria-prima, por causa disso, os desenhos das maiúsculas utiliza formas que remetem à tipografia do período histórico 1890-1910 em que a borracha era o principal motor da economia amazônica. Essa fontface possui um conjunto completo de numerais, um conjunto de ligaduras padrão, além de alternativas em glifos específicos e um grande conjunto de ligaduras discricionárias compostas principalmente por MAIÚSCULAS. A família Époque é composta por quatro pesos sem itálico. É uma fonte recomendada para títulos, logotipos e pôsteres.
+    A fonte <a href="https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque/">Époque</a> surgiu inicialmente para composição de um catálogo de moda com alguns materiais da Amazônia brasileira. As peças da coleção utilizavam a borracha natural como principal matéria-prima, por causa disso, os desenhos das maiúsculas utiliza formas que remetem à tipografia do período histórico 1890-1910 época em que a borracha era o principal motor da economia amazônica. Essa font-face possui um conjunto completo de numerais, um conjunto de ligaduras padrão, além de alternativas em glifos específicos e um grande conjunto de ligaduras discricionárias compostas principalmente por MAIÚSCULAS. A família Époque é composta por quatro pesos sem itálico, porém conta com variantes alternativas no lugar. É uma fonte recomendada para títulos, logotipos e pôsteres.
     </p>
     
 </section>
+<p class="superior">Essa fonte foi feita para <span>impressão</span></p>
+<div id="video"> 
+    <video id="marquise" src="midia/MAGIQUE LETTERS.mp4" autoplay loop></video>
+</div>
 
-<section class="paginas">
-    <div>
-        <p class="superior">Essa fonte foi feita para impressão</p>
-        <video id="marquise" src="midia/MAGIQUE LETTERS.mp4" autoplay></video>
-    </div>
+<section id="paginas">
+    <article id="pesos">
+        <h2>Fontes de Light ao Black</h2>    <p id="p96">Aaeg<br></p><p id="p48">Aaeg<br></p><p id="p32">Aaeg<br></p><p id="p24">Aaeg<br></p>
+    </article>
+
 </section>
 
 <section class="final">
     
-    <p>
-   
-    </p>
+   <ul class="slider">
+       <li>
+           <input type="radio" id="slide1" name="slide" checked>
+           <label for="slide1"></label>
+           <img src="midia/imagens/Philarmonic.png" alt="compre cartolas philarmonic">
+        </li>
+       <li>
+        <input type="radio" id="slide2" name="slide">
+        <label for="slide2"></label>
+           <img src="midia/imagens/choco.png" alt="Barra de chocolate de cupuaçu da amazônia">
+        </li>
+        <li>
+            <input type="radio" id="slide3" name="slide">
+            <label for="slide3"></label>
+            <img src="midia/imagens/café.png" alt="Terra do Alumínio">
+        </li>
+   </ul>
 </section>
+<section id="info">
 
+    <article>
+        <h3>O que vem junto<br><br> <br></h3>
+        <p> 8 Fontes - 4 regulares e 4 alternativas<br>
+        650 Caracteres<br>futuras atualizações</p>
+    </article>
+    <article>
+        <h3>Suporte aos Seguintes Idiomas</h3>
+        <p>Afaan Oromo, albanês, basco, bósnio, catalão, croata, tcheco, dinamarquês, holandês, inglês, estoniano, faroense, filipino, finlandês, francês, galego, alemão, haitiano crioulo, húngaro, Ido, indonésio, irlandês, italiano, letão, Lituano, malaio, norueguês, bokmål, occitano, polonês, português, romeno, eslovaco, esloveno, espanhol, suaíli, sueco, turco, vietnamita, galês, zapoteca, zulu. </p>
+    </article>
+    <article id="estreito">
+        <h3>Recursos Opentype</h3>
+        <br><br>
+        <p>
+            Kerning,
+            Alternates,
+            Ligatures,
+            Additional Numbers,
+            Dingbats,
+            Fractions, Oldstyle, Figures,
+            Stylistic Sets.</p>
+    </article>
+    <article>
+        <h3>Ao licenciar você pode</h3>
+        <br><br>
+        <p>Existem vários tipos de licenças, desde a mais simples que lhe permite instalá-la e usá-la em projetos impressos e imagens estáticas (png, tiff, jpg); há uma específica para produzir web sites que lhe dá acesso a uma webfont kit o que lhe permite costumizar sites usando a css.</p>
+    </article>
+    <div class="clean"></div>
+</section>
 <footer>
     <small>Produzido como portfólio de Rafael Ferreira</small>
 </footer>
