@@ -104,8 +104,6 @@ section {
 #pesos {
     font-size: 1em;
     font-weight: bold;
-    text-align: center;
-    padding-top: 20px;
     margin: 0 auto;
 }
 h2 {
@@ -204,11 +202,13 @@ h2 {
     display: block;
     font-size: 3em;
 }
-#paginas {
+.paginas {
     position: relative;
     background-color: #04456A;
-    height: 520px;
-    box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.68) ;
+    height: 82vh;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.425) ;
 }
 
 .superior {
@@ -297,6 +297,84 @@ video#marquise {
     z-index: 10;
     transition-duration: .6s;
 }
+#fig {
+    font: normal normal 4em/.4em 'epoque', sans-serif;
+    text-align: left;
+    margin-left: 20vw;
+}
+.figures1>span:hover {
+    color: #499bf8;
+    font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
+    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
+    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
+    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
+    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
+}
+
+.figures1>span::before {
+    content: "LINING: ";
+}
+.figures1>span:hover::before {
+    content: "OLD STYLE: ";
+
+}
+p.figures2:hover {
+    font: normal normal 1em/.4em 'epoque-light', sans-serif;
+    color: #499bf8;
+    font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
+    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
+    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
+    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
+    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
+}
+
+.figures2::before {
+    content: "LINING: ";
+}
+p.figures2:hover::before {
+    content: "INFERIORS: ";
+
+}
+p.figures3:hover {
+    font: normal normal 1em/.4em 'epoque-light', sans-serif;
+    color: #499bf8;
+    font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "sups";
+    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "sups";
+    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "sups";
+    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "sups";
+    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "sups";
+}
+.figures3::before {
+    content: "LINING: ";
+}
+p.figures3:hover::before {
+    content: "SUPERIORS: ";
+
+}
+p.figures4:hover {
+    font: normal normal 1em/.4em 'epoque-light', sans-serif;
+    color: #499bf8;
+    font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr";
+    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr";
+    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr";
+    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr";
+    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr";
+}
+#num:hover {
+    color: #499bf8;
+    font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "dnom";
+    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "dnom";
+    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "dnom";
+    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "dnom";
+    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "dnom";
+}
+.figures4::before {
+    content: "LINING: ";
+}
+p.figures4:hover::before {
+    content: "NUMERATOR & DENOMINATOR: ";
+    padding-left: 0;
+}
 #info {
     padding: 50px;
 }
@@ -330,10 +408,19 @@ article>h3{
     clear: both;
     width: 10px;
 }
+#rodape {
+    background-color: #5989c7;
+    height: 40vh;
+}
 #rodape>div {
-    width: 440px;
+    width: 360px;
     display: inline-block;
     float: left;
+    padding: 36px 0 0 24px;
+}
+.line {
+    display: inline-block;
+    padding-left: 0px;
 }
 footer {
     width: 100%;
@@ -409,7 +496,7 @@ footer {
     <video id="marquise" src="midia/MAGIQUE LETTERS.mp4" autoplay loop></video>
 </div>
 
-<section id="paginas">
+<section class="paginas">
     <article id="pesos">
         <h2>Fontes de Light ao Black</h2>    <p id="p96">Aaeg<br></p><p id="p48">Aaeg<br></p><p id="p32">Aaeg<br></p><p id="p24">Aaeg<br></p>
     </article>
@@ -436,6 +523,14 @@ footer {
         </li>
    </ul>
 </section>
+<section class="paginas">
+    <H2 >Figures</H2>
+    <P id="fig" class="figures1"><span>1 2 3 4 5 6 7 8 9 0</span></P>
+    <P id="fig" class="figures2">H<span>2</span>O</P>
+    <p id="fig"  class="figures3">Footnote<span>56</span>&nbsp;&nbsp; h<span>2</span> = a<span>2</span> + b<span>2</span></P>
+    <p id="fig" class="figures4"><span>123</span>/<span id="num">456</span></p>
+</section>
+
 <section id="info">
 
     <article>
@@ -467,7 +562,7 @@ footer {
     <div class="clean"><a href="#"></a></div>
 </section>
 <section id="rodape">
-    <div class="logo"></div>
+    <div class="logo"><a href=""><img src="" alt="logo"></a></div>
     <div>
         <h4>CONTATO</h4>
         <ul>
@@ -477,12 +572,12 @@ footer {
     </div>
     <div>
         <h4>REDES SOCIAIS</h4>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+        <ul class="line">
+            <li class="line"><img src="" alt="behance"></li>
+            <li class="line"><img src="" alt="instagran"></li>
+            <li class="line"><img src="" alt="dribbbler"></li>
+            <li class="line"><img src="" alt="facebook"></li>
+            <li class="line"><img src="" alt="twitter"></li>
         </ul>
     </div>
 </section>
