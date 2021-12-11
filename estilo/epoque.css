@@ -191,7 +191,7 @@ h2 {
 .paginas {
     position: relative;
     background-color: #04456A;
-    height: 42vw;
+    height: 60vh;
     text-align: center;
     padding-top: 20px;
     box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.425) ;
@@ -243,7 +243,7 @@ video#marquise {
     list-style: none;
     position: absolute;
 }
-.slider img {
+.slider .img {
     margin: auto;
     height: 100%;
     width: 100%;
@@ -261,6 +261,7 @@ video#marquise {
     position: absolute;
     width: 18px;
     border-radius: 50%;
+    box-shadow: inset 2px 2px 4px 1px black ;
     z-index: 10;
     opacity: 75%;
 }
@@ -273,11 +274,11 @@ video#marquise {
 .slider li:nth-child(3) label {
     left: 138px;
 }
-.slider img {
+.slider .img {
     opacity: 0;
     visibility: hidden;
 }
-.slider li input:checked ~ img {
+.slider li input:checked ~ .img {
     opacity: 1;
     visibility: visible;
     z-index: 10;
@@ -286,7 +287,7 @@ video#marquise {
 #fig {
     font: normal normal 4em/.4em 'epoque', sans-serif;
     text-align: left;
-    margin-left: 20vw;
+    margin-left: 0vw;
 }
 .figures1>span:hover {
     color: #499bf8;
@@ -492,6 +493,13 @@ footer {
     #p24::first-line {
         font-size: 2.5em;
     }
+    .slider {
+        height: 512px;
+        width: 768px;
+        margin-top: 12px;
+
+    }
+
 }
 @media screen and (min-width: 480px) and (max-width: 640px) {
     section {

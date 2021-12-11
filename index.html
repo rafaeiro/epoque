@@ -39,12 +39,16 @@
     
    <ul class="slider">
        <li>
-           <input type="radio" id="slide1" name="slide" checked>
+           <input type="radio" id="slide1" name="slide" >
            <label for="slide1"></label>
-           <img src="midia/imagens/Philarmonic.png" alt="compre cartolas philarmonic">
+           <picture class="img">
+            <source media="(max-width: 512px)" srcset="midia/imagens/philarmonic_p.png" type="image/png">
+            <source media="(max-width: 960px)" srcset="midia/imagens/philarmonic_m.png" type="image/png">
+            <img src="midia/imagens/philarmonic.png" alt="compre cartolas philarmonic">
+            </picture>
         </li>
-       <li>
-        <input type="radio" id="slide2" name="slide">
+       <!-- <li>
+        <input type="radio" id="slide2" name="slide" checked>
         <label for="slide2"></label>
            <img src="midia/imagens/choco.png" alt="Barra de chocolate de cupuaçu da amazônia">
         </li>
@@ -52,7 +56,7 @@
             <input type="radio" id="slide3" name="slide">
             <label for="slide3"></label>
             <img src="midia/imagens/café.png" alt="Terra do Alumínio">
-        </li>
+        </li> -->
    </ul>
 </section>
 <section class="paginas">
