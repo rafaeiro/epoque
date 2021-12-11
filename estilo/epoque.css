@@ -21,7 +21,7 @@ section>h1 {
     padding-top: 60px;
 }
 
-p, pre, a, span, h1, h2, h3 {
+p, pre, a, span, h1, h2, h3, ul {
     margin: 0;
 	padding: 0;
 	border: 0;
@@ -163,7 +163,6 @@ h2 {
     padding: 200px 12px 0 12px;
     font-size: 4em;
     float: left;
-
 }
 #p24 {
     float: left;
@@ -224,18 +223,21 @@ video#marquise {
 
 .final {
     position: relative;
-    height: 82vh;
+    height: 52vw;
     background-color: white;
-    padding-top: 10hv;
-    padding-bottom: 10hv;
+    padding-top: 8hv;
+    padding-bottom: 8hv;
     z-index: 1000;
     bottom: 0;
 }
+
 .slider {
     display: block;
     height: 512px;
-    width: 1024px;
-    margin: auto;
+    min-height: 480px;
+    max-width: 1024px;
+    min-width: 960px;
+    margin: 0 auto;
     margin-top: 24px;
     position: relative;
 }
@@ -244,7 +246,7 @@ video#marquise {
     position: absolute;
 }
 .slider .img {
-    margin: auto;
+    margin: 0 auto;
     height: 100%;
     width: 100%;
     vertical-align: top;
@@ -423,7 +425,7 @@ footer {
 }
 @media screen and (min-width: 640px) and (max-width: 960px) {
 
-    .final, .paginas {
+    .paginas {
         padding-top: 60px;
         padding-bottom: 60px;
     }
@@ -493,11 +495,19 @@ footer {
     #p24::first-line {
         font-size: 2.5em;
     }
+    .final{
+        height: 70vw;
+    }
     .slider {
-        height: 512px;
-        width: 768px;
-        margin-top: 12px;
-
+        max-width: 768px;
+        min-width: 444;
+        padding-top: 2vw;
+    }
+    .slider .img {
+        margin: 0 auto;
+        height: 80%;
+        width: 80%;
+        vertical-align: top;
     }
 
 }
@@ -506,7 +516,7 @@ footer {
         position: relative;
         height: 150vh;
     }
-    .final, .paginas {
+    .paginas {
         padding-top: 40px;
         padding-bottom: 40px;
     }
@@ -595,13 +605,25 @@ footer {
     #p24::first-line {
         font-size: 1.5em;
     }
+    .final{
+        height: 93vw;
+    }
+    .slider {
+        max-width: 768px;
+        min-width: 444;
+        padding-top: 4vw;
+    }
+    .slider .img {
+        height: 60%;
+        width: 60%;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
     section {
         height: 95vh;
     }
-    .final, .branca1, .paginas, .prologo{
+    .branca1, .paginas, .prologo{
         padding-top: 5vw;
         padding-bottom: 15vw;
     }
@@ -698,5 +720,14 @@ footer {
     }
     #p24::first-line {
         font-size: 1em;
+    }
+    .slider {
+        max-width: 440px;
+        min-width: 320;
+        margin-top: 2px;
+    }
+    .slider .img {
+        height: 100%;
+        width: 100%;
     }
 }
