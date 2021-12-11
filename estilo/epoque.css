@@ -1,9 +1,8 @@
-charset utf-8
+@charset "utf-8";
 
 * {
-    font-family: 'epoque';
+    font: normal normal 1em/1 'epoque-light', sans-serif;
     color: lavender;
-
 }
 
 header {
@@ -81,8 +80,8 @@ section {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     z-index: 1;
 }
 #desc {
@@ -95,6 +94,7 @@ section {
     font-weight: bold;
 }
 #pesos {
+    max-width: 1600px;
     font-size: 1em;
     font-weight: bold;
     margin: 0 auto;
@@ -198,7 +198,7 @@ h2 {
 .paginas {
     position: relative;
     background-color: #04456A;
-    height: 82vh;
+    height: 42vw;
     text-align: center;
     padding-top: 20px;
     box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.425) ;
@@ -369,6 +369,7 @@ p.figures4:hover::before {
     padding-left: 0;
 }
 #info {
+    width: 95vw;
     padding: 50px;
 }
 #info article{
@@ -402,8 +403,9 @@ article>h3{
     width: 10px;
 }
 #rodape {
+    width: 100vw;
     background-color: #5989c7;
-    height: 40vh;
+    height: 18vw;
 }
 #rodape>div {
     width: 360px;
@@ -426,49 +428,264 @@ footer {
     z-index: 2001;
 }
 @media screen and (min-width: 640px) and (max-width: 960px) {
-    pre {
-        display: inline;
-        font-size: 1em;
-        max-width: 420px;
-        min-width: 280px;
-        padding: 1.1em 1.1em 1.3em 0;
-        margin: 0 6em 0 6em;
-        transform: translate(-30%, -50%);}
-    .final, .branca1, .paginas, .prologo{
+
+    .final, .paginas, {
         padding-top: 60px;
         padding-bottom: 60px;
     }
+    #prologo {
+        background-image: url("../midia/imagens/background001-tb.png"); 
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+    .branca1 {
+        height: 85vh;
+        background-image: url("../midia/imagens/background002-tb.png"); 
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+    }    
+    #desc {
+        margin: 0 120px 0 120px;
+        font-size: 1.3em;
+        line-height: 1.35em;
+        font-weight: bold;
+    }
+    .superior {
+        display: block;
+        font-size: 5em;
+        margin: 5vh 15vh 0 6vh;
+    }
+    div#video {
+        height: 54vw;
+    }
+    .paginas {
+        height: 58vw;
+        padding-top: 18px;
+    }
+    #p96 {
+        width: 42%;
+        padding: 6px 10px 0 10px;
+        line-height: 8.39em;
+    }
+    #p96::first-line{
+        font-size: 10em;
+
+    }
+    #p48 {
+        width: 20%;
+        padding: 46px 10px 0px 10px;
+        line-height: 6.7em;
+    }
+    #p48::first-line {
+        font-size: 5em;
+
+    }
+    #p32 {
+        float: left;
+        width: 12%;
+        padding: 61px 12px 0px 12px;
+        line-height: 6.06em;
+    }
+    #p32::first-line {
+        font-size: 3em;
+    
+    }
+    #p24 {
+        float: left;
+        padding: 68px 12px 0 0;
+        width: 12%;
+        line-height: 5.80em;
+    }
+    #p24::first-line {
+        font-size: 2.5em;
+    }
 }
 @media screen and (min-width: 480px) and (max-width: 640px) {
-    pre {
-        display: inline;
-        font-size: .9em;
-        max-width: 380px;
-        min-width: 200px;
-        padding: 1em 1em 1.2em 0;
-        margin: 0 3em 0 3em;
-        transform: translate(-20%, -50%);}
-    .final, .branca1, .paginas, .prologo{
+    .final, .paginas, {
         padding-top: 40px;
         padding-bottom: 40px;
     }
+    .branca1 {
+        height: 90vh;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }    
+    #desc {
+        margin: 0 40px 0 80px;
+        font-size: 1.2em;
+        line-height: 1.3em;
+        font-weight: bold;
+    }
+    .superior {
+        display: block;
+        font-size: 4em;
+        margin: 5vh 15vh 0 6vh;
+    }
+    div#video {
+        height: 54vw;
+    }
+    .paginas {
+        height: 72vw;
+        padding-top: 12px;
+    }
+    #p96 {
+        width: 42%;
+        padding: 0px 10px 0 10px;
+        line-height: 7.2em;
+    }
+    #p96::after{
+        content: "Époque 45 96pt";  
+    }
+    #p96:hover::after{
+        content: "Époque 46 96pt";
+    }
+    #p96::first-line{
+        font-size: 6em;
+
+    }
+    #p48 {
+        width: 17%;
+        padding: 19px 10px 0px 10px;
+        line-height: 6.44em;
+    }
+    #p48::after{
+        content: "E 55 48pt";  
+    }
+    #p48:hover::after{
+        content: "E 56 48pt";
+    }
+    #p48::first-line {
+        font-size: 3em;
+
+    }
+    #p32 {
+        float: left;
+        width: 15%;
+        padding: 28px 12px 0px 12px;
+        line-height: 6.06em;
+    }
+    #p32::after{
+        content: "65 32pt";  
+    }
+    #p32:hover::after{
+        content: "66 32pt";
+    }
+    #p32::first-line {
+        font-size: 2.25em;
+    
+    }
+    
+    #p24 {
+        float: left;
+        padding: 34px 12px 0 0;
+        width: 16%;
+        line-height: 5.80em;
+    }
+    #p24::after{
+        content: "75 24pt";  
+    }
+    #p24:hover::after{
+        content: "76 24pt";
+    }
+    #p24::first-line {
+        font-size: 1.5em;
+    }
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
-    pre {
-        display: inline;
-        font-size: .86em;
-        max-width: 300px;
-        min-width: 166px;
-        padding: .91em .91em 1.12em 0;
-        margin: 0 2em 0 2em;
-        transform: translate(-15%, -50%);}
     .final, .branca1, .paginas, .prologo{
         padding-top: 32px;
         padding-bottom: 36px;
     }
     #prologo {
         background-image: url("../midia/imagens/background001-sm.png"); 
-        padding-top: 10vh;
-        padding-bottom: 10vh;
     }
+    .branca1 {
+        height: 72vh;
+        background-image: url("../midia/imagens/background002-sm.png"); 
+        
+    }
+    #desc {
+        margin: 0 10px 0 40px;
+        font-size: 1.2em;
+        line-height: 1.3em;
+        font-weight: bold;
+    }
+    .superior {
+        display: block;
+        font-size: 3.5em;
+        margin: 5vh 15vh 0 6vh;
+    }
+    div#video {
+        height: 54vw;
+    }
+    .paginas {
+        height: 98vw;
+        width: 320;
+        padding-top: 4px;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
+    #p96 {
+        width: 40%;
+        padding: 0px 1px 0 1px;
+        line-height: 7.2em;
+    }
+    #p96::after{
+        content: "Époque 45 96pt";  
+    }
+    #p96:hover::after{
+        content: "Époque 46 96pt";
+    }
+    #p96::first-line{
+        font-size: 4em;
+
+    }
+    #p48 {
+        width: 21%;
+        padding: 19px 1px 0px 1px;
+        line-height: 6.44em;
+    }
+    #p48::after{
+        content: "E 55 48pt";  
+    }
+    #p48:hover::after{
+        content: "E 56 48pt";
+    }
+    #p48::first-line {
+        font-size: 2em;
+
+    }
+    #p32 {
+        float: left;
+        width: 17%;
+        padding: 28px 1px 0px 1px;
+        line-height: 6.06em;
+    }
+    #p32::after{
+        content: "65 32pt";  
+    }
+    #p32:hover::after{
+        content: "66 32pt";
+    }
+    #p32::first-line {
+        font-size: 1.5em;
+    }
+    
+    #p24 {
+        float: left;
+        padding: 34px 1px 0 0;
+        width: 20%;
+        line-height: 5.80em;
+    }
+    #p24::after{
+        content: "75 24pt";  
+    }
+    #p24:hover::after{
+        content: "76 24pt";
+    }
+    #p24::first-line {
+        font-size: 1em;
+    }
+}
 }
