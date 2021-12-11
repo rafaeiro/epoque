@@ -21,7 +21,7 @@ section>h1 {
     padding-top: 60px;
 }
 
-p, pre, a, span, h1, h2,{
+p, pre, a, span, h1, h2, h3 {
     margin: 0;
 	padding: 0;
 	border: 0;
@@ -46,18 +46,9 @@ section {
     text-align: center;
     font-weight: bold;
     font-size: 1.25em;
+    padding-top: 30vh;
     padding-bottom: 20px;
     color: white;
-}
-
-. center {
-    position: absolute;
-    max-width: 600px;
-    min-width: 400px;
-    height: 50%;
-    top: 50%;
-    transform: translate(116%, -30%);
-    margin: 0 auto 0 auto;
 }
 
 #prologo {
@@ -74,7 +65,7 @@ section {
 }
 
 .branca1 {
-    height: 72vh;
+    height: 80vh;
     background-color: black;
     background-image: url("../midia/imagens/background002.png"); 
     background-position: center center;
@@ -84,15 +75,17 @@ section {
     padding-bottom: 10vh;
     z-index: 1;
 }
+
 #desc {
     color:#04456A;
     text-align: left;
-    margin: 0 294px 0 294px;
-    padding-top: 96px;
+    margin: 0 18vw 0 18vw;
+    padding-top: 8vw;
     font-size: 1.42em;
     line-height: 1.3em;
     font-weight: bold;
 }
+
 #pesos {
     max-width: 1600px;
     font-size: 1em;
@@ -212,7 +205,7 @@ h2 {
     color: lavender;
     background-color: #04456ae8 ;
     clear: both;
-    margin: 50vh 15vh 0 6vh;
+    margin: 25vh 15vh 0 6vh;
 }
 .superior>span{
     text-transform: uppercase;
@@ -429,7 +422,7 @@ footer {
 }
 @media screen and (min-width: 640px) and (max-width: 960px) {
 
-    .final, .paginas, {
+    .final, .paginas {
         padding-top: 60px;
         padding-bottom: 60px;
     }
@@ -439,7 +432,7 @@ footer {
         padding-bottom: 10vh;
     }
     .branca1 {
-        height: 85vh;
+        height: 85vw;
         background-image: url("../midia/imagens/background002-tb.png"); 
         padding-top: 10vw;
         padding-bottom: 10vw;
@@ -501,12 +494,16 @@ footer {
     }
 }
 @media screen and (min-width: 480px) and (max-width: 640px) {
-    .final, .paginas, {
+    section {
+        position: relative;
+        height: 150vh;
+    }
+    .final, .paginas {
         padding-top: 40px;
         padding-bottom: 40px;
     }
     .branca1 {
-        height: 90vh;
+        height: 88vh;
         padding-top: 5vw;
         padding-bottom: 5vw;
     }    
@@ -515,11 +512,12 @@ footer {
         font-size: 1.2em;
         line-height: 1.3em;
         font-weight: bold;
+    
     }
     .superior {
         display: block;
-        font-size: 4em;
-        margin: 5vh 15vh 0 6vh;
+        font-size: 3.5em;
+        margin: .2vw 15vw 0 6vw;
     }
     div#video {
         height: 54vw;
@@ -574,7 +572,6 @@ footer {
         font-size: 2.25em;
     
     }
-    
     #p24 {
         float: left;
         padding: 34px 12px 0 0;
@@ -591,10 +588,14 @@ footer {
         font-size: 1.5em;
     }
 }
+
 @media screen and (min-width: 320px) and (max-width: 480px) {
+    section {
+        height: 95vh;
+    }
     .final, .branca1, .paginas, .prologo{
-        padding-top: 32px;
-        padding-bottom: 36px;
+        padding-top: 5vw;
+        padding-bottom: 15vw;
     }
     #prologo {
         background-image: url("../midia/imagens/background001-sm.png"); 
@@ -615,14 +616,17 @@ footer {
         font-size: 3.5em;
         margin: 5vh 15vh 0 6vh;
     }
+
     div#video {
         height: 54vw;
     }
+
     .paginas {
         height: 98vw;
         width: 320;
         padding-top: 4px;
     }
+
     h2 {
         font-size: 1.8em;
     }
@@ -687,5 +691,4 @@ footer {
     #p24::first-line {
         font-size: 1em;
     }
-}
 }
