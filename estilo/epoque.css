@@ -432,6 +432,9 @@ article>h3{
 .cor-f:hover {
     fill: #04456a;
 }
+#Camada_1 { width: 90%;}
+.cls-1{fill:#04456ae8;}.cls-2{fill:none;opacity:0.24;}.cls-3{fill:lavender;}
+.cls-1:hover{fill:lavender; transition: .15s;}.cls-2:hover{fill:none;opacity:0.24;}.cls-3:hover{fill:#04456ae8; transition: .15s;}
 
 footer {
     width: 100%;
@@ -779,6 +782,6 @@ footer {
         font: normal normal 2em/1.5em 'epoque', sans-serif;
     }
     .paginas>div  {
-        padding-top: 40px;
+        padding-top: 40px;d
     }
 }
