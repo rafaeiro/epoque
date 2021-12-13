@@ -1,0 +1,779 @@
+@charset "utf-8";
+
+* {
+    font: normal normal 1em/1 'epoque-light', sans-serif;
+    color: lavender;
+}
+
+header {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: 'epoque';
+    letter-spacing : 0.05em;
+}
+section>h1 {
+    font: normal normal 6em/1 'epoque-light', sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+}
+
+p, pre, a, span, h1, h2, h3, ul {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration: none;
+    }
+body {
+    margin: 0;
+	padding: 0;
+	border: 0;
+    position: relative;
+    width: 100%;
+}
+section {
+    position: relative;
+    height: 68vh;
+}
+
+#prologo p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25em;
+    padding-top: 30vh;
+    padding-bottom: 20px;
+    color: white;
+}
+
+#prologo {
+    background-color: rgb(252, 253, 253);
+    width: 100%;
+    background-image: url("../midia/imagens/background001.png"); 
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.48);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    z-index: 10;
+}
+
+.branca1 {
+    height: 80vh;
+    background-color: black;
+    background-image: url("../midia/imagens/background002.png"); 
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    z-index: 1;
+}
+
+#desc {
+    color:#04456A;
+    text-align: left;
+    margin: 0 18vw 0 18vw;
+    padding-top: 8vw;
+    font-size: 1.42em;
+    line-height: 1.3em;
+    font-weight: bold;
+}
+
+#pesos {
+    max-width: 1600px;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 3em;
+}
+#p96 {
+    float: left;
+    width: 30%;
+    padding: 0 12px 0 12px;
+}
+#p96:hover {
+    font-style: italic;
+    color: #499bf8;
+}
+#p96::after{
+    content: "Light 96pt";  
+}
+#p96:hover::after{
+    content: "Light it 96pt";
+}
+#p96::first-line{
+    font-family: 'epoque-light';
+    font-weight: normal;
+    display: block;
+    font-size: 12em;
+    float: left;;  
+}
+#p48 {
+    float: left;
+    width: 24%;
+    padding: 89px 12px 0px 12px;
+    line-height: 7.05em;
+}
+#p48:hover {
+    font-style: italic;
+    color: #499bf8;
+}
+#p48::after{
+    content: "Roman 48pt";  
+}
+#p48:hover::after{
+    content: "Roman it 48pt";
+}
+#p48::first-line {
+    font-family: 'epoque';
+    font-weight: normal;
+    display: inline-block;
+    font-size: 6em;
+    float: left;
+}
+#p32 {
+    float: left;
+    width: 20%;
+    padding: 106px 12px 0px 12px;
+    line-height: 6.255em;
+}
+#p32:hover {
+    font-style: italic;
+    color: #499bf8;
+}
+#p32::after{
+    content: "Bold 32pt";  
+}
+#p32:hover::after{
+    content: "Bold it 32pt";
+}
+#p32::first-line {
+    font-family: 'epoque';
+    font-weight: normal;
+    display: block;
+    padding: 200px 12px 0 12px;
+    font-size: 4em;
+    float: left;
+}
+#p24 {
+    float: left;
+    padding: 118px 12px 0 0;
+    width: 18%;
+    line-height: 5.80em;
+}
+#p24:hover {
+    font-style: italic;
+    color: #499bf8;
+}
+
+#p24::after{
+    content: "Black 24pt";
+}
+#p24:hover::after{
+    content: "Black it 24pt";
+}
+#p24::first-line {
+    font-family: 'epoque';
+    font-weight: normal;
+    display: block;
+    font-size: 3em;
+}
+.paginas {
+    position: relative;
+    background-color: #04456A;
+    height: 60vh;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.425) ;
+}
+
+.superior {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    font: bold normal 8em/1.15 'epoque', sans-serif;
+    color: lavender;
+    background-color: #04456ae8 ;
+    clear: both;
+    margin: 25vh 15vh 0 6vh;
+}
+.superior>span{
+    text-transform: uppercase;
+}
+div#video {
+    height: 98vh;
+    position: relative;
+    display: block;
+}
+video#marquise {
+    position: static;
+    width: 98.5vw;
+    margin: 0 auto 0 auto;
+    z-index: 5;
+}
+
+.final {
+    position: relative;
+    height: 52vw;
+    background-color: white;
+    padding-top: 8hv;
+    padding-bottom: 8hv;
+    z-index: 1000;
+    bottom: 0;
+}
+picture>img {
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#fotos {
+    display: block;
+    position: absolute;
+    max-width: 1200px;
+    min-width: 960px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.slider {
+    max-height: 512px;
+    min-height: 480px;
+    max-width: 1024px;
+    min-width: 960px;
+    margin: 0 auto;
+
+}
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+.slider .img {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.slider input{
+    display: none;
+}
+.slider label {
+    background-color: #499bf8;
+    bottom: 24px;
+    cursor: pointer;
+    display: block;
+    height: 18px;
+    position: absolute;
+    width: 18px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px 1px black ;
+    z-index: 10;
+    opacity: 45%;
+}
+.slider label:hover {
+    background-color: #04456A;
+}
+.slider li:nth-child(1) label {
+    left: 46px;
+}
+.slider li:nth-child(2) label {
+    left: 92px;
+}
+.slider li:nth-child(3) label {
+    left: 138px;
+}
+.slider .img {
+    opacity: 0;
+    visibility: hidden;
+}
+.slider li input:checked ~ .img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+    transition-duration: .6s;
+}
+#fig {
+    font: normal normal 4em/1.15em 'epoque', sans-serif;
+    text-align: left;
+}
+p.figures1:hover {
+    color: #499bf8;
+    font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
+    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
+    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
+    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
+    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
+}
+
+p.figures1::before {
+    content: "LINING: ";
+}
+p.figures1:hover::before {
+    content: "OLD STYLE: ";
+
+}
+p.figures2:hover {
+    font: normal normal 1em/1.15em 'epoque-light', sans-serif;
+    color: #499bf8;
+    font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
+    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
+    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
+    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
+    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
+}
+
+.figures2::before {
+    content: "LINING: ";
+}
+p.figures2:hover::before {
+    content: "INFERIORS: ";
+
+}
+p.figures3:hover {
+    font: normal normal 1em/1.15em 'epoque-light', sans-serif;
+    color: #499bf8;
+    font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "sups";
+    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "sups";
+    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "sups";
+    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "sups";
+    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "sups";
+}
+.figures3::before {
+    content: "LINING: ";
+}
+p.figures3:hover::before {
+    content: "SUPERIORS: ";
+
+}
+p.figures4:hover {
+    font: normal normal 1em/1.15em 'epoque-light', sans-serif;
+    color: #499bf8;
+    font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr";
+    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr";
+    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr";
+    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr";
+    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr";
+}
+#num:hover {
+    color: #499bf8;
+    font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "dnom";
+    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "dnom";
+    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "dnom";
+    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "dnom";
+    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "dnom";
+}
+.figures4::before {
+    content: "LINING: ";
+}
+p.figures4:hover::before {
+    content: "NUMERATOR & DENOMINATOR: ";
+}
+#info {
+    width: 95vw;
+    padding: 50px;
+}
+#info article{
+    position: relative;
+    display: block;
+    max-width: 320px;
+    float: left;
+    margin: 0 11px;
+
+    z-index: -1;
+}
+#estreito{
+    width: 200px;
+}
+article>h3{
+    color: #04456ae8;
+    font: bold italic 2.5em/1em 'epoque', sans-serif;
+    letter-spacing: -0.04em;
+    margin: 24px auto 0 auto;
+    text-transform: uppercase;
+}
+
+#info p{
+    font: normal normal 1.11em/1.3 'epoque';
+    color: #04456ae8;
+    padding: 24px 0;
+    margin: 0;
+}
+.clean {
+    clear: both;
+    width: 10px;
+}
+#rodape {
+    width: 100vw;
+    background-color: #5989c7;
+    height: 18vw;
+}
+#rodape>div {
+    width: 360px;
+    display: inline-block;
+    float: left;
+    padding: 36px 0 0 24px;
+}
+.line {
+    display: inline-block;
+    padding-left: 0px;
+}
+footer {
+    width: 100%;
+    bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    text-align: center;
+    color: white;
+    line-height: 1.2em;
+    z-index: 2001;
+}
+@media screen and (min-width: 640px) and (max-width: 960px) {
+    section {
+        height: 54vw;
+    }
+    .paginas {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    #prologo {
+        background-image: url("../midia/imagens/background001-tb.png"); 
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+    .branca1 {
+        height: 85vw;
+        background-image: url("../midia/imagens/background002-tb.png"); 
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+    }    
+    #desc {
+        margin: 0 120px 0 120px;
+        font-size: 1.3em;
+        line-height: 1.35em;
+        font-weight: bold;
+    }
+    .superior {
+        display: block;
+        font-size: 5em;
+        margin: 5vh 15vh 0 6vh;
+    }
+    div#video {
+        height: 54vw;
+    }
+    .paginas {
+        height: 58vw;
+        padding-top: 18px;
+    }
+    #p96 {
+        width: 42%;
+        padding: 6px 10px 0 10px;
+        line-height: 8.39em;
+    }
+    #p96::first-line{
+        font-size: 10em;
+
+    }
+    #p48 {
+        width: 20%;
+        padding: 46px 10px 0px 10px;
+        line-height: 6.7em;
+    }
+    #p48::first-line {
+        font-size: 5em;
+
+    }
+    #p32 {
+        float: left;
+        width: 12%;
+        padding: 61px 12px 0px 12px;
+        line-height: 6.06em;
+    }
+    #p32::first-line {
+        font-size: 3em;
+    
+    }
+    #p24 {
+        float: left;
+        padding: 68px 12px 0 0;
+        width: 12%;
+        line-height: 5.80em;
+    }
+    #p24::first-line {
+        font-size: 2.5em;
+    }
+    .final{
+        height: 70vw;
+    }
+    #fotos {
+        max-width: 960px;
+        min-width: 641px;
+    }
+    .slider {
+        max-width: 768px;
+        min-width: 444px;
+     }
+     #fig {
+        font: normal normal 3.4em/1em 'epoque', sans-serif;
+    }
+    .paginas>div  {
+        padding-top: 80px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 640px) {
+    section {
+        position: relative;
+        height: 62vw;
+    }
+    .paginas {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .branca1 {
+        height: 88vh;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }    
+    #desc {
+        margin: 0 40px 0 80px;
+        font-size: 1.2em;
+        line-height: 1.3em;
+        font-weight: bold;
+    
+    }
+    .superior {
+        display: block;
+        font-size: 3.5em;
+        margin: .2vw 15vw 0 6vw;
+    }
+    div#video {
+        height: 54vw;
+    }
+    .paginas {
+        height: 72vw;
+        padding-top: 12px;
+    }
+    #p96 {
+        width: 42%;
+        padding: 0px 10px 0 10px;
+        line-height: 7.2em;
+    }
+    #p96::after{
+        content: "Époque 45 96pt";  
+    }
+    #p96:hover::after{
+        content: "Époque 46 96pt";
+    }
+    #p96::first-line{
+        font-size: 6em;
+
+    }
+    #p48 {
+        width: 17%;
+        padding: 19px 10px 0px 10px;
+        line-height: 6.44em;
+    }
+    #p48::after{
+        content: "E 55 48pt";  
+    }
+    #p48:hover::after{
+        content: "E 56 48pt";
+    }
+    #p48::first-line {
+        font-size: 3em;
+
+    }
+    #p32 {
+        float: left;
+        width: 15%;
+        padding: 28px 12px 0px 12px;
+        line-height: 6.06em;
+    }
+    #p32::after{
+        content: "65 32pt";  
+    }
+    #p32:hover::after{
+        content: "66 32pt";
+    }
+    #p32::first-line {
+        font-size: 2.25em;
+    
+    }
+    #p24 {
+        float: left;
+        padding: 34px 12px 0 0;
+        width: 16%;
+        line-height: 5.80em;
+    }
+    #p24::after{
+        content: "75 24pt";  
+    }
+    #p24:hover::after{
+        content: "76 24pt";
+    }
+    #p24::first-line {
+        font-size: 1.5em;
+    }
+    .final {
+       height: 85vw;
+    }
+
+    #fotos {
+        max-width: 640px;
+        min-width: 480px;
+        left: 55%;
+        top: 65%;
+        transform: translate(-55%, -50%);
+    }
+    .slider {
+        max-width: 620px;
+        min-width: 410px;
+     }
+     #fig {
+        font: normal normal 2em/1.6em 'epoque', sans-serif;
+    }
+    .paginas>div  {
+        padding-top: 40px;
+    }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+    section {
+        height: 80vw;
+    }
+    section>h1 {
+        font: normal normal 5em/1 'epoque-light', sans-serif;
+
+    }
+    .branca1, .paginas, .prologo{
+        padding-top: 5vw;
+        padding-bottom: 15vw;
+    }
+
+    #prologo {
+        background-image: url("../midia/imagens/background001-tb.png"); 
+        padding-top: 12vh;
+        padding-bottom: 16vh;
+        font-size: 1.1em;
+    }
+
+    .branca1 {
+        background-image: url("../midia/imagens/background002-sm.png");
+    }
+    #desc {
+        margin: 0 2px 0 4px;
+        font-size: 1.15em;
+        line-height: 1.3em;
+        font-weight: bold;
+    }
+    
+    .superior {
+        font: bold normal 3em/1em 'epoque-light', sans-serif;
+        margin: 2vh 30vh 0 3vh;
+    }
+    div#video {
+        height: 54vw;
+    }
+
+    .paginas#pesos {
+        height: 48vw;
+        padding-top: 4px;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    #p96 {
+        width: 40%;
+        padding: 0px 1px 0 1px;
+        line-height: 7.2em;
+    }
+    #p96::after{
+        content: "Époque 45 96pt";  
+    }
+    #p96:hover::after{
+        content: "Époque 46 96pt";
+    }
+    #p96::first-line{
+        font-size: 4em;
+
+    }
+    #p48 {
+        width: 21%;
+        padding: 19px 1px 0px 1px;
+        line-height: 6.44em;
+    }
+    #p48::after{
+        content: "E 55 48pt";  
+    }
+    #p48:hover::after{
+        content: "E 56 48pt";
+    }
+    #p48::first-line {
+        font-size: 2em;
+
+    }
+    #p32 {
+        float: left;
+        width: 17%;
+        padding: 28px 1px 0px 1px;
+        line-height: 6.06em;
+    }
+    #p32::after{
+        content: "65 32pt";  
+    }
+    #p32:hover::after{
+        content: "66 32pt";
+    }
+    #p32::first-line {
+        font-size: 1.5em;
+    }
+    
+    #p24 {
+        float: left;
+        padding: 34px 1px 0 0;
+        width: 20%;
+        line-height: 5.80em;
+    }
+    #p24::after{
+        content: "75 24pt";  
+    }
+    #p24:hover::after{
+        content: "76 24pt";
+    }
+    #p24::first-line {
+        font-size: 1em;
+    }
+    .final {
+        height: 100vw;
+    }
+    #fotos {
+        max-width: 480px;
+        min-width: 320px;
+        left: 50%;
+        top: 60%;
+        transform:   translate(-50%, -40%);
+    }
+    .slider {
+        max-width: 432px;
+        min-width: 288px;
+    }
+    #fig {
+        font: normal normal 2em/1.5em 'epoque', sans-serif;
+    }
+    .paginas>div  {
+        padding-top: 40px;
+    }
+}
