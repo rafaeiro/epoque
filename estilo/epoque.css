@@ -428,6 +428,10 @@ article>h3{
     display: inline-block;
     padding-left: 3px;
 }
+.cor-f { fill: lavender}
+.cor-f:hover {
+    fill: #04456a;
+}
 
 footer {
     width: 100%;
