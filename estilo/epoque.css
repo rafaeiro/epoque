@@ -380,8 +380,9 @@ p.figures4:hover::before {
     content: "NUMERATOR & DENOMINATOR: ";
 }
 #info {
-    width: 95vw;
+    width: 96vw;
     padding: 50px;
+    height: 680px;
 }
 #info article{
     position: relative;
@@ -402,7 +403,10 @@ article>h3{
     margin: 24px auto 0 auto;
     text-transform: uppercase;
 }
-
+#vem>h3::after, #estreito>h3::after, #pode>h3::after {
+    content: "<br><br><br>";
+    color: white;
+}
 #info p{
     font: normal normal 1.11em/1.3 'epoque';
     color: #04456ae8;
@@ -529,6 +533,35 @@ footer {
     .paginas>div  {
         padding-top: 80px;
     }
+    #info {
+        margin: 5vw;
+        border: 0; 
+        padding: 0;
+        height: 600px;
+        position: 0;
+        max-width: 960px;
+        min-width: 641px;
+    }
+    #info article{
+        margin: 0 auto;
+        border: 0; 
+        padding: 0;
+    }
+    #info:nth-child(odd){
+        margin: 0 0 0 5vw;
+    }
+    #info>article>h3 {
+        font-size: 1.6em;
+    }
+    #info>article>p {
+        font-size: 1em;
+        padding: 5px 0; 
+        width: 285px; 
+    }
+    #estreito{
+        width: 285px;
+    }
+
 }
 @media screen and (min-width: 480px) and (max-width: 640px) {
     section {
@@ -645,7 +678,24 @@ footer {
     .paginas>div  {
         padding-top: 40px;
     }
-
+    #info {
+        margin: 10vw auto;
+        border: 0; 
+        padding: 0;
+        height: 135vw;
+        max-width: 640px;
+    }
+    #info>article>h3 {
+        font-size: 2em;
+    }
+    #info>article>p {
+        font-size: 1em;
+        padding: 3px 0; 
+        width: 400px; 
+    }
+    #estreito{
+        width: 400px;
+    }
 }
 
 @media screen and (min-width: 300px) and (max-width: 480px) {
@@ -775,5 +825,33 @@ footer {
     }
     .paginas>div  {
         padding-top: 40px;
+    }
+    #info {
+        margin: 5vw 0;
+        border: 0; 
+        padding: 0;
+        height: 185vw;
+    }
+    #info>article>h3 {
+        font-size: 1.5em;
+    }
+    #info>article>p {
+        font-size: .85em;
+        padding: 3px 0; 
+        width: 300px; 
+    }
+    #estreito{
+        width: 300px;
+    }
+    #rodape {
+        width: 100vw;
+        background-color: #5989c7;
+        height: 110vw;
+    }
+    #rodape>div {
+        width: 280px;
+        display: inline-block;
+        float: left;
+        padding: 18px 0 0 18px;
     }
 }
