@@ -560,6 +560,15 @@ footer {
     }
     #estreito{
         width: 285px;
+     
+    }
+    #rodape {
+        height: 360px;
+        margin: auto;
+    }
+    #rodape>div {
+        width: 360px;
+        padding: 20px 0 0 20px;
     }
 
 }
@@ -695,6 +704,13 @@ footer {
     }
     #estreito{
         width: 400px;
+    }
+    #rodape {
+        height: 84vw;
+    }
+    #rodape>div {
+        width: 420px;
+        padding: 20px 0 0 20px;
     }
 }
 
@@ -844,14 +860,10 @@ footer {
         width: 300px;
     }
     #rodape {
-        width: 100vw;
-        background-color: #5989c7;
         height: 110vw;
     }
     #rodape>div {
         width: 280px;
-        display: inline-block;
-        float: left;
         padding: 18px 0 0 18px;
     }
 }
