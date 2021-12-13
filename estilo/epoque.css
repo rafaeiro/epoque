@@ -304,11 +304,10 @@ picture>img {
     transition-duration: .6s;
 }
 #fig {
-    font: normal normal 4em/.4em 'epoque', sans-serif;
+    font: normal normal 4em/1.15em 'epoque', sans-serif;
     text-align: left;
-    margin-left: 0vw;
 }
-.figures1>span:hover {
+p.figures1:hover {
     color: #499bf8;
     font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
     -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
@@ -317,15 +316,15 @@ picture>img {
     -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
 }
 
-.figures1>span::before {
+p.figures1::before {
     content: "LINING: ";
 }
-.figures1>span:hover::before {
+p.figures1:hover::before {
     content: "OLD STYLE: ";
 
 }
 p.figures2:hover {
-    font: normal normal 1em/.4em 'epoque-light', sans-serif;
+    font: normal normal 1em/1.15em 'epoque-light', sans-serif;
     color: #499bf8;
     font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
     -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
@@ -342,7 +341,7 @@ p.figures2:hover::before {
 
 }
 p.figures3:hover {
-    font: normal normal 1em/.4em 'epoque-light', sans-serif;
+    font: normal normal 1em/1.15em 'epoque-light', sans-serif;
     color: #499bf8;
     font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "sups";
     -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "sups";
@@ -358,7 +357,7 @@ p.figures3:hover::before {
 
 }
 p.figures4:hover {
-    font: normal normal 1em/.4em 'epoque-light', sans-serif;
+    font: normal normal 1em/1.15em 'epoque-light', sans-serif;
     color: #499bf8;
     font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr";
     -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr";
@@ -379,7 +378,6 @@ p.figures4:hover {
 }
 p.figures4:hover::before {
     content: "NUMERATOR & DENOMINATOR: ";
-    padding-left: 0;
 }
 #info {
     width: 95vw;
@@ -525,6 +523,12 @@ footer {
         max-width: 768px;
         min-width: 444px;
      }
+     #fig {
+        font: normal normal 3.4em/1em 'epoque', sans-serif;
+    }
+    .paginas>div  {
+        padding-top: 80px;
+    }
 }
 @media screen and (min-width: 480px) and (max-width: 640px) {
     section {
@@ -635,54 +639,62 @@ footer {
         max-width: 620px;
         min-width: 410px;
      }
+     #fig {
+        font: normal normal 2em/1.6em 'epoque', sans-serif;
+    }
+    .paginas>div  {
+        padding-top: 40px;
+    }
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 300px) and (max-width: 480px) {
     section {
-        height: 78vw;
+        height: 80vw;
+    }
+    section>h1 {
+        font: normal normal 5em/1 'epoque-light', sans-serif;
+
     }
     .branca1, .paginas, .prologo{
         padding-top: 5vw;
         padding-bottom: 15vw;
     }
-    section.paginas {
-        height: 58vw;
-    }
+
     #prologo {
-        background-image: url("../midia/imagens/background001-sm.png"); 
+        background-image: url("../midia/imagens/background001-tb.png"); 
+        padding-top: 12vh;
+        padding-bottom: 16vh;
+        font-size: 1.1em;
     }
 
     .branca1 {
-        height: 84vh;
-        background-image: url("../midia/imagens/background002-sm.png"); 
-        
+        background-image: url("../midia/imagens/background002-sm.png");
     }
     #desc {
-        margin: 0 10px 0 40px;
-        font-size: 1.2em;
+        margin: 0 2px 0 4px;
+        font-size: 1.15em;
         line-height: 1.3em;
         font-weight: bold;
     }
+    
     .superior {
-        display: block;
-        font-size: 3.5em;
-        margin: 5vh 15vh 0 6vh;
+        font: bold normal 3em/1em 'epoque-light', sans-serif;
+        margin: 2vh 30vh 0 3vh;
     }
-
     div#video {
         height: 54vw;
     }
 
-    .paginas {
-        height: 98vw;
-        width: 320;
+    .paginas#pesos {
+        height: 48vw;
         padding-top: 4px;
     }
 
     h2 {
         font-size: 1.8em;
     }
+
     #p96 {
         width: 40%;
         padding: 0px 1px 0 1px;
@@ -757,5 +769,11 @@ footer {
     .slider {
         max-width: 432px;
         min-width: 288px;
+    }
+    #fig {
+        font: normal normal 2em/1.5em 'epoque', sans-serif;
+    }
+    .paginas>div  {
+        padding-top: 40px;
     }
 }
