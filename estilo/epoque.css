@@ -430,6 +430,13 @@ article>h3{
     display: inline-block;
     padding-left: 0px;
 }
+.cor-f { fill: lavender}
+.cor-f:hover {
+    fill: #04456a;
+}
+#Camada_1 { width: 90%;}
+.cls-1{fill:#04456ae8;}.cls-2{fill:none;opacity:0.24;}.cls-3{fill:lavender;}
+.cls-1:hover{fill:lavender; transition: .15s;}.cls-2:hover{fill:none;opacity:0.24;}.cls-3:hover{fill:#04456ae8; transition: .15s;}
 footer {
     width: 100%;
     bottom: 0;
