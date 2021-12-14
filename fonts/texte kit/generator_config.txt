@@ -1,5 +1,0 @@
-# Font Squirrel Font-face Generator Configuration File
-# Upload this file to the generator to recreate the settings
-# you used to create these fonts.
-
-{"mode":"expert","formats":["woff","woff2"],"tt_instructor":"default","fix_gasp":"xy","fix_vertical_metrics":"N","metrics_ascent":"","metrics_descent":"","metrics_linegap":"","add_spaces":"Y","add_hyphens":"Y","fallback":"none","fallback_custom":"100","webonly":"Y","options_subset":"advanced","subset_range":["lowercase","uppercase","numbers","punctuation","currency","typographics","math","altpunctuation","accentedlower","accentedupper","diacriticals","catalan","danish","dutch","english","german","italian","latvian","lithuanian","polish","portuguese","spanish","turkish","ubasic","ulatin1","ucurrency","upunctuation"],"subset_custom":"","subset_custom_range":"","subset_ot_features":"all","subset_ot_features_list":"","ot_features":["onum","pnum","salt","ss01","ss02","ss03","ss04"],"style_link":"Y","css_stylesheet":"stylesheet.css","filename_suffix":"-webfont","emsquare":"2048","spacing_adjustment":"0","rememberme":"Y"}
