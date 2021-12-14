@@ -1,0 +1,60 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4237392, 2021-12-09T18:07:29-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: epoque-Black by Rafaeiro Typeiro
+ * URL: https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque/black/
+ * 
+ * Webfont: epoque-Roman by Rafaeiro Typeiro
+ * URL: https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque/roman/
+ * 
+ * Webfont: epoque-BlackIt by Rafaeiro Typeiro
+ * URL: https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque/black-italic/
+ * 
+ * Webfont: epoque-RomanIt by Rafaeiro Typeiro
+ * URL: https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque/roman-italic/
+ * 
+ * 
+ * Webfonts copyright: Copyright © 2018 by Rafaeiro. All rights reserved.
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+  
+@font-face {
+  font-family: "epoque";
+  font-style: italic;
+  font-weight: bold;
+  font-stretch: normal;
+  src: url('webFonts/epoque/italic_normal_bold.woff2') format('woff2'), url('webFonts/epoque/italic_normal_bold.woff') format('woff');
+}
+@font-face {
+  font-family: "epoque";
+  font-style: normal;
+  font-weight: bold;
+  font-stretch: normal;
+  src: url('webFonts/epoque/normal_normal_bold.woff2') format('woff2'), url('webFonts/epoque/normal_normal_bold.woff') format('woff');
+}
+@font-face {
+  font-family: "epoque";
+  font-style: italic;
+  font-weight: normal;
+  font-stretch: normal;
+  src: url('webFonts/epoque/italic_normal_normal.woff2') format('woff2'), url('/webFonts/epoque/italic_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "epoque";
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  src: url('webFonts/epoque/normal_normal_normal.woff2') format('woff2'), url('webFonts/epoque/normal_normal_normal.woff') format('woff');
+}
+

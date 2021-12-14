@@ -8,28 +8,28 @@
  * 
  * You may obtain a valid license at the URLs below.
  * 
- * Webfont: Epoque-Bold by Rafaeiro Typeiro
+ * Webfont: epoque-Bold by Rafaeiro Typeiro
  * URL: https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque/bold/
  * 
- * Webfont: Epoque-Black by Rafaeiro Typeiro
+ * Webfont: epoque-Black by Rafaeiro Typeiro
  * URL: https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque/black/
  * 
- * Webfont: Epoque-Light by Rafaeiro Typeiro
+ * Webfont: epoque-Light by Rafaeiro Typeiro
  * URL: https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque/light/
  * 
- * Webfont: Epoque-Roman by Rafaeiro Typeiro
+ * Webfont: epoque-Roman by Rafaeiro Typeiro
  * URL: https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque/roman/
  * 
- * Webfont: Epoque-BoldIt by Rafaeiro Typeiro
+ * Webfont: epoque-BoldIt by Rafaeiro Typeiro
  * URL: https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque/bold-italic/
  * 
- * Webfont: Epoque-BlackIt by Rafaeiro Typeiro
+ * Webfont: epoque-BlackIt by Rafaeiro Typeiro
  * URL: https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque/black-italic/
  * 
- * Webfont: Epoque-RomanIt by Rafaeiro Typeiro
+ * Webfont: epoque-RomanIt by Rafaeiro Typeiro
  * URL: https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque/roman-italic/
  * 
- * Webfont: Epoque-LightIt by Rafaeiro Typeiro
+ * Webfont: epoque-LightIt by Rafaeiro Typeiro
  * URL: https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque/light-italic/
  * 
  * 
@@ -42,41 +42,41 @@
 /* @import must be at top of file, otherwise CSS will not work */
 
 @font-face {
-    font-family: "Epoque-36";
-    src: url('../GitHub/Epoque/fonts/webfonts/EpoqueLightIt/font.woff2') format('woff2'), url('../GitHub/Epoque/fonts/webfonts/EpoqueLightIt/font.woff') format('woff');
+    font-family: "epoque-36";
+    src: url('../GitHub/epoque/fonts/webfonts/epoqueLightIt/font.woff2') format('woff2'), url('../GitHub/epoque/fonts/webfonts/epoqueLightIt/font.woff') format('woff');
 }
 
 @font-face {
-    font-family: "Epoque-55";
-    src: url('../GitHub/Epoque/fonts/webfonts/EpoqueRoman/font.woff2') format('woff2'), url('../GitHub/Epoque/fonts/webfonts/EpoqueRoman/font.woff') format('woff');
+    font-family: "epoque-55";
+    src: url('../GitHub/epoque/fonts/webfonts/epoqueRoman/font.woff2') format('woff2'), url('../GitHub/epoque/fonts/webfonts/epoqueRoman/font.woff') format('woff');
 }
 
 @font-face {
-    font-family: "Epoque-76";
-    src: url('../GitHub/Epoque/fonts/webfonts/EpoqueBlackIt/font.woff2') format('woff2'), url('../GitHub/Epoque/fonts/webfonts/EpoqueBlackIt/font.woff') format('woff');
+    font-family: "epoque-76";
+    src: url('../GitHub/epoque/fonts/webfonts/epoqueBlackIt/font.woff2') format('woff2'), url('../GitHub/epoque/fonts/webfonts/epoqueBlackIt/font.woff') format('woff');
 }
 
 @font-face {
-    font-family: "Epoque-66t";
-    src: url('../GitHub/Epoque/fonts/webfonts/EpoqueBoldIt/font.woff2') format('woff2'), url('../GitHub/Epoque/fonts/webfonts/EpoqueBoldIt/font.woff') format('woff');
+    font-family: "epoque-66t";
+    src: url('../GitHub/epoque/fonts/webfonts/epoqueBoldIt/font.woff2') format('woff2'), url('../GitHub/epoque/fonts/webfonts/epoqueBoldIt/font.woff') format('woff');
 }
 
 @font-face {
-    font-family: "Epoque-65";
-    src: url('../GitHub/Epoque/fonts/webfonts/EpoqueBold/font.woff2') format('woff2'), url('../GitHub/Epoque/fonts/webfonts/EpoqueBold/font.woff') format('woff');
+    font-family: "epoque-65";
+    src: url('../GitHub/epoque/fonts/webfonts/epoqueBold/font.woff2') format('woff2'), url('../GitHub/epoque/fonts/webfonts/epoqueBold/font.woff') format('woff');
 }
 
 @font-face {
-    font-family: "Epoque-75";
-    src: url('../GitHub/Epoque/fonts/webfonts/EpoqueBlack/font.woff2') format('woff2'), url('../GitHub/Epoque/fonts/webfonts/EpoqueBlack/font.woff') format('woff');
+    font-family: "epoque-75";
+    src: url('../GitHub/epoque/fonts/webfonts/epoqueBlack/font.woff2') format('woff2'), url('../GitHub/epoque/fonts/webfonts/epoqueBlack/font.woff') format('woff');
 }
 
 @font-face {
-    font-family: "Epoque-35";
-    src: url('../GitHub/Epoque/fonts/webfonts/EpoqueLight/font.woff2') format('woff2'), url('../GitHub/Epoque/fonts/webfonts/EpoqueLight/font.woff') format('woff');
+    font-family: "epoque-35";
+    src: url('../GitHub/epoque/fonts/webfonts/epoqueLight/font.woff2') format('woff2'), url('../GitHub/epoque/fonts/webfonts/epoqueLight/font.woff') format('woff');
 }
 
 @font-face {
-    font-family: "Epoque-56";
-    src: url('../GitHub/Epoque/fonts/webfonts/EpoqueRomanIt/font.woff2') format('woff2'), url('../GitHub/Epoque/fonts/webfonts/EpoqueRomanIt/font.woff') format('woff');
+    font-family: "epoque-56";
+    src: url('../GitHub/epoque/fonts/webfonts/epoqueRomanIt/font.woff2') format('woff2'), url('../GitHub/epoque/fonts/webfonts/epoqueRomanIt/font.woff') format('woff');
 }

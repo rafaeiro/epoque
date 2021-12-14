@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 * {
-    font: normal normal 1em/1 'epoque-light', sans-serif;
+    font: normal normal normal 1em/1 'epoque-light', sans-serif;
     color: lavender;
 }
 
@@ -102,7 +102,7 @@ h2 {
     padding: 0 12px 0 12px;
 }
 #p96:hover {
-    font-style: italic;
+    font: italic normal normal 1em 'epoque-light';
     color: #499bf8;
 }
 #p96::after{
@@ -110,12 +110,13 @@ h2 {
 }
 #p96:hover::after{
     content: "Light it 96pt";
+    font-style: italic;
 }
 #p96::first-line{
-    font-family: 'epoque-light';
+    font: normal normal normal 12em/1em 'epoque-light', sans-serif;
+    font-variant: normal;
     font-weight: normal;
     display: block;
-    font-size: 12em;
     float: left;;  
 }
 #p48 {
@@ -136,6 +137,7 @@ h2 {
 }
 #p48::first-line {
     font-family: 'epoque';
+    font-variant: normal;
     font-weight: normal;
     display: inline-block;
     font-size: 6em;
@@ -158,13 +160,15 @@ h2 {
     content: "Bold it 32pt";
 }
 #p32::first-line {
-    font-family: 'epoque';
-    font-weight: normal;
-    display: block;
+    font-family: 'epoque-light';
+    font-variant: normal;
+    font-weight: bold;
+    display: inline-block;
     padding: 200px 12px 0 12px;
     font-size: 4em;
     float: left;
 }
+
 #p24 {
     float: left;
     padding: 118px 12px 0 0;
@@ -184,7 +188,8 @@ h2 {
 }
 #p24::first-line {
     font-family: 'epoque';
-    font-weight: normal;
+    font-variant: normal;
+    font-weight: bold;
     display: block;
     font-size: 3em;
 }
@@ -195,6 +200,7 @@ h2 {
     text-align: center;
     padding-top: 20px;
     box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.425) ;
+    overflow: hidden;
 }
 
 .superior {
@@ -307,6 +313,7 @@ picture>img {
 #fig {
     font: normal normal 4em/1.15em 'epoque', sans-serif;
     text-align: left;
+    
 }
 p.figures1:hover {
     color: #499bf8;
@@ -386,6 +393,7 @@ p.figures4:hover::before {
     margin: 0;
     border: 0;
     padding: 20px 0;
+    overflow: hidden;
 }
 .caixa {
     max-width: 1200px;
