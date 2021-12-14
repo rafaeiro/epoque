@@ -20,14 +20,7 @@ section>h1 {
     color: white;
     padding-top: 96px;
 }
-.salt {
-    color: white;
-    font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
-    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
-    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
-    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
-    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
-}
+
 p, pre, a, span, h1, h2, h3, ul {
     margin: 0;
 	padding: 0;
@@ -92,13 +85,6 @@ section {
     font-size: 1.42em;
     line-height: 1.3em;
     font-weight: bold;
-}
-a {
-    color: #0b689e;
-    font: normal bold 1em/1.3em 'epoque';
-}
-a:hover {
-    color:#04456A;
 }
 
 #pesos {
