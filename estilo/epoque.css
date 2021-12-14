@@ -551,6 +551,10 @@ footer {
         height: 648px;
         padding-top: 40px;
     }
+    .caixa {
+        max-width: 864px;
+        margin: 0 auto; 
+    }
     #info>h3 {
         width: 420px;
         font: bold normal 2.5em/1em 'epoque-light',sans-serif;
@@ -566,7 +570,6 @@ footer {
     }
     #estreito{
         width: 150px;
-        mar
     }
     #info p{
         width: 300px;
@@ -697,6 +700,10 @@ footer {
         padding-top: 40px;
         height: 170vw;
     }
+    .caixa {
+        max-width: 576px;
+        margin: 0 auto; 
+    }
     #info>h3 {
         width: 400px;
         font: bold normal 2em/1em 'epoque-light',sans-serif;
@@ -719,10 +726,10 @@ footer {
         padding: 12px 10px 0 0;
         margin: 0;
     }
-/*     #estreiro>p{
+    #estreiro>p{
         width: 200px;
         padding-right: 20px;
-    } */
+    }
 }
 
 @media screen and (min-width: 300px) and (max-width: 480px) {
