@@ -380,17 +380,28 @@ p.figures4:hover::before {
     content: "NUMERATOR & DENOMINATOR: ";
 }
 #info {
-    width: 95vw;
-    padding: 50px;
+    width: 100%;
+    height: 660px;
+    margin: 0;
+    border: 0;
+    padding: 60px 0;
+}
+.caixa {
+    max-width: 1024px;
+    margin: 0 auto; 
+}
+#info>h3 {
+    width: 240px;
+    font: bold normal 2.5em/1em 'epoque-light',sans-serif;
+    margin: 24px auto 0 auto;
 }
 #info article{
     position: relative;
     display: block;
     max-width: 320px;
     float: left;
-    margin: 0 11px;
-
-    z-index: -1;
+    margin: 0 4px;
+    z-index: 20;
 }
 #estreito{
     width: 200px;
@@ -399,16 +410,15 @@ article>h3{
     color: #04456ae8;
     font: bold italic 2.5em/1em 'epoque', sans-serif;
     letter-spacing: -0.04em;
-    margin: 24px auto 0 auto;
     text-transform: uppercase;
 }
-
 #info p{
     font: normal normal 1.11em/1.3 'epoque';
     color: #04456ae8;
     padding: 24px 0;
-    margin: 0;
+    
 }
+
 .clean {
     clear: both;
     width: 10px;
@@ -537,6 +547,36 @@ footer {
     .paginas>div  {
         padding-top: 80px;
     }
+    #info {
+        height: 648px;
+        padding-top: 40px;
+    }
+    #info>h3 {
+        width: 420px;
+        font: bold normal 2.5em/1em 'epoque-light',sans-serif;
+        margin: 8px auto 8px auto;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+    }
+    #info article{
+        max-width: 310px;
+        float: left;
+        margin: 0 12px;
+        z-index: 20;
+    }
+    #estreito{
+        width: 150px;
+        mar
+    }
+    #info p{
+        width: 300px;
+        font: normal normal 1.15em/1.2em 'epoque-light',sans-serif;
+        padding: 12px 10px 0 0;
+        margin: 0;
+    }
+    #estreito>p{
+        width: 160px;
+    }
 }
 @media screen and (min-width: 480px) and (max-width: 640px) {
     section {
@@ -653,7 +693,36 @@ footer {
     .paginas>div  {
         padding-top: 40px;
     }
-
+    #info {
+        padding-top: 40px;
+        height: 170vw;
+    }
+    #info>h3 {
+        width: 400px;
+        font: bold normal 2em/1em 'epoque-light',sans-serif;
+        margin: 8px auto 8px auto;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+    }
+    #info article{
+        max-width: 300px;
+        float: left;
+        margin: 0 10px;
+        z-index: 20;
+    }
+    #estreito{
+        width: 200px;
+    }
+    #info p{
+        width: 300px;
+        font: bold normal 1em/1.2em 'epoque-light',sans-serif;
+        padding: 12px 10px 0 0;
+        margin: 0;
+    }
+/*     #estreiro>p{
+        width: 200px;
+        padding-right: 20px;
+    } */
 }
 
 @media screen and (min-width: 300px) and (max-width: 480px) {
@@ -767,6 +836,7 @@ footer {
     .final {
         height: 100vw;
     }
+
     #fotos {
         max-width: 480px;
         min-width: 320px;
@@ -782,6 +852,32 @@ footer {
         font: normal normal 2em/1.5em 'epoque', sans-serif;
     }
     .paginas>div  {
-        padding-top: 40px;d
+        padding-top: 40px;
+    }
+    #info {
+        height: 260vw;
+    }
+    #info>h3 {
+        width: 300px;
+        font: bold normal 1.8em/1em 'epoque-light',sans-serif;
+        margin: 8px auto 0 auto;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+    }
+    #info article{
+        max-width: 320px;
+        float: left;
+        margin: 0 4px;
+        z-index: 20;
+    }
+    #estreito{
+        width: 300px;
+    }
+   
+    #info p{
+        width: 300px;
+        font: bold normal 0.85em/1.2em 'epoque-light',sans-serif;
+        padding: 12px 0;
+        margin: 0;
     }
 }
