@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 * {
-    font: normal normal 1em/1 'epoque-light', sans-serif;
+    font: normal normal normal 1em/1 'epoque-light', sans-serif;
     color: lavender;
 }
 
@@ -18,7 +18,7 @@ section>h1 {
     font: normal normal 6em/1 'epoque-light', sans-serif;
     text-align: center;
     color: white;
-    padding-top: 60px;
+    padding-top: 96px;
 }
 
 p, pre, a, span, h1, h2, h3, ul {
@@ -29,6 +29,7 @@ p, pre, a, span, h1, h2, h3, ul {
 	font: inherit;
 	vertical-align: baseline;
     text-decoration: none;
+    list-style-type: none;
     }
 body {
     margin: 0;
@@ -46,8 +47,8 @@ section {
     text-align: center;
     font-weight: bold;
     font-size: 1.25em;
-    padding-top: 30vh;
-    padding-bottom: 20px;
+    padding-top: 15vh;
+    padding-bottom: 5px;
     color: white;
 }
 
@@ -101,7 +102,7 @@ h2 {
     padding: 0 12px 0 12px;
 }
 #p96:hover {
-    font-style: italic;
+    font: italic normal normal 1em 'epoque-light';
     color: #499bf8;
 }
 #p96::after{
@@ -109,12 +110,13 @@ h2 {
 }
 #p96:hover::after{
     content: "Light it 96pt";
+    font-style: italic;
 }
 #p96::first-line{
-    font-family: 'epoque-light';
+    font: normal normal normal 12em/1em 'epoque-light', sans-serif;
+    font-variant: normal;
     font-weight: normal;
     display: block;
-    font-size: 12em;
     float: left;;  
 }
 #p48 {
@@ -135,6 +137,7 @@ h2 {
 }
 #p48::first-line {
     font-family: 'epoque';
+    font-variant: normal;
     font-weight: normal;
     display: inline-block;
     font-size: 6em;
@@ -157,13 +160,15 @@ h2 {
     content: "Bold it 32pt";
 }
 #p32::first-line {
-    font-family: 'epoque';
-    font-weight: normal;
-    display: block;
+    font-family: 'epoque-light';
+    font-variant: normal;
+    font-weight: bold;
+    display: inline-block;
     padding: 200px 12px 0 12px;
     font-size: 4em;
     float: left;
 }
+
 #p24 {
     float: left;
     padding: 118px 12px 0 0;
@@ -183,17 +188,19 @@ h2 {
 }
 #p24::first-line {
     font-family: 'epoque';
-    font-weight: normal;
+    font-variant: normal;
+    font-weight: bold;
     display: block;
     font-size: 3em;
 }
 .paginas {
     position: relative;
     background-color: #04456A;
-    height: 60vh;
+    height: 68vh;
     text-align: center;
     padding-top: 20px;
     box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.425) ;
+    overflow: hidden;
 }
 
 .superior {
@@ -306,6 +313,7 @@ picture>img {
 #fig {
     font: normal normal 4em/1.15em 'epoque', sans-serif;
     text-align: left;
+    
 }
 p.figures1:hover {
     color: #499bf8;
@@ -381,19 +389,24 @@ p.figures4:hover::before {
 }
 #info {
     width: 100%;
-    height: 660px;
+    height: 678px;
     margin: 0;
     border: 0;
-    padding: 60px 0;
+    padding: 20px 0;
+    overflow: hidden;
 }
 .caixa {
-    max-width: 1024px;
-    margin: 0 auto; 
+    max-width: 1200px;
+    margin: 40px auto; 
+    padding-top: 18px;
+    box-sizing: border-box;
+
 }
 #info>h3 {
     width: 240px;
     font: bold normal 2.5em/1em 'epoque-light',sans-serif;
     margin: 24px auto 0 auto;
+    position: relative;
 }
 #info article{
     position: relative;
@@ -406,22 +419,28 @@ p.figures4:hover::before {
 #estreito{
     width: 200px;
 }
+#estreito>h3{
+    box-sizing: content-box;
+    margin: 0 40px 0 0;
+}
 article>h3{
     color: #04456ae8;
     font: bold italic 2.5em/1em 'epoque', sans-serif;
     letter-spacing: -0.04em;
+    margin: 0 10px;
     text-transform: uppercase;
 }
 #info p{
     font: normal normal 1.11em/1.3 'epoque';
     color: #04456ae8;
-    padding: 24px 0;
-    
+    padding: 24px 0;    
 }
 
 .clean {
     clear: both;
     width: 10px;
+    height: 10px;
+    margin: 10px;
 }
 #rodape {
     width: 100vw;
@@ -433,6 +452,7 @@ article>h3{
     display: inline-block;
     float: left;
     padding: 36px 0 0 24px;
+    position: relative;
 }
 .line {
     display: inline-block;
@@ -455,8 +475,10 @@ footer {
     color: white;
     line-height: 1.2em;
     z-index: 2001;
+    padding: 1px 0 6px 0;
+    position: relative;
 }
-@media screen and (min-width: 640px) and (max-width: 960px) {
+@media screen and (min-width: 641px) and (max-width: 960px) {
     section {
         height: 54vw;
     }
@@ -548,8 +570,10 @@ footer {
         padding-top: 80px;
     }
     #info {
-        height: 648px;
+        box-sizing: content-box;
+        height: 796px;
         padding-top: 40px;
+        padding-bottom: 40px;
     }
     .caixa {
         max-width: 864px;
@@ -580,6 +604,16 @@ footer {
     #estreito>p{
         width: 160px;
     }
+    #rodape {
+        height: 320px;
+    }
+    #rodape>div {
+        width: 300px;
+        padding: 28px 0 0 24px;
+    }
+    .line {
+        padding-right: 9px;
+    }   
 }
 @media screen and (min-width: 480px) and (max-width: 640px) {
     section {
@@ -698,7 +732,9 @@ footer {
     }
     #info {
         padding-top: 40px;
-        height: 170vw;
+        height: 820px;
+        box-sizing: content-box;
+        padding-bottom: 40px;
     }
     .caixa {
         max-width: 576px;
@@ -730,6 +766,16 @@ footer {
         width: 200px;
         padding-right: 20px;
     }
+    #rodape {
+        height: 420px;
+    }
+    #rodape>div {
+        width: 300px;
+        padding: 28px 0 0 24px;
+    }
+    .line {
+        padding-right: 9px;
+    }   
 }
 
 @media screen and (min-width: 300px) and (max-width: 480px) {
@@ -886,5 +932,15 @@ footer {
         font: bold normal 0.85em/1.2em 'epoque-light',sans-serif;
         padding: 12px 0;
         margin: 0;
+    }
+    #rodape {
+        height: 445px;
+    }
+    #rodape>div {
+        width: 280px;
+        padding: 28px 0 0 24px;
+    }
+    .line {
+        padding-right: 13px;
     }
 }
