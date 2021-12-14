@@ -29,6 +29,7 @@ p, pre, a, span, h1, h2, h3, ul {
 	font: inherit;
 	vertical-align: baseline;
     text-decoration: none;
+    list-style-type: none;
     }
 body {
     margin: 0;
@@ -443,6 +444,7 @@ article>h3{
     display: inline-block;
     float: left;
     padding: 36px 0 0 24px;
+    position: relative;
 }
 .line {
     display: inline-block;
@@ -465,6 +467,8 @@ footer {
     color: white;
     line-height: 1.2em;
     z-index: 2001;
+    padding: 1px 0 6px 0;
+    position: relative;
 }
 @media screen and (min-width: 641px) and (max-width: 960px) {
     section {
