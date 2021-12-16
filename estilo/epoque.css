@@ -15,10 +15,19 @@ header {
     letter-spacing : 0.05em;
 }
 section>h1 {
-    font: normal normal 6em/1 'epoque-light', sans-serif;
+    font: normal normal 8em/1 'epoque-light', sans-serif;
     text-align: center;
     color: white;
     padding-top: 96px;
+}
+
+.salt {
+    color: white;
+    font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
 }
 
 p, pre, a, span, h1, h2, h3, ul {
@@ -99,25 +108,31 @@ h2 {
 #p96 {
     float: left;
     width: 30%;
-    padding: 0 12px 0 12px;
+    padding: 18px 12px 0 12px;
+    line-height: 4.85em;
+    
 }
 #p96:hover {
-    font: italic normal normal 1em 'epoque-light';
+    font: italic bold 1em/6.5em 'epoque-light', sans-serif;
+    font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
     color: #499bf8;
+    
 }
 #p96::after{
     content: "Light 96pt";  
 }
 #p96:hover::after{
     content: "Light it 96pt";
-    font-style: italic;
 }
 #p96::first-line{
     font: normal normal normal 12em/1em 'epoque-light', sans-serif;
-    font-variant: normal;
-    font-weight: normal;
-    display: block;
-    float: left;;  
+    display: inline-block;
+
+    float: left;  
 }
 #p48 {
     float: left;
@@ -151,6 +166,7 @@ h2 {
 }
 #p32:hover {
     font-style: italic;
+    font-weight: normal;
     color: #499bf8;
 }
 #p32::after{
@@ -161,10 +177,9 @@ h2 {
 }
 #p32::first-line {
     font-family: 'epoque-light';
-    font-variant: normal;
-    font-weight: bold;
-    display: inline-block;
-    padding: 200px 12px 0 12px;
+    font-variant: "normal";
+    font-weight: "bold";
+    display: "inline-block";
     font-size: 4em;
     float: left;
 }
