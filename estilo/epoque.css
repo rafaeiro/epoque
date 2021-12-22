@@ -4,32 +4,6 @@
     color: lavender;
 }
 
-header {
-    display: block;
-    background-color: black;
-    color: white;
-    padding: 10px;
-    text-transform: uppercase;
-    font-family: 'epoque';
-    letter-spacing: 0.05em;
-    position: relative;
-}
-
-header>div>a>img {
-    width: 36px;
-    float: left;
-    margin-right: 290px;
-    padding: 5px 0;
-    position: sticky;
-    top: 0;
-    z-index: 2000;
-}
-
-header>div>ul>ul {
-    display: block;
-    float: left;
-}
-
 section>h1 {
     font: normal normal 6em/1 'epoque-light', sans-serif;
     text-align: center;
