@@ -11,6 +11,15 @@ section>h1 {
     padding-top: 96px;
 }
 
+.salt {
+    color: white;
+    font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+}
+
 p,
 pre,
 a,
@@ -100,11 +109,17 @@ h2 {
 #p96 {
     float: left;
     width: 30%;
-    padding: 0 12px 0 12px;
+    padding: 18px 12px 0 12px;
+    line-height: 4.85em;
 }
 
 #p96:hover {
-    font: italic normal normal 1em 'epoque-light';
+    font: italic bold 1em/6.5em 'epoque-light', sans-serif;
+    font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
     color: #499bf8;
 }
 
@@ -114,16 +129,12 @@ h2 {
 
 #p96:hover::after {
     content: "Light it 96pt";
-    font-style: italic;
 }
 
 #p96::first-line {
     font: normal normal normal 12em/1em 'epoque-light', sans-serif;
-    font-variant: normal;
-    font-weight: normal;
-    display: block;
+    display: inline-block;
     float: left;
-    ;
 }
 
 #p48 {
@@ -164,6 +175,7 @@ h2 {
 
 #p32:hover {
     font-style: italic;
+    font-weight: normal;
     color: #499bf8;
 }
 
@@ -177,10 +189,9 @@ h2 {
 
 #p32::first-line {
     font-family: 'epoque-light';
-    font-variant: normal;
-    font-weight: bold;
-    display: inline-block;
-    padding: 200px 12px 0 12px;
+    font-variant: "normal";
+    font-weight: "bold";
+    display: "inline-block";
     font-size: 4em;
     float: left;
 }
