@@ -21,9 +21,9 @@ header {
 nav>div>a>img {
     position: relative;
     width: 40px;
-    margin-right: auto;
+    margin-right: 220px;
     float: left;
-    padding: 7px 220px 3px 10px;
+    padding: 7px 0px 3px 10px;
 }
 
 .menu {
