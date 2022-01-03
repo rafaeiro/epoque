@@ -258,9 +258,9 @@ div#video {
 
 video#marquise {
     position: static;
-    width: 98.5vw;
+    width: 99.5vw;
     margin: 0 auto 0 auto;
-    z-index: 5;
+    z-index: 1;
 }
 
 .final {
