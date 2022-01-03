@@ -484,7 +484,7 @@ p.figures4:hover::before {
 
 article>h3 {
     color: #04456ae8;
-    font: bold italic 2.5em/1em 'epoque', sans-serif;
+    font: bold normal 2.5em/1em 'acay', sans-serif;
     letter-spacing: -0.04em;
     margin: 0 10px;
     text-transform: uppercase;

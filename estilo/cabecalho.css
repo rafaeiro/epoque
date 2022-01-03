@@ -180,10 +180,10 @@ top:8px;
     .menu li {
         position: relative;
         float: left;
-        text-align: center;
+        text-align: left;
     }
     .menu li a {
-        height: 24px;
+        height: 26px;
         width: 100px;
         display: block;
         padding: 10px 5px 5px 5px;
@@ -203,6 +203,7 @@ top:8px;
     }
     .menu li ul li {
         width: 100px;
+        text-align: right;
     }
 }
 
