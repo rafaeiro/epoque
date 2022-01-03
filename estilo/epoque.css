@@ -243,7 +243,7 @@ h2 {
     color: lavender;
     background-color: #04456ae8;
     clear: both;
-    margin: 25vh 15vh 0 6vh;
+    margin: 20vh 15vh 5vh 6vh;
 }
 
 .superior>span {
@@ -251,14 +251,14 @@ h2 {
 }
 
 div#video {
-    height: 98vh;
+    height: 99vh;
     position: relative;
     display: block;
 }
 
 video#marquise {
     position: static;
-    width: 99.5vw;
+    width: 100%;
     margin: 0 auto 0 auto;
     z-index: 1;
 }
@@ -504,7 +504,7 @@ article>h3 {
 }
 
 #rodape {
-    width: 100vw;
+    width: 100%;
     background-color: #5989c7;
     height: 18vw;
 }
