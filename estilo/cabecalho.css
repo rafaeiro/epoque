@@ -89,11 +89,11 @@ nav>div>a>img {
     opacity: 0;
 }
   
-.check{
-    visibility:hidden;
+.check {
+    visibility:visible;
     cursor: pointer;
     position: relative;
-    display: block;
+    display: none;
     height: 22px;
     width: 30px;
 }
@@ -136,7 +136,7 @@ top:8px;
 
 @media screen and (min-width: 500px) and (max-width: 830px){
 
-    .check{
+    .check {
         visibility: hidden;
         display: none;
     }
@@ -167,7 +167,8 @@ top:8px;
         padding: 7px 0px 3px 10px;
     }
     .container {padding-top: 18px;}
-    label{
+
+    .check {
         visibility: visible;
         display: block;
         opacity: 100;
