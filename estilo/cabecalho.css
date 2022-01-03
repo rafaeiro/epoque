@@ -22,7 +22,7 @@ nav {
 nav>div>a>img {
     position: relative;
     width: 40px;
-    margin-right: 220px;
+    margin-right: 185px;
     float: left;
     padding: 7px 0px 3px 10px;
 }
@@ -138,11 +138,12 @@ top:8px;
 
     label{
         visibility: hidden;
+        display: none;
     }
 
     nav>div>a>img {
         width: 40px;
-        margin-right: 100px;
+        margin-right: 80px;
         float: left;
         padding: 7px 0px 3px 10px;
     }
@@ -168,6 +169,7 @@ top:8px;
     .container {padding-top: 18px;}
     label{
         visibility: visible;
+        display: block;
         opacity: 100;
         z-index: 1000;
         
