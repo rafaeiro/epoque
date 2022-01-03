@@ -93,12 +93,13 @@ nav>div>a>img {
     display: none;
     height: 22px;
     width: 30px;
+
 }
   
 .check span{
     position: absolute;
     display: block;
-    height: 5px;
+    height: 3px;
     width: 100%;
     border-radius: 30px;
     background: #fff;
@@ -106,20 +107,20 @@ nav>div>a>img {
 }
   
 .check span:nth-child(1){
-    top: 0;
+    top: 2;
 }
   
 .check span:nth-child(2){
-top: 9px;
+top: 11px;
 }
   
 .check span:nth-child(3){
-top: 18px;
+top: 22px;
 }
   
 #checkbox-menu:checked + .check span:nth-child(1){
 transform: rotate(-45deg);
-top: 8px;
+top: 10px;
 }
   
 #checkbox-menu:checked + .check span:nth-child(2){
@@ -128,7 +129,7 @@ opacity: 0;
   
 #checkbox-menu:checked + .check span:nth-child(3){
 transform: rotate(45deg);
-top:8px;
+top:10px;
 }
 
 @media screen and (min-width: 500px) and (max-width: 830px){
