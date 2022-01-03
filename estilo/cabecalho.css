@@ -90,7 +90,7 @@ nav>div>a>img {
 }
   
 .check {
-    visibility:visible;
+    visibility:hidden;
     cursor: pointer;
     position: relative;
     display: none;
