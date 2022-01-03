@@ -89,7 +89,7 @@ nav>div>a>img {
     opacity: 0;
 }
   
-label{
+.check{
     visibility:hidden;
     cursor: pointer;
     position: relative;
@@ -98,7 +98,7 @@ label{
     width: 30px;
 }
   
-label span{
+.check span{
     position: absolute;
     display: block;
     height: 5px;
@@ -108,35 +108,35 @@ label span{
     transition: 0.25s ease-in-out;
 }
   
-label span:nth-child(1){
+.check span:nth-child(1){
     top: 0;
 }
   
-label span:nth-child(2){
+.check span:nth-child(2){
 top: 9px;
 }
   
-label span:nth-child(3){
+.check span:nth-child(3){
 top: 18px;
 }
   
-#checkbox-menu:checked + label span:nth-child(1){
+#checkbox-menu:checked + .check span:nth-child(1){
 transform: rotate(-45deg);
 top: 8px;
 }
   
-#checkbox-menu:checked + label span:nth-child(2){
+#checkbox-menu:checked + .check span:nth-child(2){
 opacity: 0;
 }
   
-#checkbox-menu:checked + label span:nth-child(3){
+#checkbox-menu:checked + .check span:nth-child(3){
 transform: rotate(45deg);
 top:8px;
 }
 
 @media screen and (min-width: 500px) and (max-width: 830px){
 
-    label{
+    .check{
         visibility: hidden;
         display: none;
     }
@@ -197,7 +197,7 @@ top:8px;
         
     }
     
-    #checkbox-menu:checked + label .menu  {
+    #checkbox-menu:checked + .check .menu  {
         visibility: visible;
         display: block;
         left: 40px;
