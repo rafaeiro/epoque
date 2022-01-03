@@ -1,9 +1,10 @@
 @charset "utf-8";
 * {
-    font: normal normal normal 1em/1 'epoque-light', sans-serif;
     color: lavender;
 }
-
+body {
+    font: normal normal normal 1em/1 'epoque-light', sans-serif;
+}
 section>h1 {
     font: normal normal 6em/1 'epoque-light', sans-serif;
     text-align: center;
