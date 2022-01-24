@@ -1,11 +1,5 @@
 @charset "utf-8";
 
-* {
-    margin: 0;
-    padding: 0;
-    grid-column-gap: 0px;
-    gap: ;
-}
 .caracteres {
     color: #04456A;
     text-align: center;
@@ -13,7 +7,7 @@
     padding-top: 1em;
 }
 #mapadecaracteres {
-    height: 230vh;
+    height: 100vh;
     /* overflow: hidden; */
 }
 #map {
@@ -40,15 +34,17 @@
     box-sizing: border-box;
 }
 .char:hover { 
-    background-color:rgba(0, 255, 255, 0.1);
+    background-color: #33333310;
     border:1px solid #04456A;
+    cursor: crosshair;
 }
+
 .char:active { 
-    font-size: 12em;
-    line-height: -12em;
+    position: fixed;
+    top: 50vh;
+    left: 50vh;
+    font-size: 13.25em;
     color: #499bf8;
-    background-color:white;
-    border:1px solid #04456A;
     z-index: 2000;
 }
 
