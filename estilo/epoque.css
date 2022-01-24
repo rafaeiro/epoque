@@ -111,11 +111,11 @@ h2 {
     float: left;
     width: 30%;
     padding: 18px 12px 0 12px;
-    line-height: 4.85em;
+    line-height: 6.15em;
 }
 
 #p96:hover {
-    font: italic bold 1em/6.5em 'epoque-light', sans-serif;
+    font: italic bold 1em/6.15em 'epoque-light', sans-serif;
     font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
     -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
     -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
@@ -452,7 +452,7 @@ p.figures4:hover::before {
 
 .caixa {
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 20px 2.8vw;
     padding-top: 18px;
     box-sizing: border-box;
 }
@@ -615,7 +615,7 @@ footer {
     #p96 {
         width: 42%;
         padding: 6px 10px 0 10px;
-        line-height: 8.39em;
+        line-height: 5.5em;
     }
     #p96::first-line {
         font-size: 10em;
