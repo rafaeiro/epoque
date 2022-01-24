@@ -381,11 +381,11 @@ p.figures1:hover::before {
 p.figures2:hover {
     font: normal normal 1em/1.15em 'epoque-light', sans-serif;
     color: #499bf8;
-    font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
-    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
-    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
-    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
-    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
+    font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "dnom";
+    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "dnom";
+    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "dnom";
+    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "dnom";
+    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "dnom";
 }
 
 .figures2::before {
@@ -399,11 +399,11 @@ p.figures2:hover::before {
 p.figures3:hover {
     font: normal normal 1em/1.15em 'epoque-light', sans-serif;
     color: #499bf8;
-    font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "sups";
-    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "sups";
-    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "sups";
-    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "sups";
-    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "sups";
+    font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "sups";
+    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig","sups";
+    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "sups";
+    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "sups";
+    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "sups";
 }
 
 .figures3::before {
