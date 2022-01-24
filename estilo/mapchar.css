@@ -42,7 +42,7 @@
 .char:active { 
     position: fixed;
     top: 50vh;
-    left: 50vh;
+    left: 75vh;
     font-size: 13.25em;
     color: #499bf8;
     z-index: 2000;
