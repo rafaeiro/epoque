@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    grid-column-gap: 0px;
+    gap: ;
+}
+.caracteres {
+    color: #04456A;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 1em;
+}
+#mapadecaracteres {
+    height: 230vh;
+    /* overflow: hidden; */
+}
+#map {
+    margin:0 16.82vw;
+}
+
+.charmap {
+    position: relative;
+    float: left;
+    text-align: center;
+    padding-top: 8vw;
+    font-size: 2.65em;
+    line-height: 1.2em;
+}
+
+.char {
+    text-align: center;
+    color: #04456A;
+    padding: 0;
+    font-weight: bold;
+    display: inline-block;  
+    width: 5vw;
+    height: 5vw;
+    box-sizing: border-box;
+}
+.char:hover { 
+    background-color:rgba(0, 255, 255, 0.1);
+    border:1px solid #04456A;
+}
+.char:active { 
+    font-size: 12em;
+    line-height: -12em;
+    color: #499bf8;
+    background-color:white;
+    border:1px solid #04456A;
+    z-index: 2000;
+}
+
+.ligatures {
+    font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+}
