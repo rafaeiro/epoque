@@ -48,7 +48,13 @@
     color: #499bf8;
     z-index: 2000;
 }
-
+.ss01 { 
+    font-feature-settings: "dlig", "ss01";
+    -moz-font-feature-settings: "dlig", "ss01";
+    -webkit-font-feature-settings: "dlig", "ss01";
+    -ms-font-feature-settings: "dlig", "ss01";
+    -o-font-feature-settings: "dlig", "ss01";
+}
 .liga {
     font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig";
     -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig";
@@ -104,3 +110,4 @@
     -ms-font-feature-settings: "kern" on, "calt" on;
     -o-font-feature-settings: "kern" on, "calt" on;
 }
+
