@@ -49,10 +49,58 @@
     z-index: 2000;
 }
 
-.ligatures {
-    font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
-    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
-    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
-    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
-    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+.liga {
+    font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig";
+    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig";
+    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig";
+    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig";
+    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig";
+}
+
+.tnum { 
+    font-feature-settings: "tnum";
+    -moz-font-feature-settings: "tnum";
+    -webkit-font-feature-settings: "tnum";
+    -ms-font-feature-settings: "tnum";
+    -o-font-feature-settings: "tnum";
+}
+
+.pnum {
+    font-feature-settings: "pnum";
+    -moz-font-feature-settings: "pnum";
+    -webkit-font-feature-settings: "pnum";
+    -ms-font-feature-settings: "pnum";
+    -o-font-feature-settings: "pnum";
+} 
+
+.onum {
+    font-feature-settings: "onum";
+    -moz-font-feature-settings: "onum";
+    -webkit-font-feature-settings: "onum";
+    -ms-font-feature-settings: "onum";
+    -o-font-feature-settings: "onum";
+}
+
+.numr {
+    font-feature-settings: "kern" off, "liga" off, "calt" off, "numr";
+    -moz-font-feature-settings: "kern" off, "liga" off, "calt" off, "numr";
+    -webkit-font-feature-settings: "kern" off, "liga" off, "calt" off, "numr";
+    -ms-font-feature-settings: "kern" off, "liga" off, "calt" off, "numr";
+    -o-font-feature-settings: "kern" off, "liga" off, "calt" off, "numr";
+}
+
+.dnum {
+    font-feature-settings: "dnom";
+    -moz-font-feature-settings:  "dnom";
+    -webkit-font-feature-settings: "dnom";
+    -ms-font-feature-settings: "dnom";
+    -o-font-feature-settings: "dnom";
+}
+
+.NDL {
+    font-feature-settings: "kern" on, "calt" on;
+    -moz-font-feature-settings: "kern" on, "calt" on;
+    -webkit-font-feature-settings: "kern" on, "calt" on;
+    -ms-font-feature-settings: "kern" on, "calt" on;
+    -o-font-feature-settings: "kern" on, "calt" on;
 }
