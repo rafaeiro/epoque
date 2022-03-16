@@ -1,0 +1,97 @@
+@charset "utf-8";
+#rodape {
+    width: 100%;
+    background-color: #5989c7;
+    height: 18vw;
+    z-index: 1010;
+}
+
+#rodape>div {
+    width: 360px;
+    display: inline-block;
+    float: left;
+    padding: 36px 0 0 24px;
+    position: relative;
+}
+
+.line {
+    display: inline-block;
+    padding-left: 3px;
+}
+
+.cor-f {
+    fill: lavender
+}
+
+.cor-f:hover {
+    fill: #04456a;
+}
+
+#Camada_1 {
+    width: 90%;
+}
+
+.cls-1 {
+    fill: #04456ae8;
+}
+
+.cls-2 {
+    fill: none;
+    opacity: 0.24;
+}
+
+.cls-3 {
+    fill: lavender;
+}
+
+.cls-1:hover {
+    fill: lavender;
+    transition: .15s;
+}
+
+.cls-2:hover {
+    fill: none;
+    opacity: 0.24;
+}
+
+.cls-3:hover {
+    fill: #04456ae8;
+    transition: .15s;
+}
+
+@media screen and (min-width: 641px) and (max-width: 960px) {
+    #rodape {
+        height: 320px;
+    }
+    #rodape>div {
+        width: 300px;
+        padding: 28px 0 0 24px;
+    }
+    .line {
+        padding-right: 9px;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 640px) {
+#rodape {
+    height: 420px;
+}
+#rodape>div {
+    width: 300px;
+    padding: 28px 0 0 24px;
+}
+.line {
+    padding-right: 9px;
+}
+}
+@media screen and (min-width: 300px) and (max-width: 480px) {
+    #rodape {
+        height: 445px;
+    }
+    #rodape>div {
+        width: 280px;
+        padding: 28px 0 0 24px;
+    }
+    .line {
+        padding-right: 13px;
+    }
+}
