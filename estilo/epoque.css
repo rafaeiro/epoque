@@ -580,6 +580,18 @@ footer {
         padding-top: 10vh;
         padding-bottom: 10vh;
     }
+    #prologo p {
+        padding-top: 13vw;
+        padding-bottom: 9vw;
+    }
+    .indice{
+        margin-top: 8vh;
+    }
+
+    .indice a {
+        margin-top: 0px;
+        font-size: .8em;
+    }
     .branca1 {
         height: 85vw;
         background-image: url("../midia/imagens/background002-tb.png");
@@ -696,6 +708,34 @@ footer {
     section {
         position: relative;
         height: 62vw;
+    }
+    section>h1 {
+        text-align: center;
+        font: normal normal 7em/1 'epoque-light', sans-serif;
+        padding-top: 16vw;
+    }
+    .branca1,
+    .paginas,
+    .prologo {
+        padding-top: 5vw;
+        padding-bottom: 10vw;
+    }
+    #prologo {
+        background-image: url("../midia/imagens/background001-tb.png");
+        padding-top: 12vh;
+        padding-bottom: 17vh;
+        font-size: 1em;
+    }
+    #prologo p {
+        padding-top: 20vw;
+    }
+    .indice{
+        margin-top: 12vh;
+    }
+
+    .indice a {
+        margin-top: 0px;
+        font-size: .75em;
     }
     .paginas {
         padding-top: 40px;
@@ -840,12 +880,13 @@ footer {
     }
 }
 
-@media screen and (min-width: 300px) and (max-width: 480px) {
+@media screen and (min-width: 280px) and (max-width: 480px) {
     section {
         height: 80vw;
     }
     section>h1 {
         font: normal normal 5em/1 'epoque-light', sans-serif;
+        padding-top: 16vw;
     }
     .branca1,
     .paginas,
@@ -856,8 +897,18 @@ footer {
     #prologo {
         background-image: url("../midia/imagens/background001-tb.png");
         padding-top: 12vh;
-        padding-bottom: 16vh;
+        padding-bottom: 17vh;
         font-size: 1.1em;
+    }
+    #prologo p {
+        padding-top: 18vw;
+    }
+    .indice{
+        margin-top: 20vw;
+    }
+    .indice a {
+        margin-top: 0px;
+        font-size: .75em;
     }
     .branca1 {
         background-image: url("../midia/imagens/background002-sm.png");
