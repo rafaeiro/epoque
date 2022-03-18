@@ -111,3 +111,69 @@
     -o-font-feature-settings: "kern" on, "calt" on;
 }
 
+@media screen and (min-width: 641px) and (max-width: 960px){
+    #map {
+        margin:0 4vw;
+    }
+    
+    .charmap {
+        padding-top: 8vw;
+        font-size: 2.16em;
+        line-height: 1.1em;
+    }
+    
+    .char {
+        width: 9vw;
+        height: 9vw;
+    }
+    
+    .char:active { 
+        left: 35vw;
+        font-size: 13em;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 640px){
+    #map {
+        margin:0 2vw;
+    }
+    
+    .charmap {
+        padding-top: 8vw;
+        font-size: 2.32em;
+        line-height: 1.15em;
+    }
+    
+    .char {
+        width: 7vw;
+        height: 7vw;
+    }
+    
+    .char:active { 
+        left: 35vw;
+        font-size: 13em;
+    }
+}
+
+@media screen and (min-width: 280px) and (max-width: 480px){
+
+    #map {
+        margin:0 1vw;
+    }
+    
+    .charmap {
+        padding-top: 8vw;
+        font-size: 2.08em;
+        line-height: 1.1em;
+    }
+    
+    .char {
+        width: 11vw;
+        height: 11vw;
+    }
+    
+    .char:active { 
+        left: 20vw;
+        font-size: 13em;
+    }
+}
