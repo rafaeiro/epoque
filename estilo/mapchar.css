@@ -7,11 +7,12 @@
     padding-top: 1em;
 }
 #mapadecaracteres {
-    height: 100vh;
-    /* overflow: hidden; */
+    height: 80vw;
 }
 #map {
     margin:0 16.82vw;
+/*     height: 740px;
+    overflow: auto; */
 }
 
 .charmap {

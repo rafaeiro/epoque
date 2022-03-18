@@ -133,19 +133,21 @@ section {
     background-attachment: fixed;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    z-index: 1;
+    z-index: 999;
 }
 
 #desc {
     color: #04456A;
     text-align: left;
-    margin: 0 18vw 0 18vw;
+    margin: 0 18vw 4vw 18vw;
     padding-top: 8vw;
     font-size: 1.42em;
     line-height: 1.3em;
     font-weight: bold;
 }
-
+#terceira{
+    z-index: 1;
+}
 #pesos {
     max-width: 1600px;
     font-size: 1em;
@@ -288,7 +290,7 @@ h2 {
 
 .superior {
     position: absolute;
-    z-index: 2;
+    z-index: 999;
     display: block;
     font: bold normal 8em/1.15 'epoque', sans-serif;
     color: lavender;
@@ -302,9 +304,11 @@ h2 {
 }
 
 div#video {
-    height: 99vh;
+    height: 97vh;
     position: relative;
+    top: -8px;
     display: block;
+    z-index: 1;
 }
 
 video#marquise {
@@ -914,10 +918,14 @@ footer {
         background-image: url("../midia/imagens/background002-sm.png");
     }
     #desc {
-        margin: 0 2px 0 4px;
+        margin: 0 2px 4vw 4px;
+        padding-bottom: 6vw;
         font-size: 1.15em;
         line-height: 1.3em;
         font-weight: bold;
+    }
+    #terceira{
+        margin-top: 9.2em;
     }
     .superior {
         font: bold normal 3em/1em 'epoque-light', sans-serif;
@@ -935,8 +943,8 @@ footer {
     }
     #p96 {
         width: 40%;
-        padding: 0px 1px 0 1px;
-        line-height: 7.2em;
+        padding: 30px 1px 0 1px;
+        line-height: 10.2em;
     }
     #p96::after {
         content: "Époque 45 96pt";
@@ -949,7 +957,7 @@ footer {
     }
     #p48 {
         width: 21%;
-        padding: 19px 1px 0px 1px;
+        padding: 22px 1px 0px 1px;
         line-height: 6.44em;
     }
     #p48::after {
@@ -978,7 +986,7 @@ footer {
     }
     #p24 {
         float: left;
-        padding: 34px 1px 0 0;
+        padding: 33px 1px 0 0;
         width: 20%;
         line-height: 5.80em;
     }
