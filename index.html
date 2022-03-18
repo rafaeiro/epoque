@@ -2,785 +2,785 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Époque</title>
-    <link rel="stylesheet" href="fonts/myfonts/epoque/epoque.css" type="text/css" charset="utf-8">
-    <link rel="stylesheet" href="fonts/myfonts/epoque-light/epoque-light.css" type="text/css" charset="utf-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Époque</title>
+  <link rel="stylesheet" href="fonts/myfonts/epoque/epoque.css" type="text/css" charset="utf-8">
+  <link rel="stylesheet" href="fonts/myfonts/epoque-light/epoque-light.css" type="text/css" charset="utf-8">
 
-    <link rel="stylesheet" type="text/css" href="estilo/cabecalho.css" charset="utf-8"/>
-    <link rel="stylesheet" href="estilo/epoque.css" type="text/css" charset="utf-8">
-    <link rel="stylesheet" href="estilo/rodape.css" type="text/css" charset="utf-8">
-    <link rel="stylesheet" href="estilo/mapchar.css" type="text/css" charset="utf-8">
-    <link rel="shortcut icon" href="midia/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="">
+  <link rel="stylesheet" type="text/css" href="estilo/cabecalho.css" charset="utf-8"/>
+  <link rel="stylesheet" href="estilo/epoque.css" type="text/css" charset="utf-8">
+  <link rel="stylesheet" href="estilo/rodape.css" type="text/css" charset="utf-8">
+  <link rel="stylesheet" href="estilo/mapchar.css" type="text/css" charset="utf-8">
+  <link rel="shortcut icon" href="midia/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="">
 
-    <style>
+  <style>
 @font-face {
-    font-family: 'acay';
-    src: url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.eot');
-    src: url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.woff2') format('woff2'),
-         url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.woff') format('woff'),
-         url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+  font-family: 'acay'
+  src: url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.eot')
+  src: url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.eot?#iefix') format('embedded-opentype'),
+ url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.woff2') format('woff2'),
+ url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.woff') format('woff'),
+ url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.ttf') format('truetype')
+  font-weight: bold
+  font-style: normal
 
 }
 @font-face {
-    font-family: 'acay';
-    src: url('fonts/webfontkit-acay-light/garimpeira-xlight_f-webfont.eot');
-    src: url('fonts/webfontkit-acay-light/garimpeira-xlight_f-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/webfontkit-acay-light/garimpeira-xlight_f-webfont.woff2') format('woff2'),
-         url('fonts/webfontkit-acay-light/garimpeira-xlight_f-webfont.woff') format('woff'),
-         url('fonts/webfontkit-acay-light/garimpeira-xlight_f-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'acay'
+  src: url('fonts/webfontkit-acay-light/garimpeira-xlight_f-webfont.eot')
+  src: url('fonts/webfontkit-acay-light/garimpeira-xlight_f-webfont.eot?#iefix') format('embedded-opentype'),
+ url('fonts/webfontkit-acay-light/garimpeira-xlight_f-webfont.woff2') format('woff2'),
+ url('fonts/webfontkit-acay-light/garimpeira-xlight_f-webfont.woff') format('woff'),
+ url('fonts/webfontkit-acay-light/garimpeira-xlight_f-webfont.ttf') format('truetype')
+  font-weight: normal
+  font-style: normal
 
 }
 .menu, .rodape {
-    font-family: 'acay';
-    font-style: normal;
-    font-size: 1.05em;
-    letter-spacing: 0.015em;
+  font-family: 'acay'
+  font-style: normal
+  font-size: 1.05em
+  letter-spacing: 0.015em
 }
 #escondido {
-    display: none;
+  display: none
 }
 #esconder {
-    display: none;
+  display: none
 }
 .esconde {
-    font-size: .4em;
-    font-weight: 100;
+  font-size: .4em
+  font-weight: 100
 }
 .esconde:hover {
-    font-weight: 900;
+  font-weight: 900
 }
 
-    </style>
+  </style>
 </head>
 
 <body>
-    <header>
+  <header>
 
-        <nav id="nav">
-            <div>
-                <a href="https://rafaeiro.github.io/typeiro/"><img src="midia/imagens/Eito isolado.png" alt="logo"></a>
-            </div>
-            <div class="container">
-                <input type="checkbox" id="checkbox-menu">
-            
-                <label class="check" for="checkbox-menu">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <ul class="menu">
+    <nav id="nav">
+  <div>
+    <a href="https://rafaeiro.github.io/typeiro/"><img src="midia/imagens/Eito isolado.png" alt="logo"></a>
+  </div>
+  <div class="container">
+    <input type="checkbox" id="checkbox-menu">
+  
+    <label class="check" for="checkbox-menu">
+ <span></span>
+ <span></span>
+ <span></span>
+ <ul class="menu">
 
-                    <li class="portfa"><a href="">Fontes</a>
-                        <ul>
-    
-                            <li class="fontes"><a href="#">Époque</a></li>
-                            <li class="fontes"><a href="#">Époque Seria</a></li>
-                            <li class="fontes"><a href="#">Alumina</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contato</a></li>
-                </ul>  
-                </label>
-                <ul class="menu">
+  <li class="portfa"><a href="">Fontes</a>
+ <ul>
+  
+   <li class="fontes"><a href="#">Époque</a></li>
+   <li class="fontes"><a href="#">Époque Seria</a></li>
+   <li class="fontes"><a href="#">Alumina</a></li>
+ </ul>
+  </li>
+  <li><a href="">Blog</a></li>
+  <li><a href="">Contato</a></li>
+    </ul> 
+    </label>
+    <ul class="menu">
 
-                    <li class="portfa"><a href="">Fontes</a>
-                        <ul>
-    
-                            <li class="fontes"><a href="#">Époque</a></li>
-                            <li class="fontes"><a href="#">Époque Seria</a></li>
-                            <li class="fontes"><a href="#">Alumina</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contato</a></li>
-                </ul>
-              </div>
-            
-        </nav>
+  <li class="portfa"><a href="">Fontes</a>
+ <ul>
+  
+   <li class="fontes"><a href="#">Époque</a></li>
+   <li class="fontes"><a href="#">Époque Seria</a></li>
+   <li class="fontes"><a href="#">Alumina</a></li>
+ </ul>
+  </li>
+  <li><a href="">Blog</a></li>
+  <li><a href="">Contato</a></li>
+    </ul>
+   </div>
+  
+    </nav>
 
-    </header>
-    <section id="prologo">
-        <h1 class="center">ÉPOQU<span class="salt">E</span></h1>
-        <p lang="en">Uma família tipográfica OpenType que evoca a era de ouro</p>
-        <ul class="indice">
-            <li><a href="#desc">Sobre</a></li><!--
-    --><li><a href="#video">Em movimento</a></li><!--
-    --><li><a href="#pesos">Pesos & tamanhos</a></li><!--
-    --><li><a href="#exemplo">Exemplos</a></li><!--
-    --><li><a href="#paginas">Algarismos</a></li><!--
-    --><li><a href="#info">Informações</a></li>
-        </ul>
+  </header>
+  <section id="prologo">
+    <h1 class="center">ÉPOQU<span class="salt">E</span></h1>
+    <p lang="en">Uma família tipográfica OpenType que evoca a era de ouro</p>
+    <ul class="indice">
+  <li><a href="#desc">Sobre</a></li><!--
+  --><li><a href="#video">Em movimento</a></li><!--
+  --><li><a href="#pesos">Pesos & tamanhos</a></li><!--
+  --><li><a href="#exemplo">Exemplos</a></li><!--
+  --><li><a href="#paginas">Algarismos</a></li><!--
+  --><li><a href="#info">Informações</a></li>
+    </ul>
 
-    </section>
-    <section class="branca1">
-        <p id="desc">
-            A fonte <a href="https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque/">Époque</a> surgiu inicialmente para composição de um catálogo de moda com alguns materiais da Amazônia brasileira. As peças da coleção utilizavam a borracha natural como
-            principal matéria-prima, por causa disso, os desenhos das maiúsculas utiliza formas que remetem à tipografia do período histórico 1890-1910 época em que a borracha era o principal motor da economia amazônica. Essa font-face possui um conjunto
-            completo de numerais, um conjunto de ligaduras padrão, além de alternativas em glifos específicos e um grande conjunto de ligaduras discricionárias compostas principalmente por MAIÚSCULAS. A família Époque é composta por quatro pesos sem itálico,
-            porém conta com variantes alternativas no lugar. É uma fonte recomendada para títulos, logotipos e pôsteres.
-        </p>
+  </section>
+  <section class="branca1">
+    <p id="desc">
+  A fonte <a href="https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque/">Époque</a> surgiu inicialmente para composição de um catálogo de moda com alguns materiais da Amazônia brasileira. As peças da coleção utilizavam a borracha natural como
+  principal matéria-prima, por causa disso, os desenhos das maiúsculas utiliza formas que remetem à tipografia do período histórico 1890-1910 época em que a borracha era o principal motor da economia amazônica. Essa font-face possui um conjunto
+  completo de numerais, um conjunto de ligaduras padrão, além de alternativas em glifos específicos e um grande conjunto de ligaduras discricionárias compostas principalmente por MAIÚSCULAS. A família Époque é composta por quatro pesos sem itálico,
+  porém conta com variantes alternativas no lugar. É uma fonte recomendada para títulos, logotipos e pôsteres.
+    </p>
 
-    </section>
+  </section>
 
-    <a class="indi" href="#nav">Início</a>
+  <a class="indi" href="#nav">Início</a>
 
-    <p class="superior">Essa fonte foi feita para <span>impressão</span></p>
-    <div id="video">
-        <video id="marquise" src="midia/MAGIQUE LETTERS.mp4" autoplay loop></video>
+  <p class="superior">Essa fonte foi feita para <span>impressão</span></p>
+  <div id="video">
+    <video id="marquise" src="midia/MAGIQUE LETTERS.mp4" autoplay loop></video>
+  </div>
+
+  <section class="paginas">
+    <article id="pesos">
+  <h2>Fontes de Light ao Black</h2>
+  <a href="https://www.myfonts.com/cart/1639428949" target="blanc">
+    <p id="p96">Aaeg<br></p>
+  </a>
+  <a href="https://www.myfonts.com/cart/1639434152" target="blanc">
+    <p id="p48">Aaeg<br></p>
+  </a>
+  <a href="https://www.myfonts.com/cart/1639439961" target="blanc">
+    <p id="p32">Aaeg<br></p>
+  </a>
+  <a href="https://www.myfonts.com/cart/1639443576" target="blanc">
+    <p id="p24">Aaeg<br></p>
+  </a>
+    </article>
+
+  </section>
+
+  <section id="exemplo" class="final">
+
+    <div id="fotos">
+  <ul class="slider">
+    <li>
+  <input type="radio" id="slide1" name="slide" checked>
+  <label for="slide1"></label>
+  <picture class="img">
+ <source media="(max-width: 512px)" srcset="midia/imagens/philarmonic_p.png" type="image/png">
+ <source media="(max-width: 960px)" srcset="midia/imagens/philarmonic_m.png" type="image/png">
+ <img src="midia/imagens/Philarmonic.png" alt="compre cartolas philarmonic">
+  </picture>
+    </li>
+    <li>
+  <input type="radio" id="slide2" name="slide">
+  <label for="slide2"></label>
+  <picture class="img">
+ <source media="(max-width: 512px)" srcset="midia/imagens/choco-p.png" type="image/png">
+ <source media="(max-width: 960px)" srcset="midia/imagens/choco-m.png" type="image/png">
+ <img src="midia/imagens/choco.png" alt="Barra de chocolate de cupuaçu da amazônia">
+  </picture>
+    </li>
+    <li>
+  <input type="radio" id="slide3" name="slide">
+  <label for="slide3"></label>
+  <picture class="img">
+ <source media="(max-width: 512px)" srcset="midia/imagens/cafe_p.png" type="image/png">
+ <source media="(max-width: 960px)" srcset="midia/imagens/cafe_m.png" type="image/png">
+ <img src="midia/imagens/café.png" alt="Terra do Alumínio">
+  </picture>
+    </li>
+  </ul>
     </div>
-
-    <section class="paginas">
-        <article id="pesos">
-            <h2>Fontes de Light ao Black</h2>
-            <a href="https://www.myfonts.com/cart/1639428949" target="blanc">
-                <p id="p96">Aaeg<br></p>
-            </a>
-            <a href="https://www.myfonts.com/cart/1639434152" target="blanc">
-                <p id="p48">Aaeg<br></p>
-            </a>
-            <a href="https://www.myfonts.com/cart/1639439961" target="blanc">
-                <p id="p32">Aaeg<br></p>
-            </a>
-            <a href="https://www.myfonts.com/cart/1639443576" target="blanc">
-                <p id="p24">Aaeg<br></p>
-            </a>
-        </article>
-
-    </section>
-
-    <section id="exemplo" class="final">
-
-        <div id="fotos">
-            <ul class="slider">
-                <li>
-                    <input type="radio" id="slide1" name="slide" checked>
-                    <label for="slide1"></label>
-                    <picture class="img">
-                        <source media="(max-width: 512px)" srcset="midia/imagens/philarmonic_p.png" type="image/png">
-                        <source media="(max-width: 960px)" srcset="midia/imagens/philarmonic_m.png" type="image/png">
-                        <img src="midia/imagens/Philarmonic.png" alt="compre cartolas philarmonic">
-                    </picture>
-                </li>
-                <li>
-                    <input type="radio" id="slide2" name="slide">
-                    <label for="slide2"></label>
-                    <picture class="img">
-                        <source media="(max-width: 512px)" srcset="midia/imagens/choco-p.png" type="image/png">
-                        <source media="(max-width: 960px)" srcset="midia/imagens/choco-m.png" type="image/png">
-                        <img src="midia/imagens/choco.png" alt="Barra de chocolate de cupuaçu da amazônia">
-                    </picture>
-                </li>
-                <li>
-                    <input type="radio" id="slide3" name="slide">
-                    <label for="slide3"></label>
-                    <picture class="img">
-                        <source media="(max-width: 512px)" srcset="midia/imagens/cafe_p.png" type="image/png">
-                        <source media="(max-width: 960px)" srcset="midia/imagens/cafe_m.png" type="image/png">
-                        <img src="midia/imagens/café.png" alt="Terra do Alumínio">
-                    </picture>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <section id="paginas" class="paginas">
-        <H2><span  lang="en">Figures</span></H2>
-        <div class="caixa">
-            <P id="fig" class="figures1"><span>1 2 3 4 5 6 7 8 9 0</span></P>
-            <P id="fig" class="figures2">H<span>2</span>O</P>
-            <p id="fig" class="figures3"><span lang="en">Footnote</span><span>56</span>&nbsp;&nbsp; h<span>2</span> = a<span>2</span> + b<span>2</span></P>
-            <p id="fig" class="figures4"><span>123</span>/<span id="num">456</span></p>
-        </div>
-    </section>
+  </section>
+  <section id="paginas" class="paginas">
+    <H2><span lang="en">Figures</span></H2>
+    <div class="caixa">
+  <P id="fig" class="figures1"><span>1 2 3 4 5 6 7 8 9 0</span></P>
+  <P id="fig" class="figures2">H<span>2</span>O</P>
+  <p id="fig" class="figures3"><span lang="en">Footnote</span><span>56</span>&nbsp&nbsp h<span>2</span> = a<span>2</span> + b<span>2</span></P>
+  <p id="fig" class="figures4"><span>123</span>/<span id="num">456</span></p>
+    </div>
+  </section>
 <section id="mapadecaracteres">
-    <h2 class="caracteres">Conjunto de caracteres</h2>
-    <div id="map">
-        <ul class="charmap">				
-		<div id="escondido">		
-            <li class="char salt" title="uni0123">&#291;</li><!--				
-            --><li class="char salt" title="quoteleftsalt">‘</li><!--				
-            --><li class="char 	figures	 title="eight">8</li><!--		
-            --><li class="char 	figures	onum tnum" title="eight onum tnum">8</li><!--		
-            --><li class="char 	figures	 tnum" title="eighttnum">8</li><!--		
-            --><li class="char 	figures	 onum pnum" title="eight onum pnum">8</li><!--		
-            --><li class="char 	figures	 numr" title="eight numr">8</li><!--		
-            --><li class="char 	figures	 dnum" title="eight dnum">8</li><!--		
-            --><li class="char 	figures"	 title="five">5</li><!--		
-            --><li class="char 	figures	 onum tnum" title="five onum tnum">5</li><!--		
-            --><li class="char 	figures	 tnum" title="fivetnum">5</li><!--		
-            --><li class="char 	figures	 onum pnum" title="five onum pnum">5</li><!--		
-            --><li class="char 	figures	 numr" title="five numr">5</li><!--		
-            --><li class="char 	figures	 dnum" title="five dnum">5</li><!--		
-            --><li class="char 	figures	 title=four">4</li><!--		
-            --><li class="char 	figures	 onum tnum" title="four onum tnum">4</li><!--		
-            --><li class="char 	figures	 tnum" title="fourtnum">4</li><!--		
-            --><li class="char 	figures	 onum pnum" title="four onum pnum">4</li><!--		
-            --><li class="char 	figures	 numr" title="four numr">4</li><!--		
-            --><li class="char 	figures	 dnum" title="four dnum">4</li><!--		
-            --><li class="char 	figures	 title=nine">9</li><!--		
-            --><li class="char 	figures	 onum tnum" title="nine onum tnum">9</li><!--		
-            --><li class="char 	figures	 tnum" title="ninetnum">9</li><!--		
-            --><li class="char 	figures	 onum pnum" title="nine onum pnum">9</li><!--		
-            --><li class="char 	figures	 numr" title="nine numr">9</li><!--		
-            --><li class="char 	figures	 dnum" title="nine dnum">9</li><!--		
-            --><li class="char 	figures	 title=one">1</li><!--		
-            --><li class="char 	figures	 onum tnum" title="one onum tnum">1</li><!--		
-            --><li class="char 	figures	 tnum" title="onetnum">1</li><!--		
-            --><li class="char 	figures	 onum pnum" title="one onum pnum">1</li><!--		
-            --><li class="char 	figures	 numr" title="one numr">1</li><!--		
-            --><li class="char 	figures	 dnum" title="one dnum">1</li><!--		
-            --><li class="char 	figures	 title="onehalf">½</li><!--		
-            --><li class="char 	figures	 title="onequarter">¼</li><!--		
-            --><li class="char 	figures	 title="onesuperior">¹</li><!--		
-            --><li class="char 	figures	 title="seven">7</li><!--		
-            --><li class="char 	figures	 onum tnum" title="seven onum tnum">7</li><!--		
-            --><li class="char 	figures	 tnum" title="seventnum">7</li><!--		
-            --><li class="char 	figures	 onum pnum" title="seven onum pnum">7</li><!--		
-            --><li class="char 	figures	 numr" title="seven numr">7</li><!--		
-            --><li class="char 	figures	 dnum" title="seven dnum">7</li><!--		
-            --><li class="char 	figures	 title=six">6</li><!--		
-            --><li class="char 	figures	 onum tnum" title="six onum tnum">6</li><!--		
-            --><li class="char 	figures	 tnum" title="sixtnum">6</li><!--		
-            --><li class="char 	figures	 onum pnum" title="six onum pnum">6</li><!--		
-            --><li class="char 	figures	 numr" title="six numr">6</li><!--		
-            --><li class="char 	figures	 dnum" title="six dnum">6</li><!--		
-            --><li class="char 	figures	 title="three">3</li><!--		
-            --><li class="char 	figures	 onum tnum" title="three onum tnum">3</li><!--		
-            --><li class="char 	figures	 tnum" title="threetnum">3</li><!--		
-            --><li class="char 	figures	 onum pnum" title="three onum pnum">3</li><!--		
-            --><li class="char 	figures	 numr" title="three numr">3</li><!--		
-            --><li class="char 	figures	 dnum" title="three dnum">3</li><!--		
-            --><li class="char 	figures	 title="threequarters">¾</li><!--		
-            --><li class="char 	figures	 title="threesuperior">³</li><!--		
-            --><li class="char 	figures	 title="two">2</li><!--		
-            --><li class="char 	figures	 onum tnum" title="two onum tnum">2</li><!--		
-            --><li class="char 	figures	 tnum" title="twotnum">2</li><!--		
-            --><li class="char 	figures	 onum pnum" title="two onum pnum">2</li><!--		
-            --><li class="char 	figures	 numr" title="two numr">2</li><!--		
-            --><li class="char 	figures	 dnum" title="two dnum">2</li><!--		
-            --><li class="char 	figures	 title="twosuperior">²</li><!--		
-            --><li class="char 	figures	 title="zero">0</li><!--		
-            --><li class="char 	figures	 onum tnum" title="zero onum tnum">0</li><!--		
-            --><li class="char 	figures	 tnum" title="zero tnum">0</li><!--		
-            --><li class="char 	figures	 onum pnum" title="zero onum pnum">0</li><!--		
-            --><li class="char 	figures	 numr" title="zero numr">0</li><!--		
-            --><li class="char 	figures	 dnum" title="zero dnum">0</li><!--				
-            --><li class="char" title="acute">´</li><!--			
-            --><li class="char" title="ampersand">&amp;</li><!--			
-            --><li class="char" title="approxequal">≈</li><!--			
-            --><li class="char" title="asciicircum">^</li><!--			
-            --><li class="char" title="asciitilde">~</li><!--			
-            --><li class="char" title="asterisk">*</li><!--			
-            --><li class="char" title="at">@</li><!--			
-            --><li class="char" title="backslash">\</li><!--			
-            --><li class="char" title="bar">|</li><!--			
-            --><li class="char" title="braceleft">{</li><!--			
-            --><li class="char" title="braceright">}</li><!--			
-            --><li class="char" title="bracketleft">[</li><!--			
-            --><li class="char" title="bracketright">]</li><!--			
-            --><li class="char" title="breve">˘</li><!--			
-            --><li class="char" title="brokenbar">¦</li><!--			
-            --><li class="char" title="bullet">•</li><!--			
-            --><li class="char" title="C">C</li><!--			
-            --><li class="char" title="c">c</li><!--			
-            --><li class="char" title="caron">ˇ</li><!--			
-            --><li class="char" title="cedilla">¸</li><!--			
-            --><li class="char" title="cent">¢</li><!--			
-            --><li class="char" title="circumflex">ˆ</li><!--			
-            --><li class="char" title="colon">:</li><!--			
-            --><li class="char" title="comma">,</li><!--			
-            --><li class="char" title="copyright">©</li><!--			
-            --><li class="char" title="CR">&nbsp;</li><!--			
-            --><li class="char" title="currency">¤</li><!--			
-            --><li class="char" title="d">d</li><!--			
-            --><li class="char" title="dagger">†</li><!--			
-            --><li class="char" title="daggerdbl">‡</li><!--			
-            --><li class="char" title="degree">°</li><!--			
-            --><li class="char" title="dieresis">¨</li><!--			
-            --><li class="char" title="divide">÷</li><!--			
-            --><li class="char" title="dollar">$</li><!--			
-            --><li class="char" title="dotaccent">•</li><!--			
-            --><li class="char" title="ellipsis">…</li><!--			
-            --><li class="char" title="emdash">—</li><!--			
-            --><li class="char" title="endash">–</li><!--			
-            --><li class="char" title="equal">=</li><!--			
-            --><li class="char" title="estimated">℮</li><!--			
-            --><li class="char" title="Euro">€</li><!--			
-            --><li class="char" title="exclam">@</li><!--			
-            --><li class="char" title="exclamdown">¡</li><!--			
-            --><li class="char" title="florin">ƒ</li><!--			
-            --><li class="char" title="fraction">⁄</li><!--			
-            --><li class="char" title="grave">`</li><!--			
-            --><li class="char" title="greater">></li><!--			
-            --><li class="char" title="greaterequal">≤</li><!--			
-            --><li class="char" title="guillemotleft">«</li><!--			
-            --><li class="char" title="guillemotright">»</li><!--			
-            --><li class="char" title="guilsinglleft">‹</li><!--			
-            --><li class="char" title="guilsinglright">›</li><!--			
-            --><li class="char" title="hungarumlaut">˝</li><!--			
-            --><li class="char" title="hyphen">-</li><!--			
-            --><li class="char" title="iacute">í</li><!--			
-            --><li class="char" title="Igrave">Ì</li><!--			
-            --><li class="char" title="infinity">∞</li><!--			
-            --><li class="char" title="integral">∫</li><!--			
-            --><li class="char" title="less"><</li><!--			
-            --><li class="char" title="lessequal">≤</li><!--			
-            --><li class="char" title="lira">&#8356;</li><!--			
-            --><li class="char" title="logicalnot">∫</li><!--			
-            --><li class="char" title="lozenge">◊</li><!--			
-            --><li class="char" title="macron">¯</li><!--			
-            --><li class="char" title="macron">–</li><!--			
-            --><li class="char" title="minus">-</li><!--			
-            --><li class="char" title="mu">µ</li><!--			
-            --><li class="char" title="multiply">×</li><!--			
-            --><li class="char" title="notequal">≠</li><!--			
-            --><li class="char" title="NULL">&#0;</li><!--			
-            --><li class="char" title="numbersign">#</li><!--			
-            --><li class="char" title="o">o</li><!--			
-            --><li class="char" title="ordfeminine">ª</li><!--			
-            --><li class="char" title="ordmasculine">º</li><!--			
-            --><li class="char" title="paragraph">¶</li><!--			
-            --><li class="char" title="parenleft">(</li><!--			
-            --><li class="char" title="parenright">)</li><!--			
-            --><li class="char" title="partialdiff">∂</li><!--			
-            --><li class="char" title="percent">%</li><!--			
-            --><li class="char" title="period">.</li><!--			
-            --><li class="char" title="periodcentered">•</li><!--			
-            --><li class="char" title="perthousand">‰</li><!--			
-            --><li class="char" title="pi">π</li><!--			
-            --><li class="char" title="plus">+</li><!--			
-            --><li class="char" title="plusminus">±</li><!--			
-            --><li class="char" title="product">∏</li><!--			
-            --><li class="char" title="question">?</li><!--			
-            --><li class="char" title="questiondown">¿</li><!--			
-            --><li class="char" title="quotedbl">"</li><!--			
-            --><li class="char" title="quotedblbase">„</li><!--			
-            --><li class="char" title="quotedblleft"> </li><!--			
-            --><li class="char" title="quoteright">’</li><!--			
-            --><li class="char" title="quotesinglbase">‚</li><!--			
-            --><li class="char" title="quotesingle">'</li><!--			
-            --><li class="char" title="radical">√</li><!--			
-            --><li class="char" title="registered">®</li><!--			
-            --><li class="char" title="ring">˚</li><!--			
-            --><li class="char" title="section">§</li><!--			
-            --><li class="char" title="semicolon">;</li><!--			
-            --><li class="char" title="slash">/</li><!--			
-            --><li class="char" title="space">&nbsp;</li><!--			
-            --><li class="char" title="sterling">£</li><!--			
-            --><li class="char" title="summation">∑</li><!--			
-            --><li class="char" title="t">t</li><!--			
-            --><li class="char" title="tilde">˜</li><!--			
-            --><li class="char" title="trademark">™</li><!--			
-            --><li class="char" title="U">U</li><!--			
-            --><li class="char" title="underscore">_</li><!--			
-            --><li class="char" title="uni00A0">&nbsp;</li><!--			
-            --><li class="char" title="uni00AD">&#xAD;</li>
-        </div>		
-            <div>
-                <li class="char" title="uni0122">Ģ</li><!--
-                --><li class="char" title="uni0123">&#291;</li><!--
-                --><li class="char" title="uni0136">&#x136;</li><!--
-                --><li class="char" title="uni0137">&#x137;</li><!--
-                --><li class="char" title="uni013B">&#x13B;</li><!--
-                --><li class="char" title="uni013C">&#x13C;</li><!--
-                --><li class="char" title="uni203D">‽</li><!--
-                --><li class="char" title="uni2113">ℓ</li><!--
-                --><li class="char" title="uni2E18">⸘</li><!--
-                --><li class="char" title="yen">¥</li><!--
-                --><li class="char lowercase"  title="a">a</li><!--
-                --><li class="char lowercase"  title="aacute">á</li><!--
-                --><li class="char lowercase"  title="abreve">ă</li><!--
-                --><li class="char lowercase"  title="acircumflex">â</li><!--
-                --><li class="char lowercase"  title="adieresis">ä</li><!--
-                --><li class="char lowercase"  title="ae">æ</li><!--
-                --><li class="char lowercase"  title="agrave">à</li><!--
-                --><li class="char lowercase"  title="amacron">ā</li><!--
-                --><li class="char lowercase"  title="Aogonek">ą</li><!--
-                --><li class="char lowercase"  title="aring">å</li><!--
-                --><li class="char lowercase"  title="atilde">ã</li><!--
-                --><li class="char lowercase"  title="b">b</li><!--
-                --><li class="char lowercase"  title="cacute">ć</li><!--
-                --><li class="char lowercase"  title="ccaron">č</li><!--
-                --><li class="char lowercase"  title="Ccedilla">ç</li><!--
-                --><li class="char lowercase"  title="dcaron">ď</li><!--
-                --><li class="char lowercase"  title="dcroat">đ</li><!--
-                --><li class="char lowercase"  title="e">e</li><!--
-                --><li class="char lowercase"  title="eacute">é</li><!--
-                --><li class="char lowercase"  title="ecaron">ě</li><!--
-                --><li class="char lowercase"  title="ecircumflex">ê</li><!--
-                --><li class="char lowercase"  title="Edieresis">ë</li><!--
-                --><li class="char lowercase"  title="edotaccent">ė</li><!--
-                --><li class="char lowercase"  title="egrave">è</li><!--
-                --><li class="char lowercase"  title="emacron">ē</li><!--
-                --><li class="char lowercase"  title="eogonek">ę</li><!--
-                --><li class="char lowercase"  title="eth">ð</li><!--
-                --><li class="char lowercase"  title="f">f</li><!--
-                --><li class="char lowercase"  title="g">g</li><!--
-                --><li class="char lowercase"  title="germandbls">ß</li><!--
-                --><li class="char lowercase"  title="h">h</li><!--
-                --><li class="char lowercase"  title="i">i</li><!--
-                --><li class="char lowercase"  title="icircumflex">î</li><!--
-                --><li class="char lowercase"  title="idieresis">ï</li><!--
-                --><li class="char lowercase"  title="igrave">ì</li><!--
-                --><li class="char lowercase"  title="imacron">ī</li><!--
-                --><li class="char lowercase"  title="iogonek">į</li><!--
-                --><li class="char lowercase"  title="J">J</li><!--
-                --><li class="char lowercase"  title="j">j</li><!--
-                --><li class="char lowercase"  title="k">k</li><!--
-                --><li class="char lowercase"  title="l">l</li><!--
-                --><li class="char lowercase"  title="lacute">ĺ</li><!--
-                --><li class="char lowercase"  title="lcaron">ľ</li><!--
-                --><li class="char lowercase"  title="ldot">ŀ</li><!--
-                --><li class="char lowercase"  title="lslash">ł</li><!--
-                --><li class="char lowercase"  title="m">m</li><!--
-                --><li class="char lowercase"  title="n">n</li><!--
-                --><li class="char lowercase"  title="nacute">ń</li><!--
-                --><li class="char lowercase"  title="ncaron">ň</li><!--
-                --><li class="char lowercase"  title="ntilde">ñ</li><!--
-                --><li class="char lowercase"  title="oacute">ó</li><!--
-                --><li class="char lowercase"  title="ocircumflex">ô</li><!--
-                --><li class="char lowercase"  title="odieresis">ö</li><!--
-                --><li class="char lowercase"  title="oe">œ</li><!--
-                --><li class="char lowercase"  title="ogonek">˛</li><!--
-                --><li class="char lowercase"  title="ograve">ò</li><!--
-                --><li class="char lowercase"  title="ohungarumlaut">ő</li><!--
-                --><li class="char lowercase"  title="omacron">ō</li><!--
-                --><li class="char lowercase"  title="oslash">ø</li><!--
-                --><li class="char lowercase"  title="otilde">õ</li><!--
-                --><li class="char lowercase" title="p">p</li><!--
-                --><li class="char lowercase"  title="q">q</li><!--
-                --><li class="char lowercase"  title="r">r</li><!--
-                --><li class="char lowercase"  title="racute">ŕ</li><!--
-                --><li class="char lowercase"  title="rcaron">ř</li><!--
-                --><li class="char lowercase"  title="s">s</li><!--
-                --><li class="char lowercase"  title="sacute">ś</li><!--
-                --><li class="char lowercase"  title="Scaron">š</li><!--
-                --><li class="char lowercase"  title="scedilla">ş</li><!--
-                --><li class="char lowercase"  title="tcaron">ť</li><!--
-                --><li class="char lowercase"  title="thorn">þ</li><!--
-                --><li class="char lowercase"  title="uacute">ú</li><!--
-                --><li class="char lowercase"  title="Uacute">Ú</li><!--
-                --><li class="char lowercase"  title="ubreve">ŭ</li><!--
-                --><li class="char lowercase"  title="ucircumflex">û</li><!--
-                --><li class="char lowercase"  title="ugrave">ù</li><!--
-                --><li class="char lowercase"  title="uhungarumlaut">ű</li><!--
-                --><li class="char lowercase" title="umacron">ū</li><!--
-                --><li class="char lowercase"  title="uni0146">ņ</li><!--
-                --><li class="char lowercase"  title="uni0157">ŗ</li><!--
-                --><li class="char lowercase"  title="uni0163">ţ</li><!--
-                --><li class="char lowercase"  title="uni0219">ș</li><!--
-                --><li class="char lowercase"  title="uni021B">ț</li><!--
-                --><li class="char lowercase"  title="uogonek">ų</li><!--
-                --><li class="char lowercase"  title="uring">ů</li><!--
-                --><li class="char lowercase"  title="v">v</li><!--
-                --><li class="char lowercase"  title="w">w</li><!--
-                --><li class="char lowercase"  title="x">x</li><!--
-                --><li class="char lowercase"  title="y">y</li><!--
-                --><li class="char lowercase"  title="yacute">ý</li><!--
-                --><li class="char lowercase"  title="Yacute">Ý</li><!--
-                --><li class="char lowercase"  title="ydieresis">ÿ</li><!--
-                --><li class="char lowercase"  title="z">z</li><!--
-                --><li class="char lowercase"  title="zacute">ź</li><!--
-                --><li class="char lowercase"  title="zcaron">ž</li><!--
-                --><li class="char lowercase"  title="zdotaccent">ż</li><!--
-                --><li class="char	lowercase calt01" title="f calt01">fà</li><!--
-                --><li class="char	lowercase calt02" title="f calt02">fì</li><!--
-                --><li class="char	lowercase liga" title="f_b liga">fb</li><!--
-                --><li class="char	lowercase liga" title="f_f liga">ff</li><!--
-                --><li class="char	lowercase liga" title="f_f_l liga">ffl</li><!--
-                --><li class="char	lowercase liga" title="f_h liga">fh</li><!--
-                --><li class="char	lowercase liga" title="f_k liga">fk</li><!--
-                --><li class="char	lowercase liga" title="f_t liga">ft</li><!--
-                --><li class="char	lowercase liga" title="fi liga">fi</li><!--
-                --><li class="char	lowercase liga" title="fl liga">fl</li><!--
-                --><li class="char	lowercase liga" title="ij liga">ĳ</li>
-                
-            </div>
-            <div id="esconder">
-                <li class="char	lowercase liga pt-br" title="atilde_o liga pt-br">ão</li><!--
-                --><li class="char	lowercase pt-br liga" title="otilde_e pt-br liga">õe</li><!--
-                --><li class="char	lowercase salt" title="a salt">a</li><!--
-                --><li class="char	lowercase salt" title="aacute salt">á</li><!--
-                --><li class="char	lowercase salt" title="abreve salt">ă</li><!--
-                --><li class="char	lowercase salt" title="acircumflex salt">â</li><!--
-                --><li class="char	lowercase salt" title="adieresis salt">ä</li><!--
-                --><li class="char	lowercase salt" title="ae salt">æ</li><!--
-                --><li class="char	lowercase salt" title="agrave salt">à</li><!--
-                --><li class="char	lowercase salt" title="aogonek salt">ą</li><!--
-                --><li class="char	lowercase salt" title="aring salt">å</li><!--
-                --><li class="char	lowercase salt" title="atilde salt">ã</li><!--
-                --><li class="char	lowercase salt" title="Ecircumflex salt">ê</li><!--
-                --><li class="char	lowercase salt" title="g salt">g</li><!--
-                --><li class="char	lowercase salt" title="gbreve salt">ğ</li><!--
-                --><li class="char  lowercase salt" title="gbreve salt">ğ</li><!--
-                --><li class="char	lowercase salt" title="udieresissalt">ü</li><!--
-                --><li class="char uppercase" title="A">A</li><!--
-                --><li class="char	uppercase		salt  "title="A salt">A</li><!--
-                --><li class="char uppercase" title="Aacute">Á</li><!--
-                --><li class="char	uppercase		salt  "title="Aacute salt">Á</li><!--
-                --><li class="char uppercase" title="Abreve">Ă</li><!--
-                --><li class="char	uppercase		salt  "title="Abreve salt">Ă</li><!--
-                --><li class="char uppercase" title="Acircumflex">Â</li><!--
-                --><li class="char	uppercase		salt  "title="Acircumflex salt">Â</li><!--
-                --><li class="char uppercase" title="Adieresis">Ä</li><!--
-                --><li class="char	uppercase		salt  "title="Adieresis salt">Ä</li><!--
-                --><li class="char uppercase" title="AE">Æ</li><!--
-                --><li class="char uppercase" title="Agrave">À</li><!--
-                --><li class="char	uppercase		salt  title="Agrave salt">À</li><!--
-                --><li class="char uppercase" title="Amacron">Ā</li><!--
-                --><li class="char	uppercase		salt  "title="Amacron salt">Ā</li><!--
-                --><li class="char	uppercase		salt  "title="Amacron salt">Ā</li><!--
-                --><li class="char uppercase" title="aogonek">Ą</li><!--
-                --><li class="char	uppercase		salt  "title="Aogonek salt">Ą</li><!--
-                --><li class="char uppercase" title="Aring">Å</li><!--
-                --><li class="char	uppercase		salt  "title="Aring salt">Å</li><!--
-                --><li class="char uppercase" title="Atilde">Ã</li><!--
-                --><li class="char	uppercase		salt  "title="Atilde salt">Ã</li><!--
-                --><li class="char uppercase" title="B">B</li><!--
-                --><li class="char uppercase" title="Cacute">Ć</li><!--
-                --><li class="char uppercase" title="Ccaron">Č</li><!--
-                --><li class="char uppercase" title="ccedilla">Ç</li><!--
-                --><li class="char uppercase" title="D">D</li><!--
-                --><li class="char uppercase" title="Dcaron">Ď</li><!--
-                --><li class="char uppercase" title="Dcroat">Đ</li><!--
-                --><li class="char uppercase" title="Delta">∆</li><!--
-                --><li class="char uppercase" title="dotlessi">ı</li><!--
-                --><li class="char uppercase" title="E">E</li><!--
-                --><li class="char	uppercase	salt	liga" title="E salt liga">EW</li><!--
-                --><li class="char	uppercase	salt	liga" title="E salt liga">EY</li><!--
-                --><li class="char	uppercase	salt	liga" title="E salt liga">ET</li><!--
-                --><li class="char	uppercase	salt	liga" title="E salt liga">EV</li><!--
-                --><li class="char uppercase" title="Eacute">É</li><!--
-                --><li class="char	uppercase		salt  "title="Eacute salt">É</li><!--
-                --><li class="char uppercase" title="Ecaron">Ě</li><!--
-                --><li class="char uppercase" title="Ecircumflex">Ê</li><!--
-                --><li class="char uppercase" title="edieresis">Ë</li><!--
-                --><li class="char	uppercase		salt  "title="Edieresis salt">Ë</li><!--
-                --><li class="char uppercase" title="Edotaccent">Ė</li><!--
-                --><li class="char uppercase" title="Egrave">È</li><!--
-                --><li class="char	uppercase		salt  "title="Egrave salt">È</li><!--
-                --><li class="char uppercase" title="Emacron">Ē</li><!--
-                --><li class="char uppercase" title="Eogonek">Ę</li><!--
-                --><li class="char uppercase" title="Eth">Ð</li><!--
-                --><li class="char uppercase" title="F">F</li><!--
-                --><li class="char uppercase" title="G">G</li><!--
-                --><li class="char uppercase" title="Gbreve">Ğ</li><!--
-                --><li class="char uppercase" title="H">H</li><!--
-                --><li class="char uppercase" title="I">I</li><!--
-                --><li class="char uppercase" title="Iacute">Í</li><!--
-                --><li class="char	uppercase NDL" title="Iacute_J NDL">íj</li><!--
-                --><li class="char	uppercase NDL" title="iacute_j NDL">ÍJ</li><!--
-                --><li class="char uppercase" title="Icircumflex">Î</li><!--
-                --><li class="char uppercase" title="Idieresis">Ï</li><!--
-                --><li class="char uppercase" title="Idotaccent">İ</li><!--
-                --><li class="char	uppercase liga" title="IJ liga">IJ</li><!--
-                --><li class="char uppercase" title="Imacron">Ī</li><!--
-                --><li class="char uppercase" title="Iogonek">Į</li><!--
-                --><li class="char uppercase" title="K">K</li><!--
-                --><li class="char	uppercase		salt"  title="K salt">K</li><!--
-                --><li class="char uppercase" title="L">L</li><!--
-                --><li class="char	uppercase liga" title="L_L liga">LL</li><!--
-                --><li class="char	uppercase liga" title="LA liga">LA</li><!--
-                --><li class="char	uppercase liga" title="LA liga">LA</li><!--
-                --><li class="char uppercase" title="Lacute">Ĺ</li><!--
-                --><li class="char uppercase" title="Lcaron">Ľ</li><!--
-                --><li class="char uppercase" title="Lcaron">Ľ</li><!--
-                --><li class="char uppercase" title="Ldot">Ŀ</li><!--
-                --><li class="char	uppercase liga" title="LE liga">LE</li><!--
-                --><li class="char	uppercase liga" title="LI liga">LI</li><!--
-                --><li class="char	uppercase liga" title="LO liga">LO</li><!--
-                --><li class="char uppercase" title="Lslash">Ł</li><!--
-                --><li class="char	uppercase liga" title="LU liga">LU</li><!--
-                --><li class="char uppercase" title="M">M</li><!--
-                --><li class="char uppercase" title="N">N</li><!--
-                --><li class="char	uppercase		salt"  title="N salt">N</li><!--
-                --><li class="char	uppercase liga" title="N_N liga">NN</li><!--
-                --><li class="char	uppercase liga" title="N_T liga">NT</li><!--
-                --><li class="char uppercase" title="Nacute">Ń</li><!--
-                --><li class="char uppercase" title="Ncaron">Ň</li><!--
-                --><li class="char uppercase" title="Ntilde">Ñ</li><!--
-                --><li class="char uppercase" title="O">O</li><!--
-                --><li class="char uppercase" title="Oacute">Ó</li><!--
-                --><li class="char uppercase" title="Ocircumflex">Ô</li><!--
-                --><li class="char uppercase" title="Odieresis">Ö</li><!--
-                --><li class="char uppercase" title="OE">Œ</li><!--
-                --><li class="char uppercase" title="Ograve">Ò</li><!--
-                --><li class="char uppercase" title="Ohungarumlaut">Ő</li><!--
-                --><li class="char uppercase" title="Omacron">Ō</li><!--
-                --><li class="char uppercase" title="Omega">Ω</li><!--
-                --><li class="char	uppercase liga" title="OO liga">OO</li><!--
-                --><li class="char uppercase" title="Oslash">Ø</li><!--
-                --><li class="char uppercase" title="Otilde">Õ</li><!--
-                --><li class="char uppercase" title="P">P</li><!--
-                --><li class="char uppercase" title="Q">Q</li><!--
-                --><li class="char	uppercase salt" title="Q">Q</li><!--
-                --><li class="char uppercase" title="R">R</li><!--
-                --><li class="char	uppercase		salt"  title="R salt">R</li><!--
-                --><li class="char uppercase" title="Racute">Ŕ</li><!--
-                --><li class="char uppercase" title="Rcaron">Ř</li><!--
-                --><li class="char uppercase" title="S">S</li><!--
-                --><li class="char uppercase" title="Sacute">Ś</li><!--
-                --><li class="char uppercase" title="scaron">Š</li><!--
-                --><li class="char uppercase" title="Scedilla">Ş</li><!--
-                --><li class="char	uppercase liga" title="ST liga">ST</li><!--
-                --><li class="char uppercase" title="T">T</li><!--
-                --><li class="char uppercase" title="T">T</li><!--
-                --><li class="char uppercase liga" title="T_H liga">TH</li><!--
-                --><li class="char uppercase liga" title="T_Z liga">TZ</li><!--
-                --><li class="char uppercase" title="Tcaron">Ť</li><!--
-                --><li class="char uppercase" title="Thorn">Þ</li><!--
-                --><li class="char uppercase" title="u">u</li><!--
-                --><li class="char uppercase" title="Ubreve">Ŭ</li><!--
-                --><li class="char uppercase" title="Ucircumflex">Û</li><!--
-                --><li class="char uppercase" title="Udieresis">Ü</li><!--
-                --><li class="char uppercase" title="Ugrave">Ù</li><!--
-                --><li class="char uppercase" title="Uhungarumlaut">Ű</li><!--
-                --><li class="char uppercase" title="Umacron">Ū</li><!--
-                --><li class="char uppercase" title="uni0145">Ņ</li><!--
-                --><li class="char uppercase" title="uni0156">Ŗ</li><!--
-                --><li class="char uppercase" title="uni0162">Ţ</li><!--
-                --><li class="char uppercase" title="uni0218">Ș</li><!--
-                --><li class="char uppercase" title="uni021A">Ț</li><!--
-                --><li class="char uppercase" title="uniE9E">ẞ</li><!--
-                --><li class="char	uppercase calt" title="uniE9E calt">ẞ</li><!--
-                --><li class="char uppercase" title="Uogonek">Ų</li><!--
-                --><li class="char uppercase" title="Uring">Ů</li><!--
-                --><li class="char uppercase" title="V">V</li><!--
-                --><li class="char	uppercase		salt"  title="V salt">V</li><!--
-                --><li class="char uppercase" title="W">W</li><!--
-                --><li class="char	uppercase		salt"  title="W salt">W</li><!--
-                --><li class="char	uppercase ss01" title="W ss01">W</li><!--
-                --><li class="char uppercase" title="X">X</li><!--
-                --><li class="char uppercase" title="Y">Y</li><!--
-                --><li class="char	uppercase		salt"  title="Y salt">Y</li><!--
-                --><li class="char uppercase" title="Ydieresis">Ÿ</li><!--
-                --><li class="char uppercase" title="Z">Z</li><!--
-                --><li class="char	uppercase liga" title="ZA liga">ZA</li><!--
-                --><li class="char uppercase" title="Zacute">Ź</li><!--
-                --><li class="char uppercase" title="Zcaron">Ž</li><!--
-                --><li class="char uppercase" title="Zdotaccent">Ż</li><!--
-                --><li class="char	uppercase liga" title="ZE liga">ZE</li><!--
-                --><li class="char" title="">&nbsp;</li><!--
-                --><li class="char" title="">&nbsp;</li><!--
-                --><li class="char" title="">&nbsp;</li><!--
-                --><li class="char" title="">&nbsp;</li><!--
-                --><li class="char" title="">&nbsp;</li><!--
-                --><li class="char" title="">&nbsp;</li><!--
-                --><li class="char" title="">&nbsp;</li><!--
-                --><li class="char" title="">&nbsp;</li><!--
-                --><li class="char" title="">&nbsp;</li><!--
-                --><li class="char	" title=".notdef">⯆</li>
-            </div>
-            <a id="vejaMais" class="esconde">VEJA MAIS</a></br>	
-        </ul>
+  <h2 class="caracteres">Conjunto de caracteres</h2>
+  <div id="map">
+    <ul class="charmap">  
+ <div id="escondido"> 
+  <li class="char salt" title="uni0123">&#291</li><!--  
+  --><li class="char salt" title="quoteleftsalt">‘</li><!--  
+  --><li class="char figures title="eight">8</li><!-- 
+  --><li class="char figures onum tnum" title="eight onum tnum">8</li><!-- 
+  --><li class="char figures tnum" title="eighttnum">8</li><!-- 
+  --><li class="char figures onum pnum" title="eight onum pnum">8</li><!-- 
+  --><li class="char figures numr" title="eight numr">8</li><!-- 
+  --><li class="char figures dnum" title="eight dnum">8</li><!-- 
+  --><li class="char figures" title="five">5</li><!-- 
+  --><li class="char figures onum tnum" title="five onum tnum">5</li><!-- 
+  --><li class="char figures tnum" title="fivetnum">5</li><!-- 
+  --><li class="char figures onum pnum" title="five onum pnum">5</li><!-- 
+  --><li class="char figures numr" title="five numr">5</li><!-- 
+  --><li class="char figures dnum" title="five dnum">5</li><!-- 
+  --><li class="char figures title=four">4</li><!-- 
+  --><li class="char figures onum tnum" title="four onum tnum">4</li><!-- 
+  --><li class="char figures tnum" title="fourtnum">4</li><!-- 
+  --><li class="char figures onum pnum" title="four onum pnum">4</li><!-- 
+  --><li class="char figures numr" title="four numr">4</li><!-- 
+  --><li class="char figures dnum" title="four dnum">4</li><!-- 
+  --><li class="char figures title=nine">9</li><!-- 
+  --><li class="char figures onum tnum" title="nine onum tnum">9</li><!-- 
+  --><li class="char figures tnum" title="ninetnum">9</li><!-- 
+  --><li class="char figures onum pnum" title="nine onum pnum">9</li><!-- 
+  --><li class="char figures numr" title="nine numr">9</li><!-- 
+  --><li class="char figures dnum" title="nine dnum">9</li><!-- 
+  --><li class="char figures title=one">1</li><!-- 
+  --><li class="char figures onum tnum" title="one onum tnum">1</li><!-- 
+  --><li class="char figures tnum" title="onetnum">1</li><!-- 
+  --><li class="char figures onum pnum" title="one onum pnum">1</li><!-- 
+  --><li class="char figures numr" title="one numr">1</li><!-- 
+  --><li class="char figures dnum" title="one dnum">1</li><!-- 
+  --><li class="char figures title="onehalf">½</li><!-- 
+  --><li class="char figures title="onequarter">¼</li><!-- 
+  --><li class="char figures title="onesuperior">¹</li><!-- 
+  --><li class="char figures title="seven">7</li><!-- 
+  --><li class="char figures onum tnum" title="seven onum tnum">7</li><!-- 
+  --><li class="char figures tnum" title="seventnum">7</li><!-- 
+  --><li class="char figures onum pnum" title="seven onum pnum">7</li><!-- 
+  --><li class="char figures numr" title="seven numr">7</li><!-- 
+  --><li class="char figures dnum" title="seven dnum">7</li><!-- 
+  --><li class="char figures title=six">6</li><!-- 
+  --><li class="char figures onum tnum" title="six onum tnum">6</li><!-- 
+  --><li class="char figures tnum" title="sixtnum">6</li><!-- 
+  --><li class="char figures onum pnum" title="six onum pnum">6</li><!-- 
+  --><li class="char figures numr" title="six numr">6</li><!-- 
+  --><li class="char figures dnum" title="six dnum">6</li><!-- 
+  --><li class="char figures title="three">3</li><!-- 
+  --><li class="char figures onum tnum" title="three onum tnum">3</li><!-- 
+  --><li class="char figures tnum" title="threetnum">3</li><!-- 
+  --><li class="char figures onum pnum" title="three onum pnum">3</li><!-- 
+  --><li class="char figures numr" title="three numr">3</li><!-- 
+  --><li class="char figures dnum" title="three dnum">3</li><!-- 
+  --><li class="char figures title="threequarters">¾</li><!-- 
+  --><li class="char figures title="threesuperior">³</li><!-- 
+  --><li class="char figures title="two">2</li><!-- 
+  --><li class="char figures onum tnum" title="two onum tnum">2</li><!-- 
+  --><li class="char figures tnum" title="twotnum">2</li><!-- 
+  --><li class="char figures onum pnum" title="two onum pnum">2</li><!-- 
+  --><li class="char figures numr" title="two numr">2</li><!-- 
+  --><li class="char figures dnum" title="two dnum">2</li><!-- 
+  --><li class="char figures title="twosuperior">²</li><!-- 
+  --><li class="char figures title="zero">0</li><!-- 
+  --><li class="char figures onum tnum" title="zero onum tnum">0</li><!-- 
+  --><li class="char figures tnum" title="zero tnum">0</li><!-- 
+  --><li class="char figures onum pnum" title="zero onum pnum">0</li><!-- 
+  --><li class="char figures numr" title="zero numr">0</li><!-- 
+  --><li class="char figures dnum" title="zero dnum">0</li><!--  
+  --><li class="char" title="acute">´</li><!--  
+  --><li class="char" title="ampersand">&amp</li><!--  
+  --><li class="char" title="approxequal">≈</li><!--  
+  --><li class="char" title="asciicircum">^</li><!--  
+  --><li class="char" title="asciitilde">~</li><!--  
+  --><li class="char" title="asterisk">*</li><!--  
+  --><li class="char" title="at">@</li><!--  
+  --><li class="char" title="backslash">\</li><!--  
+  --><li class="char" title="bar">|</li><!--  
+  --><li class="char" title="braceleft">{</li><!--  
+  --><li class="char" title="braceright">}</li><!--  
+  --><li class="char" title="bracketleft">[</li><!--  
+  --><li class="char" title="bracketright">]</li><!--  
+  --><li class="char" title="breve">˘</li><!--  
+  --><li class="char" title="brokenbar">¦</li><!--  
+  --><li class="char" title="bullet">•</li><!--  
+  --><li class="char" title="C">C</li><!--  
+  --><li class="char" title="c">c</li><!--  
+  --><li class="char" title="caron">ˇ</li><!--  
+  --><li class="char" title="cedilla">¸</li><!--  
+  --><li class="char" title="cent">¢</li><!--  
+  --><li class="char" title="circumflex">ˆ</li><!--  
+  --><li class="char" title="colon">:</li><!--  
+  --><li class="char" title="comma">,</li><!--  
+  --><li class="char" title="copyright">©</li><!--  
+  --><li class="char" title="CR">&nbsp</li><!--  
+  --><li class="char" title="currency">¤</li><!--  
+  --><li class="char" title="d">d</li><!--  
+  --><li class="char" title="dagger">†</li><!--  
+  --><li class="char" title="daggerdbl">‡</li><!--  
+  --><li class="char" title="degree">°</li><!--  
+  --><li class="char" title="dieresis">¨</li><!--  
+  --><li class="char" title="divide">÷</li><!--  
+  --><li class="char" title="dollar">$</li><!--  
+  --><li class="char" title="dotaccent">•</li><!--  
+  --><li class="char" title="ellipsis">…</li><!--  
+  --><li class="char" title="emdash">—</li><!--  
+  --><li class="char" title="endash">–</li><!--  
+  --><li class="char" title="equal">=</li><!--  
+  --><li class="char" title="estimated">℮</li><!--  
+  --><li class="char" title="Euro">€</li><!--  
+  --><li class="char" title="exclam">@</li><!--  
+  --><li class="char" title="exclamdown">¡</li><!--  
+  --><li class="char" title="florin">ƒ</li><!--  
+  --><li class="char" title="fraction">⁄</li><!--  
+  --><li class="char" title="grave">`</li><!--  
+  --><li class="char" title="greater">></li><!--  
+  --><li class="char" title="greaterequal">≤</li><!--  
+  --><li class="char" title="guillemotleft">«</li><!--  
+  --><li class="char" title="guillemotright">»</li><!--  
+  --><li class="char" title="guilsinglleft">‹</li><!--  
+  --><li class="char" title="guilsinglright">›</li><!--  
+  --><li class="char" title="hungarumlaut">˝</li><!--  
+  --><li class="char" title="hyphen">-</li><!--  
+  --><li class="char" title="iacute">í</li><!--  
+  --><li class="char" title="Igrave">Ì</li><!--  
+  --><li class="char" title="infinity">∞</li><!--  
+  --><li class="char" title="integral">∫</li><!--  
+  --><li class="char" title="less"><</li><!--  
+  --><li class="char" title="lessequal">≤</li><!--  
+  --><li class="char" title="lira">&#8356</li><!--  
+  --><li class="char" title="logicalnot">∫</li><!--  
+  --><li class="char" title="lozenge">◊</li><!--  
+  --><li class="char" title="macron">¯</li><!--  
+  --><li class="char" title="macron">–</li><!--  
+  --><li class="char" title="minus">-</li><!--  
+  --><li class="char" title="mu">µ</li><!--  
+  --><li class="char" title="multiply">×</li><!--  
+  --><li class="char" title="notequal">≠</li><!--  
+  --><li class="char" title="NULL">&#0</li><!--  
+  --><li class="char" title="numbersign">#</li><!--  
+  --><li class="char" title="o">o</li><!--  
+  --><li class="char" title="ordfeminine">ª</li><!--  
+  --><li class="char" title="ordmasculine">º</li><!--  
+  --><li class="char" title="paragraph">¶</li><!--  
+  --><li class="char" title="parenleft">(</li><!--  
+  --><li class="char" title="parenright">)</li><!--  
+  --><li class="char" title="partialdiff">∂</li><!--  
+  --><li class="char" title="percent">%</li><!--  
+  --><li class="char" title="period">.</li><!--  
+  --><li class="char" title="periodcentered">•</li><!--  
+  --><li class="char" title="perthousand">‰</li><!--  
+  --><li class="char" title="pi">π</li><!--  
+  --><li class="char" title="plus">+</li><!--  
+  --><li class="char" title="plusminus">±</li><!--  
+  --><li class="char" title="product">∏</li><!--  
+  --><li class="char" title="question">?</li><!--  
+  --><li class="char" title="questiondown">¿</li><!--  
+  --><li class="char" title="quotedbl">"</li><!--  
+  --><li class="char" title="quotedblbase">„</li><!--  
+  --><li class="char" title="quotedblleft"> </li><!--  
+  --><li class="char" title="quoteright">’</li><!--  
+  --><li class="char" title="quotesinglbase">‚</li><!--  
+  --><li class="char" title="quotesingle">'</li><!--  
+  --><li class="char" title="radical">√</li><!--  
+  --><li class="char" title="registered">®</li><!--  
+  --><li class="char" title="ring">˚</li><!--  
+  --><li class="char" title="section">§</li><!--  
+  --><li class="char" title="semicolon"></li><!--  
+  --><li class="char" title="slash">/</li><!--  
+  --><li class="char" title="space">&nbsp</li><!--  
+  --><li class="char" title="sterling">£</li><!--  
+  --><li class="char" title="summation">∑</li><!--  
+  --><li class="char" title="t">t</li><!--  
+  --><li class="char" title="tilde">˜</li><!--  
+  --><li class="char" title="trademark">™</li><!--  
+  --><li class="char" title="U">U</li><!--  
+  --><li class="char" title="underscore">_</li><!--  
+  --><li class="char" title="uni00A0">&nbsp</li><!--  
+  --><li class="char" title="uni00AD">&#xAD</li>
+    </div> 
+  <div>
+    <li class="char" title="uni0122">Ģ</li><!--
+    --><li class="char" title="uni0123">&#291</li><!--
+    --><li class="char" title="uni0136">&#x136</li><!--
+    --><li class="char" title="uni0137">&#x137</li><!--
+    --><li class="char" title="uni013B">&#x13B</li><!--
+    --><li class="char" title="uni013C">&#x13C</li><!--
+    --><li class="char" title="uni203D">‽</li><!--
+    --><li class="char" title="uni2113">ℓ</li><!--
+    --><li class="char" title="uni2E18">⸘</li><!--
+    --><li class="char" title="yen">¥</li><!--
+    --><li class="char lowercase" title="a">a</li><!--
+    --><li class="char lowercase" title="aacute">á</li><!--
+    --><li class="char lowercase" title="abreve">ă</li><!--
+    --><li class="char lowercase" title="acircumflex">â</li><!--
+    --><li class="char lowercase" title="adieresis">ä</li><!--
+    --><li class="char lowercase" title="ae">æ</li><!--
+    --><li class="char lowercase" title="agrave">à</li><!--
+    --><li class="char lowercase" title="amacron">ā</li><!--
+    --><li class="char lowercase" title="Aogonek">ą</li><!--
+    --><li class="char lowercase" title="aring">å</li><!--
+    --><li class="char lowercase" title="atilde">ã</li><!--
+    --><li class="char lowercase" title="b">b</li><!--
+    --><li class="char lowercase" title="cacute">ć</li><!--
+    --><li class="char lowercase" title="ccaron">č</li><!--
+    --><li class="char lowercase" title="Ccedilla">ç</li><!--
+    --><li class="char lowercase" title="dcaron">ď</li><!--
+    --><li class="char lowercase" title="dcroat">đ</li><!--
+    --><li class="char lowercase" title="e">e</li><!--
+    --><li class="char lowercase" title="eacute">é</li><!--
+    --><li class="char lowercase" title="ecaron">ě</li><!--
+    --><li class="char lowercase" title="ecircumflex">ê</li><!--
+    --><li class="char lowercase" title="Edieresis">ë</li><!--
+    --><li class="char lowercase" title="edotaccent">ė</li><!--
+    --><li class="char lowercase" title="egrave">è</li><!--
+    --><li class="char lowercase" title="emacron">ē</li><!--
+    --><li class="char lowercase" title="eogonek">ę</li><!--
+    --><li class="char lowercase" title="eth">ð</li><!--
+    --><li class="char lowercase" title="f">f</li><!--
+    --><li class="char lowercase" title="g">g</li><!--
+    --><li class="char lowercase" title="germandbls">ß</li><!--
+    --><li class="char lowercase" title="h">h</li><!--
+    --><li class="char lowercase" title="i">i</li><!--
+    --><li class="char lowercase" title="icircumflex">î</li><!--
+    --><li class="char lowercase" title="idieresis">ï</li><!--
+    --><li class="char lowercase" title="igrave">ì</li><!--
+    --><li class="char lowercase" title="imacron">ī</li><!--
+    --><li class="char lowercase" title="iogonek">į</li><!--
+    --><li class="char lowercase" title="J">J</li><!--
+    --><li class="char lowercase" title="j">j</li><!--
+    --><li class="char lowercase" title="k">k</li><!--
+    --><li class="char lowercase" title="l">l</li><!--
+    --><li class="char lowercase" title="lacute">ĺ</li><!--
+    --><li class="char lowercase" title="lcaron">ľ</li><!--
+    --><li class="char lowercase" title="ldot">ŀ</li><!--
+    --><li class="char lowercase" title="lslash">ł</li><!--
+    --><li class="char lowercase" title="m">m</li><!--
+    --><li class="char lowercase" title="n">n</li><!--
+    --><li class="char lowercase" title="nacute">ń</li><!--
+    --><li class="char lowercase" title="ncaron">ň</li><!--
+    --><li class="char lowercase" title="ntilde">ñ</li><!--
+    --><li class="char lowercase" title="oacute">ó</li><!--
+    --><li class="char lowercase" title="ocircumflex">ô</li><!--
+    --><li class="char lowercase" title="odieresis">ö</li><!--
+    --><li class="char lowercase" title="oe">œ</li><!--
+    --><li class="char lowercase" title="ogonek">˛</li><!--
+    --><li class="char lowercase" title="ograve">ò</li><!--
+    --><li class="char lowercase" title="ohungarumlaut">ő</li><!--
+    --><li class="char lowercase" title="omacron">ō</li><!--
+    --><li class="char lowercase" title="oslash">ø</li><!--
+    --><li class="char lowercase" title="otilde">õ</li><!--
+    --><li class="char lowercase" title="p">p</li><!--
+    --><li class="char lowercase" title="q">q</li><!--
+    --><li class="char lowercase" title="r">r</li><!--
+    --><li class="char lowercase" title="racute">ŕ</li><!--
+    --><li class="char lowercase" title="rcaron">ř</li><!--
+    --><li class="char lowercase" title="s">s</li><!--
+    --><li class="char lowercase" title="sacute">ś</li><!--
+    --><li class="char lowercase" title="Scaron">š</li><!--
+    --><li class="char lowercase" title="scedilla">ş</li><!--
+    --><li class="char lowercase" title="tcaron">ť</li><!--
+    --><li class="char lowercase" title="thorn">þ</li><!--
+    --><li class="char lowercase" title="uacute">ú</li><!--
+    --><li class="char lowercase" title="Uacute">Ú</li><!--
+    --><li class="char lowercase" title="ubreve">ŭ</li><!--
+    --><li class="char lowercase" title="ucircumflex">û</li><!--
+    --><li class="char lowercase" title="ugrave">ù</li><!--
+    --><li class="char lowercase" title="uhungarumlaut">ű</li><!--
+    --><li class="char lowercase" title="umacron">ū</li><!--
+    --><li class="char lowercase" title="uni0146">ņ</li><!--
+    --><li class="char lowercase" title="uni0157">ŗ</li><!--
+    --><li class="char lowercase" title="uni0163">ţ</li><!--
+    --><li class="char lowercase" title="uni0219">ș</li><!--
+    --><li class="char lowercase" title="uni021B">ț</li><!--
+    --><li class="char lowercase" title="uogonek">ų</li><!--
+    --><li class="char lowercase" title="uring">ů</li><!--
+    --><li class="char lowercase" title="v">v</li><!--
+    --><li class="char lowercase" title="w">w</li><!--
+    --><li class="char lowercase" title="x">x</li><!--
+    --><li class="char lowercase" title="y">y</li><!--
+    --><li class="char lowercase" title="yacute">ý</li><!--
+    --><li class="char lowercase" title="Yacute">Ý</li><!--
+    --><li class="char lowercase" title="ydieresis">ÿ</li><!--
+    --><li class="char lowercase" title="z">z</li><!--
+    --><li class="char lowercase" title="zacute">ź</li><!--
+    --><li class="char lowercase" title="zcaron">ž</li><!--
+    --><li class="char lowercase" title="zdotaccent">ż</li><!--
+    --><li class="char lowercase calt01" title="f calt01">fà</li><!--
+    --><li class="char lowercase calt02" title="f calt02">fì</li><!--
+    --><li class="char lowercase liga" title="f_b liga">fb</li><!--
+    --><li class="char lowercase liga" title="f_f liga">ff</li><!--
+    --><li class="char lowercase liga" title="f_f_l liga">ffl</li><!--
+    --><li class="char lowercase liga" title="f_h liga">fh</li><!--
+    --><li class="char lowercase liga" title="f_k liga">fk</li><!--
+    --><li class="char lowercase liga" title="f_t liga">ft</li><!--
+    --><li class="char lowercase liga" title="fi liga">fi</li><!--
+    --><li class="char lowercase liga" title="fl liga">fl</li><!--
+    --><li class="char lowercase liga" title="ij liga">ĳ</li>
+    
+  </div>
+  <div id="esconder">
+    <li class="char lowercase liga pt-br" title="atilde_o liga pt-br">ão</li><!--
+    --><li class="char lowercase pt-br liga" title="otilde_e pt-br liga">õe</li><!--
+    --><li class="char lowercase salt" title="a salt">a</li><!--
+    --><li class="char lowercase salt" title="aacute salt">á</li><!--
+    --><li class="char lowercase salt" title="abreve salt">ă</li><!--
+    --><li class="char lowercase salt" title="acircumflex salt">â</li><!--
+    --><li class="char lowercase salt" title="adieresis salt">ä</li><!--
+    --><li class="char lowercase salt" title="ae salt">æ</li><!--
+    --><li class="char lowercase salt" title="agrave salt">à</li><!--
+    --><li class="char lowercase salt" title="aogonek salt">ą</li><!--
+    --><li class="char lowercase salt" title="aring salt">å</li><!--
+    --><li class="char lowercase salt" title="atilde salt">ã</li><!--
+    --><li class="char lowercase salt" title="Ecircumflex salt">ê</li><!--
+    --><li class="char lowercase salt" title="g salt">g</li><!--
+    --><li class="char lowercase salt" title="gbreve salt">ğ</li><!--
+    --><li class="char lowercase salt" title="gbreve salt">ğ</li><!--
+    --><li class="char lowercase salt" title="udieresissalt">ü</li><!--
+    --><li class="char uppercase" title="A">A</li><!--
+    --><li class="char uppercase salt "title="A salt">A</li><!--
+    --><li class="char uppercase" title="Aacute">Á</li><!--
+    --><li class="char uppercase salt "title="Aacute salt">Á</li><!--
+    --><li class="char uppercase" title="Abreve">Ă</li><!--
+    --><li class="char uppercase salt "title="Abreve salt">Ă</li><!--
+    --><li class="char uppercase" title="Acircumflex">Â</li><!--
+    --><li class="char uppercase salt "title="Acircumflex salt">Â</li><!--
+    --><li class="char uppercase" title="Adieresis">Ä</li><!--
+    --><li class="char uppercase salt "title="Adieresis salt">Ä</li><!--
+    --><li class="char uppercase" title="AE">Æ</li><!--
+    --><li class="char uppercase" title="Agrave">À</li><!--
+    --><li class="char uppercase salt title="Agrave salt">À</li><!--
+    --><li class="char uppercase" title="Amacron">Ā</li><!--
+    --><li class="char uppercase salt "title="Amacron salt">Ā</li><!--
+    --><li class="char uppercase salt "title="Amacron salt">Ā</li><!--
+    --><li class="char uppercase" title="aogonek">Ą</li><!--
+    --><li class="char uppercase salt "title="Aogonek salt">Ą</li><!--
+    --><li class="char uppercase" title="Aring">Å</li><!--
+    --><li class="char uppercase salt "title="Aring salt">Å</li><!--
+    --><li class="char uppercase" title="Atilde">Ã</li><!--
+    --><li class="char uppercase salt "title="Atilde salt">Ã</li><!--
+    --><li class="char uppercase" title="B">B</li><!--
+    --><li class="char uppercase" title="Cacute">Ć</li><!--
+    --><li class="char uppercase" title="Ccaron">Č</li><!--
+    --><li class="char uppercase" title="ccedilla">Ç</li><!--
+    --><li class="char uppercase" title="D">D</li><!--
+    --><li class="char uppercase" title="Dcaron">Ď</li><!--
+    --><li class="char uppercase" title="Dcroat">Đ</li><!--
+    --><li class="char uppercase" title="Delta">∆</li><!--
+    --><li class="char uppercase" title="dotlessi">ı</li><!--
+    --><li class="char uppercase" title="E">E</li><!--
+    --><li class="char uppercase salt liga" title="E salt liga">EW</li><!--
+    --><li class="char uppercase salt liga" title="E salt liga">EY</li><!--
+    --><li class="char uppercase salt liga" title="E salt liga">ET</li><!--
+    --><li class="char uppercase salt liga" title="E salt liga">EV</li><!--
+    --><li class="char uppercase" title="Eacute">É</li><!--
+    --><li class="char uppercase salt "title="Eacute salt">É</li><!--
+    --><li class="char uppercase" title="Ecaron">Ě</li><!--
+    --><li class="char uppercase" title="Ecircumflex">Ê</li><!--
+    --><li class="char uppercase" title="edieresis">Ë</li><!--
+    --><li class="char uppercase salt "title="Edieresis salt">Ë</li><!--
+    --><li class="char uppercase" title="Edotaccent">Ė</li><!--
+    --><li class="char uppercase" title="Egrave">È</li><!--
+    --><li class="char uppercase salt "title="Egrave salt">È</li><!--
+    --><li class="char uppercase" title="Emacron">Ē</li><!--
+    --><li class="char uppercase" title="Eogonek">Ę</li><!--
+    --><li class="char uppercase" title="Eth">Ð</li><!--
+    --><li class="char uppercase" title="F">F</li><!--
+    --><li class="char uppercase" title="G">G</li><!--
+    --><li class="char uppercase" title="Gbreve">Ğ</li><!--
+    --><li class="char uppercase" title="H">H</li><!--
+    --><li class="char uppercase" title="I">I</li><!--
+    --><li class="char uppercase" title="Iacute">Í</li><!--
+    --><li class="char uppercase NDL" title="Iacute_J NDL">íj</li><!--
+    --><li class="char uppercase NDL" title="iacute_j NDL">ÍJ</li><!--
+    --><li class="char uppercase" title="Icircumflex">Î</li><!--
+    --><li class="char uppercase" title="Idieresis">Ï</li><!--
+    --><li class="char uppercase" title="Idotaccent">İ</li><!--
+    --><li class="char uppercase liga" title="IJ liga">IJ</li><!--
+    --><li class="char uppercase" title="Imacron">Ī</li><!--
+    --><li class="char uppercase" title="Iogonek">Į</li><!--
+    --><li class="char uppercase" title="K">K</li><!--
+    --><li class="char uppercase salt" title="K salt">K</li><!--
+    --><li class="char uppercase" title="L">L</li><!--
+    --><li class="char uppercase liga" title="L_L liga">LL</li><!--
+    --><li class="char uppercase liga" title="LA liga">LA</li><!--
+    --><li class="char uppercase liga" title="LA liga">LA</li><!--
+    --><li class="char uppercase" title="Lacute">Ĺ</li><!--
+    --><li class="char uppercase" title="Lcaron">Ľ</li><!--
+    --><li class="char uppercase" title="Lcaron">Ľ</li><!--
+    --><li class="char uppercase" title="Ldot">Ŀ</li><!--
+    --><li class="char uppercase liga" title="LE liga">LE</li><!--
+    --><li class="char uppercase liga" title="LI liga">LI</li><!--
+    --><li class="char uppercase liga" title="LO liga">LO</li><!--
+    --><li class="char uppercase" title="Lslash">Ł</li><!--
+    --><li class="char uppercase liga" title="LU liga">LU</li><!--
+    --><li class="char uppercase" title="M">M</li><!--
+    --><li class="char uppercase" title="N">N</li><!--
+    --><li class="char uppercase salt" title="N salt">N</li><!--
+    --><li class="char uppercase liga" title="N_N liga">NN</li><!--
+    --><li class="char uppercase liga" title="N_T liga">NT</li><!--
+    --><li class="char uppercase" title="Nacute">Ń</li><!--
+    --><li class="char uppercase" title="Ncaron">Ň</li><!--
+    --><li class="char uppercase" title="Ntilde">Ñ</li><!--
+    --><li class="char uppercase" title="O">O</li><!--
+    --><li class="char uppercase" title="Oacute">Ó</li><!--
+    --><li class="char uppercase" title="Ocircumflex">Ô</li><!--
+    --><li class="char uppercase" title="Odieresis">Ö</li><!--
+    --><li class="char uppercase" title="OE">Œ</li><!--
+    --><li class="char uppercase" title="Ograve">Ò</li><!--
+    --><li class="char uppercase" title="Ohungarumlaut">Ő</li><!--
+    --><li class="char uppercase" title="Omacron">Ō</li><!--
+    --><li class="char uppercase" title="Omega">Ω</li><!--
+    --><li class="char uppercase liga" title="OO liga">OO</li><!--
+    --><li class="char uppercase" title="Oslash">Ø</li><!--
+    --><li class="char uppercase" title="Otilde">Õ</li><!--
+    --><li class="char uppercase" title="P">P</li><!--
+    --><li class="char uppercase" title="Q">Q</li><!--
+    --><li class="char uppercase salt" title="Q">Q</li><!--
+    --><li class="char uppercase" title="R">R</li><!--
+    --><li class="char uppercase salt" title="R salt">R</li><!--
+    --><li class="char uppercase" title="Racute">Ŕ</li><!--
+    --><li class="char uppercase" title="Rcaron">Ř</li><!--
+    --><li class="char uppercase" title="S">S</li><!--
+    --><li class="char uppercase" title="Sacute">Ś</li><!--
+    --><li class="char uppercase" title="scaron">Š</li><!--
+    --><li class="char uppercase" title="Scedilla">Ş</li><!--
+    --><li class="char uppercase liga" title="ST liga">ST</li><!--
+    --><li class="char uppercase" title="T">T</li><!--
+    --><li class="char uppercase" title="T">T</li><!--
+    --><li class="char uppercase liga" title="T_H liga">TH</li><!--
+    --><li class="char uppercase liga" title="T_Z liga">TZ</li><!--
+    --><li class="char uppercase" title="Tcaron">Ť</li><!--
+    --><li class="char uppercase" title="Thorn">Þ</li><!--
+    --><li class="char uppercase" title="u">u</li><!--
+    --><li class="char uppercase" title="Ubreve">Ŭ</li><!--
+    --><li class="char uppercase" title="Ucircumflex">Û</li><!--
+    --><li class="char uppercase" title="Udieresis">Ü</li><!--
+    --><li class="char uppercase" title="Ugrave">Ù</li><!--
+    --><li class="char uppercase" title="Uhungarumlaut">Ű</li><!--
+    --><li class="char uppercase" title="Umacron">Ū</li><!--
+    --><li class="char uppercase" title="uni0145">Ņ</li><!--
+    --><li class="char uppercase" title="uni0156">Ŗ</li><!--
+    --><li class="char uppercase" title="uni0162">Ţ</li><!--
+    --><li class="char uppercase" title="uni0218">Ș</li><!--
+    --><li class="char uppercase" title="uni021A">Ț</li><!--
+    --><li class="char uppercase" title="uniE9E">ẞ</li><!--
+    --><li class="char uppercase calt" title="uniE9E calt">ẞ</li><!--
+    --><li class="char uppercase" title="Uogonek">Ų</li><!--
+    --><li class="char uppercase" title="Uring">Ů</li><!--
+    --><li class="char uppercase" title="V">V</li><!--
+    --><li class="char uppercase salt" title="V salt">V</li><!--
+    --><li class="char uppercase" title="W">W</li><!--
+    --><li class="char uppercase salt" title="W salt">W</li><!--
+    --><li class="char uppercase ss01" title="W ss01">W</li><!--
+    --><li class="char uppercase" title="X">X</li><!--
+    --><li class="char uppercase" title="Y">Y</li><!--
+    --><li class="char uppercase salt" title="Y salt">Y</li><!--
+    --><li class="char uppercase" title="Ydieresis">Ÿ</li><!--
+    --><li class="char uppercase" title="Z">Z</li><!--
+    --><li class="char uppercase liga" title="ZA liga">ZA</li><!--
+    --><li class="char uppercase" title="Zacute">Ź</li><!--
+    --><li class="char uppercase" title="Zcaron">Ž</li><!--
+    --><li class="char uppercase" title="Zdotaccent">Ż</li><!--
+    --><li class="char uppercase liga" title="ZE liga">ZE</li><!--
+    --><li class="char" title="">&nbsp</li><!--
+    --><li class="char" title="">&nbsp</li><!--
+    --><li class="char" title="">&nbsp</li><!--
+    --><li class="char" title="">&nbsp</li><!--
+    --><li class="char" title="">&nbsp</li><!--
+    --><li class="char" title="">&nbsp</li><!--
+    --><li class="char" title="">&nbsp</li><!--
+    --><li class="char" title="">&nbsp</li><!--
+    --><li class="char" title="">&nbsp</li><!--
+    --><li class="char " title=".notdef">⯆</li>
+  </div>
+  <a id="vejaMais" class="esconde">VEJA MAIS</a></br> 
+    </ul>
 
-    </div>
+  </div>
 
 </section>
-    <section id="info">
+  <section id="info">
 
 
-        <div class="caixa">
-            <article class="quebra">
-                <h3 >O que vem junto</h3>
-                <p> 8 Fontes - 4 regulares e 4 alternativas<br> 650 Caracteres<br>+ futuras atualizações</p>
-            </article>
-            <article>
-                <h3>Suporte aos Seguintes Idiomas</h3>
-                <p>Afaan Oromo, albanês, basco, bósnio, catalão, croata, tcheco, dinamarquês, holandês, inglês, estoniano, faroense, filipino, finlandês, francês, galego, alemão, haitiano crioulo, húngaro, Ido, indonésio, irlandês, italiano, letão, Lituano,
-                    malaio, norueguês, bokmål, occitano, polonês, português, romeno, eslovaco, esloveno, espanhol, suaíli, sueco, turco, vietnamita, galês, zapoteca, zulu. </p>
-            </article>
-            <article id="estreito">
-                <h3 class="quebra">Recursos Opentype</h3>
+    <div class="caixa">
+  <article class="quebra">
+    <h3 >O que vem junto</h3>
+    <p> 8 Fontes - 4 regulares e 4 alternativas<br> 650 Caracteres<br>+ futuras atualizações</p>
+  </article>
+  <article>
+    <h3>Suporte aos Seguintes Idiomas</h3>
+    <p>Afaan Oromo, albanês, basco, bósnio, catalão, croata, tcheco, dinamarquês, holandês, inglês, estoniano, faroense, filipino, finlandês, francês, galego, alemão, haitiano crioulo, húngaro, Ido, indonésio, irlandês, italiano, letão, Lituano,
+  malaio, norueguês, bokmål, occitano, polonês, português, romeno, eslovaco, esloveno, espanhol, suaíli, sueco, turco, vietnamita, galês, zapoteca, zulu. </p>
+  </article>
+  <article id="estreito">
+    <h3 class="quebra">Recursos Opentype</h3>
 
-                <p>
-                    Kerning, Alternates, Ligatures, Additional Numbers, Dingbats, Fractions, Oldstyle, Figures, Stylistic Sets.</p>
-            </article>
-            <article>
-                <h3 class="quebro">Ao licenciar você pode</h3>
+    <p>
+  Kerning, Alternates, Ligatures, Additional Numbers, Dingbats, Fractions, Oldstyle, Figures, Stylistic Sets.</p>
+  </article>
+  <article>
+    <h3 class="quebro">Ao licenciar você pode</h3>
 
-                <p>Existem vários tipos de licenças, desde a mais simples que lhe permite instalá-la e usá-la em projetos impressos e imagens estáticas (png, tiff, jpg); há uma específica para produzir web sites que lhe dá acesso a uma webfont kit o que
-                    lhe permite costumizar sites usando a css.</p>
-            </article>
-            <div class="clean">
-                <a href="#"></a>
-            </div>
-        </div>
-    </section>
-    <section id="rodape">
-        <div class="logo">
-            <h4><a href="https://rafaeiro.github.io/typeiro/"><svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 883 261"><path class="cls-1" d="M6.21,163.61V42H44.34c19.9,0,51.22.56,51,26.9-.18,12.89-7.73,27.82-15.29,36.66a86.73,86.73,0,0,1-14,12.89c16.58,10.32,33.9,34.64,33.16,45.14H74.92c.37-4.79-3.86-12.34-11.05-20.45-5.53-6.26-11.24-11.24-16.39-13.45a152.83,152.83,0,0,1-18.06,6.82v27.08ZM29.42,61.73V115.9A74.32,74.32,0,0,0,58.16,99.68c7.55-6.81,13.63-17.5,13.63-26.89,0-9.58-6.45-11.06-29.29-11.06Z" transform="translate(28 20)"/><path class="cls-1" d="M190.24,163.61H170.71l-2-9.4h-.56c-6.08,9.4-15.47,11.79-23.39,11.79-21.92,0-38.14-18.6-38.14-43.66,0-25.24,16.77-45.68,39.43-45.68,9.76,0,18.24,3.87,22.1,11h.19V78.5h21.92Zm-60.79-42.37c0,14,4.79,27.08,19.16,27.08,8.29,0,13.26-4.24,16.21-9.77a35.56,35.56,0,0,0,3.5-16.21c0-6.44-1.29-12.71-3.5-17.13-2.95-6.08-8.11-10.87-16.4-10.87C136.26,94.34,129.45,104.47,129.45,121.24Z" transform="translate(28 20)"/><path class="cls-1" d="M236.11,78.5h16.58V95.08H236.11v68.53H214.18V95.08H200.92V82.37L214,78.5h.18V73.89c0-21.73,13.08-38.87,38.14-38.87,6.44,0,12.52,1.66,16.95,5.71l-8.11,14.56a26.52,26.52,0,0,0-10.32-2.4c-10.87,0-14.73,9.58-14.92,19.9Z" transform="translate(28 20)"/><path class="cls-1" d="M326.74,106.87v56.74H308.69l-2.58-8.84h-.19c-4.05,6.63-15.66,10.68-22.47,10.68-13.27-.18-28.92-9.76-28.92-24.68,0-14.56,12.34-22.11,27.63-25.06L299.11,112c2.21-.37,5.52-2,5.52-5.53-.18-8.84-6.63-13.08-14.18-13.08-6.82,0-13.08,1.47-19.16,7L258.76,89c9.58-10.5,20.45-12.71,31.69-12.71C308.13,76.47,326.74,83.66,326.74,106.87Zm-39.42,41.45c5,0,10.13-2.95,13.26-6.82A24.57,24.57,0,0,0,305,129.34c0-1.84-.18-4.79-.37-6.44-1.29,2.94-4.23,4-6.08,4.6l-12,3.13c-6.82,1.84-9,5.9-9,9C277.55,144.63,282.34,148.32,287.32,148.32Z" transform="translate(28 20)"/><path class="cls-1" d="M514.81,163.61V61.55H482V42h89V61.55H538V163.61Z" transform="translate(28 20)"/><path class="cls-1" d="M564,178.53c2.58,1.66,8.29,2.39,11.6,2.39,2.77-.36,7.56-3.31,18.43-21.36l.18-.37c-15.29-22.48-25.42-51-26.71-72.77V78.5h22.1v7c1.11,16.21,7.74,37.21,17.32,54.16,9.58-17.13,16-38.13,17.32-54.16v-7h19.89v7.92c-1.1,16.76-7,38.13-17.5,56.56-10,17.31-31.87,56.92-56.55,56.92a16.37,16.37,0,0,1-5.35-.55,2.84,2.84,0,0,1-.73-2.21Z" transform="translate(28 20)"/><path class="cls-1" d="M659.42,198.61V78.5H680.6v8.84h.19s8.29-10.68,22.47-11c14.56-.37,34.27,10.87,34.27,44.21,0,37-21.19,45.32-34.08,45.32-8.66,0-14.74-3.5-21.92-8.84h-.19c.19,2.94.19,6.44.19,8.84v32.79ZM680.79,122c0,4.24.37,10.5.74,16.4,6.26,5.53,12.15,9.21,19,9.21,6.63,0,14.19-4.42,14.19-26.71,0-19.34-7.19-26.53-15.85-26.53C686.13,94.34,680.79,106.32,680.79,122Z" transform="translate(28 20)"/><rect class="cls-2" width="883" height="261"/><path class="cls-3" d="M412.77,146.66c-6.27,6.08-14.56,11.05-24.14,11.05-16,0-25.6-10.68-29.1-24.13h30.39l2.31-6.58h-51l-2.13,6.58h11.05c4.05,18.79,18.05,31.69,38.69,31.69,12.52,0,22.47-5.9,30.39-13.27Z" transform="translate(28 20)"/><path class="cls-3" d="M377.76,63.58c3.69,0,6.08-2,6.08-7.92,0-4.43-2.39-7.19-6.08-7.19s-6.08,2.76-6.08,7.19C371.68,61.55,374.08,63.58,377.76,63.58Z" transform="translate(28 20)"/><path class="cls-3" d="M390.3,117l2.2-6.26H359C361.92,98.58,370,87,383.47,86.6c7.19,0,13.27,4.24,17.69,9.22l3.13-8.11a29.71,29.71,0,0,0-20.82-8.47c-18.6,0-29.66,15.47-33.16,31.5h-9L339.6,117Z" transform="translate(28 20)"/><path class="cls-3" d="M781.92,63.58c3.69,0,6.08-2,6.08-7.92,0-4.43-2.39-7.19-6.08-7.19s-6.08,2.76-6.08,7.19C775.84,61.55,778.24,63.58,781.92,63.58Z" transform="translate(28 20)"/><path class="cls-3" d="M794.46,117l2.2-6.26H763.13c3-12.16,11-23.77,24.5-24.14,7.19,0,13.27,4.24,17.69,9.22l3.13-8.11a29.71,29.71,0,0,0-20.82-8.47c-18.6,0-29.66,15.47-33.16,31.5h-9l-1.7,6.26Z" transform="translate(28 20)"/><path class="cls-3" d="M816.92,146.66c-6.26,6.08-14.55,11.05-24.13,11.05-16,0-25.61-10.68-29.11-24.13h30.4l2.31-6.58h-51l-2.13,6.58h11c4.05,18.79,18.05,31.69,38.68,31.69,12.53,0,22.48-5.9,30.4-13.27Z" transform="translate(28 20)"/></svg></a></h4>
-        </div>
-        <div>
-            <h4 class='rodape'>CONTATO</h4>
-            <ul>
-                <li>rafaeiro@yahoo.com.br</li>
-                <li>+55 91 9 8610 3962</li>
-            </ul>
-        </div>
-        <div>
-            <h4 class='rodape'>REDES SOCIAIS</h4>
-            <ul class="line">
-                <li class="line">
-                    <a href="https://www.behance.net/rafaeir" target="blanc_">
-                        <svg class="cor-f" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22 7h-7v-2h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14h-8.027c.13 3.211 3.483 3.312 4.588 2.029h3.168zm-7.686-4h4.965c-.105-1.547-1.136-2.219-2.477-2.219-1.466 0-2.277.768-2.488 2.219zm-9.574 6.988h-6.466v-14.967h6.953c5.476.081 5.58 5.444 2.72 6.906 3.461 1.26 3.577 8.061-3.207 8.061zm-3.466-8.988h3.584c2.508 0 2.906-3-.312-3h-3.272v3zm3.391 3h-3.391v3.016h3.341c3.055 0 2.868-3.016.05-3.016z"/></svg>
-                    </a>
-                </li>
-                <li class="line">
-                    <a href="https://www.instagram.com/rafaeiro90/" target="blanc">
-                        <svg class="cor-f" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-                    </a>
-                </li>
-                <li class="line">
-                    <a href="https://dribbble.com/Rafaeiro-Typeiro" target="blanc">
-                        <svg class="cor-f" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.628 0-12 5.373-12 12s5.372 12 12 12 12-5.373 12-12-5.372-12-12-12zm9.885 11.441c-2.575-.422-4.943-.445-7.103-.073-.244-.563-.497-1.125-.767-1.68 2.31-1 4.165-2.358 5.548-4.082 1.35 1.594 2.197 3.619 2.322 5.835zm-3.842-7.282c-1.205 1.554-2.868 2.783-4.986 3.68-1.016-1.861-2.178-3.676-3.488-5.438.779-.197 1.591-.314 2.431-.314 2.275 0 4.368.779 6.043 2.072zm-10.516-.993c1.331 1.742 2.511 3.538 3.537 5.381-2.43.715-5.331 1.082-8.684 1.105.692-2.835 2.601-5.193 5.147-6.486zm-5.44 8.834l.013-.256c3.849-.005 7.169-.448 9.95-1.322.233.475.456.952.67 1.432-3.38 1.057-6.165 3.222-8.337 6.48-1.432-1.719-2.296-3.927-2.296-6.334zm3.829 7.81c1.969-3.088 4.482-5.098 7.598-6.027.928 2.42 1.609 4.91 2.043 7.46-3.349 1.291-6.953.666-9.641-1.433zm11.586.43c-.438-2.353-1.08-4.653-1.92-6.897 1.876-.265 3.94-.196 6.199.196-.437 2.786-2.028 5.192-4.279 6.701z"/></svg>
-                    </a>
-                </li>
-                <li class="line">
-                    <a href="https://www.facebook.com/rafaeiro/" target="blanc">
-                        <svg class="cor-f" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/></svg>
-                    </a>
-                </li>
-                <li class="line">
-                    <a href="https://twitter.com/rafaei0" target="blanc">
-                        <svg class="cor-f" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
-            </svg></a>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <footer>
-        <small>Produzido como portfólio de Rafael Ferreira</small>
-    </footer>
-    <script type="text/javascript">
-        function exibirMais()
-        {
-        let el = document.querySelector("#escondido");
-        let bx = document.querySelector("#esconder");
-        let es = document.querySelector(".esconde");
-        if(el.style.display == 'none'){
-            el.style.display = 'block';
-            bx.style.display = 'block';
-            es.innerHTML="VEJA MENOS";
-        }else{
-            el.style.display = 'none';
-            bx.style.display = 'none';
-            es.innerHTML="VEJA MAIS";
-        }
+    <p>Existem vários tipos de licenças, desde a mais simples que lhe permite instalá-la e usá-la em projetos impressos e imagens estáticas (png, tiff, jpg) há uma específica para produzir web sites que lhe dá acesso a uma webfont kit o que
+  lhe permite costumizar sites usando a css.</p>
+  </article>
+  <div class="clean">
+    <a href="#"></a>
+  </div>
+    </div>
+  </section>
+  <section id="rodape">
+    <div class="logo">
+  <h4><a href="https://rafaeiro.github.io/typeiro/"><svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 883 261"><path class="cls-1" d="M6.21,163.61V42H44.34c19.9,0,51.22.56,51,26.9-.18,12.89-7.73,27.82-15.29,36.66a86.73,86.73,0,0,1-14,12.89c16.58,10.32,33.9,34.64,33.16,45.14H74.92c.37-4.79-3.86-12.34-11.05-20.45-5.53-6.26-11.24-11.24-16.39-13.45a152.83,152.83,0,0,1-18.06,6.82v27.08ZM29.42,61.73V115.9A74.32,74.32,0,0,0,58.16,99.68c7.55-6.81,13.63-17.5,13.63-26.89,0-9.58-6.45-11.06-29.29-11.06Z" transform="translate(28 20)"/><path class="cls-1" d="M190.24,163.61H170.71l-2-9.4h-.56c-6.08,9.4-15.47,11.79-23.39,11.79-21.92,0-38.14-18.6-38.14-43.66,0-25.24,16.77-45.68,39.43-45.68,9.76,0,18.24,3.87,22.1,11h.19V78.5h21.92Zm-60.79-42.37c0,14,4.79,27.08,19.16,27.08,8.29,0,13.26-4.24,16.21-9.77a35.56,35.56,0,0,0,3.5-16.21c0-6.44-1.29-12.71-3.5-17.13-2.95-6.08-8.11-10.87-16.4-10.87C136.26,94.34,129.45,104.47,129.45,121.24Z" transform="translate(28 20)"/><path class="cls-1" d="M236.11,78.5h16.58V95.08H236.11v68.53H214.18V95.08H200.92V82.37L214,78.5h.18V73.89c0-21.73,13.08-38.87,38.14-38.87,6.44,0,12.52,1.66,16.95,5.71l-8.11,14.56a26.52,26.52,0,0,0-10.32-2.4c-10.87,0-14.73,9.58-14.92,19.9Z" transform="translate(28 20)"/><path class="cls-1" d="M326.74,106.87v56.74H308.69l-2.58-8.84h-.19c-4.05,6.63-15.66,10.68-22.47,10.68-13.27-.18-28.92-9.76-28.92-24.68,0-14.56,12.34-22.11,27.63-25.06L299.11,112c2.21-.37,5.52-2,5.52-5.53-.18-8.84-6.63-13.08-14.18-13.08-6.82,0-13.08,1.47-19.16,7L258.76,89c9.58-10.5,20.45-12.71,31.69-12.71C308.13,76.47,326.74,83.66,326.74,106.87Zm-39.42,41.45c5,0,10.13-2.95,13.26-6.82A24.57,24.57,0,0,0,305,129.34c0-1.84-.18-4.79-.37-6.44-1.29,2.94-4.23,4-6.08,4.6l-12,3.13c-6.82,1.84-9,5.9-9,9C277.55,144.63,282.34,148.32,287.32,148.32Z" transform="translate(28 20)"/><path class="cls-1" d="M514.81,163.61V61.55H482V42h89V61.55H538V163.61Z" transform="translate(28 20)"/><path class="cls-1" d="M564,178.53c2.58,1.66,8.29,2.39,11.6,2.39,2.77-.36,7.56-3.31,18.43-21.36l.18-.37c-15.29-22.48-25.42-51-26.71-72.77V78.5h22.1v7c1.11,16.21,7.74,37.21,17.32,54.16,9.58-17.13,16-38.13,17.32-54.16v-7h19.89v7.92c-1.1,16.76-7,38.13-17.5,56.56-10,17.31-31.87,56.92-56.55,56.92a16.37,16.37,0,0,1-5.35-.55,2.84,2.84,0,0,1-.73-2.21Z" transform="translate(28 20)"/><path class="cls-1" d="M659.42,198.61V78.5H680.6v8.84h.19s8.29-10.68,22.47-11c14.56-.37,34.27,10.87,34.27,44.21,0,37-21.19,45.32-34.08,45.32-8.66,0-14.74-3.5-21.92-8.84h-.19c.19,2.94.19,6.44.19,8.84v32.79ZM680.79,122c0,4.24.37,10.5.74,16.4,6.26,5.53,12.15,9.21,19,9.21,6.63,0,14.19-4.42,14.19-26.71,0-19.34-7.19-26.53-15.85-26.53C686.13,94.34,680.79,106.32,680.79,122Z" transform="translate(28 20)"/><rect class="cls-2" width="883" height="261"/><path class="cls-3" d="M412.77,146.66c-6.27,6.08-14.56,11.05-24.14,11.05-16,0-25.6-10.68-29.1-24.13h30.39l2.31-6.58h-51l-2.13,6.58h11.05c4.05,18.79,18.05,31.69,38.69,31.69,12.52,0,22.47-5.9,30.39-13.27Z" transform="translate(28 20)"/><path class="cls-3" d="M377.76,63.58c3.69,0,6.08-2,6.08-7.92,0-4.43-2.39-7.19-6.08-7.19s-6.08,2.76-6.08,7.19C371.68,61.55,374.08,63.58,377.76,63.58Z" transform="translate(28 20)"/><path class="cls-3" d="M390.3,117l2.2-6.26H359C361.92,98.58,370,87,383.47,86.6c7.19,0,13.27,4.24,17.69,9.22l3.13-8.11a29.71,29.71,0,0,0-20.82-8.47c-18.6,0-29.66,15.47-33.16,31.5h-9L339.6,117Z" transform="translate(28 20)"/><path class="cls-3" d="M781.92,63.58c3.69,0,6.08-2,6.08-7.92,0-4.43-2.39-7.19-6.08-7.19s-6.08,2.76-6.08,7.19C775.84,61.55,778.24,63.58,781.92,63.58Z" transform="translate(28 20)"/><path class="cls-3" d="M794.46,117l2.2-6.26H763.13c3-12.16,11-23.77,24.5-24.14,7.19,0,13.27,4.24,17.69,9.22l3.13-8.11a29.71,29.71,0,0,0-20.82-8.47c-18.6,0-29.66,15.47-33.16,31.5h-9l-1.7,6.26Z" transform="translate(28 20)"/><path class="cls-3" d="M816.92,146.66c-6.26,6.08-14.55,11.05-24.13,11.05-16,0-25.61-10.68-29.11-24.13h30.4l2.31-6.58h-51l-2.13,6.58h11c4.05,18.79,18.05,31.69,38.68,31.69,12.53,0,22.48-5.9,30.4-13.27Z" transform="translate(28 20)"/></svg></a></h4>
+    </div>
+    <div>
+  <h4 class='rodape'>CONTATO</h4>
+  <ul>
+    <li>rafaeiro@yahoo.com.br</li>
+    <li>+55 91 9 8610 3962</li>
+  </ul>
+    </div>
+    <div>
+  <h4 class='rodape'>REDES SOCIAIS</h4>
+  <ul class="line">
+    <li class="line">
+  <a href="https://www.behance.net/rafaeir" target="blanc_">
+ <svg class="cor-f" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22 7h-7v-2h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14h-8.027c.13 3.211 3.483 3.312 4.588 2.029h3.168zm-7.686-4h4.965c-.105-1.547-1.136-2.219-2.477-2.219-1.466 0-2.277.768-2.488 2.219zm-9.574 6.988h-6.466v-14.967h6.953c5.476.081 5.58 5.444 2.72 6.906 3.461 1.26 3.577 8.061-3.207 8.061zm-3.466-8.988h3.584c2.508 0 2.906-3-.312-3h-3.272v3zm3.391 3h-3.391v3.016h3.341c3.055 0 2.868-3.016.05-3.016z"/></svg>
+  </a>
+    </li>
+    <li class="line">
+  <a href="https://www.instagram.com/rafaeiro90/" target="blanc">
+ <svg class="cor-f" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+  </a>
+    </li>
+    <li class="line">
+  <a href="https://dribbble.com/Rafaeiro-Typeiro" target="blanc">
+ <svg class="cor-f" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.628 0-12 5.373-12 12s5.372 12 12 12 12-5.373 12-12-5.372-12-12-12zm9.885 11.441c-2.575-.422-4.943-.445-7.103-.073-.244-.563-.497-1.125-.767-1.68 2.31-1 4.165-2.358 5.548-4.082 1.35 1.594 2.197 3.619 2.322 5.835zm-3.842-7.282c-1.205 1.554-2.868 2.783-4.986 3.68-1.016-1.861-2.178-3.676-3.488-5.438.779-.197 1.591-.314 2.431-.314 2.275 0 4.368.779 6.043 2.072zm-10.516-.993c1.331 1.742 2.511 3.538 3.537 5.381-2.43.715-5.331 1.082-8.684 1.105.692-2.835 2.601-5.193 5.147-6.486zm-5.44 8.834l.013-.256c3.849-.005 7.169-.448 9.95-1.322.233.475.456.952.67 1.432-3.38 1.057-6.165 3.222-8.337 6.48-1.432-1.719-2.296-3.927-2.296-6.334zm3.829 7.81c1.969-3.088 4.482-5.098 7.598-6.027.928 2.42 1.609 4.91 2.043 7.46-3.349 1.291-6.953.666-9.641-1.433zm11.586.43c-.438-2.353-1.08-4.653-1.92-6.897 1.876-.265 3.94-.196 6.199.196-.437 2.786-2.028 5.192-4.279 6.701z"/></svg>
+  </a>
+    </li>
+    <li class="line">
+  <a href="https://www.facebook.com/rafaeiro/" target="blanc">
+ <svg class="cor-f" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/></svg>
+  </a>
+    </li>
+    <li class="line">
+  <a href="https://twitter.com/rafaei0" target="blanc">
+ <svg class="cor-f" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+  </svg></a>
+    </li>
+  </ul>
+    </div>
+  </section>
+  <footer>
+    <small>Produzido como portfólio de Rafael Ferreira</small>
+  </footer>
+  <script type="text/javascript">
+    function exibirMais()
+    {
+    let el = document.querySelector("#escondido")
+    let bx = document.querySelector("#esconder")
+    let es = document.querySelector(".esconde")
+    if(el.style.display == 'none'){
+  el.style.display = 'block'
+  bx.style.display = 'block'
+  es.innerHTML="VEJA MENOS"
+    }else{
+  el.style.display = 'none'
+  bx.style.display = 'none'
+  es.innerHTML="VEJA MAIS"
+    }
 
-        }
-    var btn = document.getElementById("vejaMais");
-    btn.addEventListener("click", exibirMais);
+    }
+  var btn = document.getElementById("vejaMais")
+  btn.addEventListener("click", exibirMais)
 
-    </script>
+  </script>
 </body>
 
 </html>

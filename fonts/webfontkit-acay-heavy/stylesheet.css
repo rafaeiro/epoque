@@ -3,13 +3,13 @@
 
 
 @font-face {
-    font-family: 'acay';
-    src: url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.eot');
-    src: url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.woff2') format('woff2'),
-         url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.woff') format('woff'),
-         url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'acay'
+  src: url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.eot')
+  src: url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.eot?#iefix') format('embedded-opentype'),
+ url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.woff2') format('woff2'),
+ url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.woff') format('woff'),
+ url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.ttf') format('truetype')
+  font-weight: normal
+  font-style: normal
 
 }

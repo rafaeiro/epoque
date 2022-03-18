@@ -28,33 +28,33 @@
 
 
 /* @import must be at top of file, otherwise CSS will not work */
-  
+ 
 @font-face {
-  font-family: "epoque-light";
-  font-style: normal;
-  font-weight: normal;
-  font-stretch: normal;
-  src: url('webFonts/epoque-light/normal_normal_normal.woff2') format('woff2'), url('webFonts/epoque-light/normal_normal_normal.woff') format('woff');
+ font-family: "epoque-light"
+ font-style: normal
+ font-weight: normal
+ font-stretch: normal
+ src: url('webFonts/epoque-light/normal_normal_normal.woff2') format('woff2'), url('webFonts/epoque-light/normal_normal_normal.woff') format('woff')
 }
 @font-face {
-  font-family: "epoque-light";
-  font-style: italic;
-  font-weight: bold;
-  font-stretch: normal;
-  src: url('webFonts/epoque-light/italic_normal_bold.woff2') format('woff2'), url('webFonts/epoque-light/italic_normal_bold.woff') format('woff');
+ font-family: "epoque-light"
+ font-style: italic
+ font-weight: bold
+ font-stretch: normal
+ src: url('webFonts/epoque-light/italic_normal_bold.woff2') format('woff2'), url('webFonts/epoque-light/italic_normal_bold.woff') format('woff')
 }
 @font-face {
-  font-family: "epoque-light";
-  font-style: normal;
-  font-weight: bold;
-  font-stretch: normal;
-  src: url('webFonts/epoque-light/normal_normal_bold.woff2') format('woff2'), url('webFonts/epoque-light/normal_normal_bold.woff') format('woff');
+ font-family: "epoque-light"
+ font-style: normal
+ font-weight: bold
+ font-stretch: normal
+ src: url('webFonts/epoque-light/normal_normal_bold.woff2') format('woff2'), url('webFonts/epoque-light/normal_normal_bold.woff') format('woff')
 }
 @font-face {
-  font-family: "epoque-light";
-  font-style: italic;
-  font-weight: normal;
-  font-stretch: normal;
-  src: url('../fonts/myfonts/epoque/webFonts/epoque-light/italic_normal_normal.woff2') format('woff2'), url('webFonts/epoque-light/italic_normal_normal.woff') format('woff');
+ font-family: "epoque-light"
+ font-style: italic
+ font-weight: normal
+ font-stretch: normal
+ src: url('../fonts/myfonts/epoque/webFonts/epoque-light/italic_normal_normal.woff2') format('woff2'), url('webFonts/epoque-light/italic_normal_normal.woff') format('woff')
 }
 

@@ -1,24 +1,24 @@
-@charset "utf-8";
+@charset "utf-8"
 * {
-    color: lavender;
+  color: lavender
 }
 body {
-    font: normal normal normal 1em/1 'epoque-light', sans-serif;
+  font: normal normal normal 1em/1 'epoque-light', sans-serif
 }
 section>h1 {
-    font: normal normal 6em/1 'epoque-light', sans-serif;
-    text-align: center;
-    color: white;
-    padding-top: 96px;
+  font: normal normal 6em/1 'epoque-light', sans-serif
+  text-align: center
+  color: white
+  padding-top: 96px
 }
 
 .salt {
-    color: white;
-    font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
-    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
-    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
-    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
-    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+  color: white
+  font-feature-settings: "kern" on, "liga" on, "calt" off, "salt"
+  -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt"
+  -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt"
+  -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt"
+  -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt"
 }
 
 p,
@@ -29,960 +29,960 @@ h1,
 h2,
 h3,
 ul {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    text-decoration: none;
-    list-style-type: none;
+  margin: 0
+  padding: 0
+  border: 0
+  font-size: 100%
+  font: inherit
+  vertical-align: baseline
+  text-decoration: none
+  list-style-type: none
 }
 a {
-    color:#499bf8 ;
+  color:#499bf8 
 }
 a:hover:active {
-    color:#1a67be ;
+  color:#1a67be 
 }
 a:visited {
-    color:#451f57b7 ;
+  color:#451f57b7 
 }
 body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    position: relative;
-    width: 100%;
+  margin: 0
+  padding: 0
+  border: 0
+  position: relative
+  width: 100%
 }
 
 section {
-    position: relative;
-    height: 68vh;
+  position: relative
+  height: 68vh
 }
 
 #prologo p {
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.25em;
-    padding-top: 15vh;
-    padding-bottom: 5px;
-    color: white;
-    z-index: 1010;
+  text-align: center
+  font-weight: bold
+  font-size: 1.25em
+  padding-top: 15vh
+  padding-bottom: 5px
+  color: white
+  z-index: 1010
 }
 
 .indice a {
-    color: rgba(230, 230, 250, 0.747);
-    position: relative;
-    float: left;
-    text-decoration: none;
-    background-color: rgba(51, 82, 90, 0.08);
-    padding: .2em .4em .28em .4em;
-    margin-top: 154px;
-    border-style: solid;
-    border-color: rgba(4, 69, 106, 0.053);
-    border-left-color: rgba(4, 69, 106, 0.09);
-    border-right-color: rgba(255, 255, 255, 0.288);
-    border-width: 1px;
+  color: rgba(230, 230, 250, 0.747)
+  position: relative
+  float: left
+  text-decoration: none
+  background-color: rgba(51, 82, 90, 0.08)
+  padding: .2em .4em .28em .4em
+  margin-top: 154px
+  border-style: solid
+  border-color: rgba(4, 69, 106, 0.053)
+  border-left-color: rgba(4, 69, 106, 0.09)
+  border-right-color: rgba(255, 255, 255, 0.288)
+  border-width: 1px
 }
 
 .indice a:hover {
-    background-color: rgba(46, 107, 122, 0.18);
+  background-color: rgba(46, 107, 122, 0.18)
 }
 .indi {
-    color: rgba(110, 110, 160, 0.747);
-    border-radius: .5em;
-    position: fixed;
-    right: 1em;
-    text-decoration: none;
-    background-color: rgba(53, 107, 121, 0.24);
-    padding: .2em .4em .28em .4em;
-    bottom: 2em;
-    border-style: solid;
-    border-color: rgba(4, 69, 106, 0.053);
-    border-left-color: rgba(4, 69, 106, 0.09);
-    border-right-color: rgba(255, 255, 255, 0.288);
-    border-width: 1px;
-    z-index: 1001;
+  color: rgba(110, 110, 160, 0.747)
+  border-radius: .5em
+  position: fixed
+  right: 1em
+  text-decoration: none
+  background-color: rgba(53, 107, 121, 0.24)
+  padding: .2em .4em .28em .4em
+  bottom: 2em
+  border-style: solid
+  border-color: rgba(4, 69, 106, 0.053)
+  border-left-color: rgba(4, 69, 106, 0.09)
+  border-right-color: rgba(255, 255, 255, 0.288)
+  border-width: 1px
+  z-index: 1001
 }
 
 .indi:hover {
-    background-color: rgba(28, 68, 78, 0.62);
+  background-color: rgba(28, 68, 78, 0.62)
 }
 .indi:visited {
-    color: rgba(76, 76, 161, 0.747);
+  color: rgba(76, 76, 161, 0.747)
 }
 #prologo {
-    background-color: rgb(252, 253, 253);
-    width: 100%;
-    background-image: url("../midia/imagens/background001.png");
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.48);
-    padding-top: 80px;
-    padding-bottom: 80px;
-    z-index: 1010;
+  background-color: rgb(252, 253, 253)
+  width: 100%
+  background-image: url("../midia/imagens/background001.png")
+  background-position: center center
+  background-size: cover
+  background-attachment: fixed
+  box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.48)
+  padding-top: 80px
+  padding-bottom: 80px
+  z-index: 1010
 }
 
 .branca1 {
-    height: 80vh;
-    background-color: black;
-    background-image: url("../midia/imagens/background002.png");
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    z-index: 1;
+  height: 80vh
+  background-color: black
+  background-image: url("../midia/imagens/background002.png")
+  background-position: center center
+  background-size: cover
+  background-attachment: fixed
+  padding-top: 10vh
+  padding-bottom: 10vh
+  z-index: 1
 }
 
 #desc {
-    color: #04456A;
-    text-align: left;
-    margin: 0 18vw 0 18vw;
-    padding-top: 8vw;
-    font-size: 1.42em;
-    line-height: 1.3em;
-    font-weight: bold;
+  color: #04456A
+  text-align: left
+  margin: 0 18vw 0 18vw
+  padding-top: 8vw
+  font-size: 1.42em
+  line-height: 1.3em
+  font-weight: bold
 }
 
 #pesos {
-    max-width: 1600px;
-    font-size: 1em;
-    font-weight: bold;
-    margin: 0 auto;
+  max-width: 1600px
+  font-size: 1em
+  font-weight: bold
+  margin: 0 auto
 }
 
 h2 {
-    font-size: 3em;
+  font-size: 3em
 }
 
 #p96 {
-    float: left;
-    width: 30%;
-    padding: 18px 12px 0 12px;
-    line-height: 6.15em;
+  float: left
+  width: 30%
+  padding: 18px 12px 0 12px
+  line-height: 6.15em
 }
 
 #p96:hover {
-    font: italic bold 1em/6.15em 'epoque-light', sans-serif;
-    font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
-    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
-    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
-    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
-    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
-    color: #499bf8;
+  font: italic bold 1em/6.15em 'epoque-light', sans-serif
+  font-feature-settings: "kern" on, "liga" on, "calt" off, "salt"
+  -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt"
+  -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt"
+  -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt"
+  -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt"
+  color: #499bf8
 }
 
 #p96::after {
-    content: "Light 96pt";
+  content: "Light 96pt"
 }
 
 #p96:hover::after {
-    content: "Light it 96pt";
+  content: "Light it 96pt"
 }
 
 #p96::first-line {
-    font: normal normal normal 12em/1em 'epoque-light', sans-serif;
-    display: inline-block;
-    float: left;
+  font: normal normal normal 12em/1em 'epoque-light', sans-serif
+  display: inline-block
+  float: left
 }
 
 #p48 {
-    float: left;
-    width: 24%;
-    padding: 89px 12px 0px 12px;
-    line-height: 7.05em;
+  float: left
+  width: 24%
+  padding: 89px 12px 0px 12px
+  line-height: 7.05em
 }
 
 #p48:hover {
-    font-style: italic;
-    color: #499bf8;
+  font-style: italic
+  color: #499bf8
 }
 
 #p48::after {
-    content: "Roman 48pt";
+  content: "Roman 48pt"
 }
 
 #p48:hover::after {
-    content: "Roman it 48pt";
+  content: "Roman it 48pt"
 }
 
 #p48::first-line {
-    font-family: 'epoque';
-    font-variant: normal;
-    font-weight: normal;
-    display: inline-block;
-    font-size: 6em;
-    float: left;
+  font-family: 'epoque'
+  font-variant: normal
+  font-weight: normal
+  display: inline-block
+  font-size: 6em
+  float: left
 }
 
 #p32 {
-    float: left;
-    width: 20%;
-    padding: 106px 12px 0px 12px;
-    line-height: 6.255em;
+  float: left
+  width: 20%
+  padding: 106px 12px 0px 12px
+  line-height: 6.255em
 }
 
 #p32:hover {
-    font-style: italic;
-    font-weight: normal;
-    color: #499bf8;
+  font-style: italic
+  font-weight: normal
+  color: #499bf8
 }
 
 #p32::after {
-    content: "Bold 32pt";
+  content: "Bold 32pt"
 }
 
 #p32:hover::after {
-    content: "Bold it 32pt";
+  content: "Bold it 32pt"
 }
 
 #p32::first-line {
-    font-family: 'epoque-light';
-    font-variant: "normal";
-    font-weight: "bold";
-    display: "inline-block";
-    font-size: 4em;
-    float: left;
+  font-family: 'epoque-light'
+  font-variant: "normal"
+  font-weight: "bold"
+  display: "inline-block"
+  font-size: 4em
+  float: left
 }
 
 #p24 {
-    float: left;
-    padding: 118px 12px 0 0;
-    width: 18%;
-    line-height: 5.80em;
+  float: left
+  padding: 118px 12px 0 0
+  width: 18%
+  line-height: 5.80em
 }
 
 #p24:hover {
-    font-style: italic;
-    color: #499bf8;
+  font-style: italic
+  color: #499bf8
 }
 
 #p24::after {
-    content: "Black 24pt";
+  content: "Black 24pt"
 }
 
 #p24:hover::after {
-    content: "Black it 24pt";
+  content: "Black it 24pt"
 }
 
 #p24::first-line {
-    font-family: 'epoque';
-    font-variant: normal;
-    font-weight: bold;
-    display: block;
-    font-size: 3em;
+  font-family: 'epoque'
+  font-variant: normal
+  font-weight: bold
+  display: block
+  font-size: 3em
 }
 
 .paginas {
-    position: relative;
-    background-color: #04456A;
-    height: 68vh;
-    text-align: center;
-    padding-top: 20px;
-    box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.425);
-    overflow: hidden;
-    z-index: 1000;
+  position: relative
+  background-color: #04456A
+  height: 68vh
+  text-align: center
+  padding-top: 20px
+  box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.425)
+  overflow: hidden
+  z-index: 1000
 }
 
 .superior {
-    position: absolute;
-    z-index: 2;
-    display: block;
-    font: bold normal 8em/1.15 'epoque', sans-serif;
-    color: lavender;
-    background-color: #04456ae8;
-    clear: both;
-    margin: 20vh 15vh 5vh 6vh;
+  position: absolute
+  z-index: 2
+  display: block
+  font: bold normal 8em/1.15 'epoque', sans-serif
+  color: lavender
+  background-color: #04456ae8
+  clear: both
+  margin: 20vh 15vh 5vh 6vh
 }
 
 .superior>span {
-    text-transform: uppercase;
+  text-transform: uppercase
 }
 
 div#video {
-    height: 99vh;
-    position: relative;
-    display: block;
+  height: 99vh
+  position: relative
+  display: block
 }
 
 video#marquise {
-    position: static;
-    width: 100%;
-    margin: 0 auto 0 auto;
-    z-index: 1;
+  position: static
+  width: 100%
+  margin: 0 auto 0 auto
+  z-index: 1
 }
 
 .final {
-    position: relative;
-    height: 52vw;
-    background-color: white;
-    padding-top: 8hv;
-    padding-bottom: 8hv;
-    z-index: 1000;
-    bottom: 0;
-    z-index: 999;
+  position: relative
+  height: 52vw
+  background-color: white
+  padding-top: 8hv
+  padding-bottom: 8hv
+  z-index: 1000
+  bottom: 0
+  z-index: 999
 }
 
 picture>img {
-    display: block;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+  display: block
+  max-width: 100%
+  margin-left: auto
+  margin-right: auto
 }
 
 #fotos {
-    display: block;
-    position: absolute;
-    max-width: 1200px;
-    min-width: 960px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+  display: block
+  position: absolute
+  max-width: 1200px
+  min-width: 960px
+  left: 50%
+  top: 50%
+  transform: translate(-50%, -50%)
 }
 
 .slider {
-    max-height: 512px;
-    min-height: 480px;
-    max-width: 1024px;
-    min-width: 960px;
-    margin: 0 auto;
+  max-height: 512px
+  min-height: 480px
+  max-width: 1024px
+  min-width: 960px
+  margin: 0 auto
 }
 
 .slider li {
-    list-style: none;
-    position: absolute;
+  list-style: none
+  position: absolute
 }
 
 .slider .img {
-    margin: 0 auto;
-    height: 100%;
-    width: 100%;
-    vertical-align: top;
+  margin: 0 auto
+  height: 100%
+  width: 100%
+  vertical-align: top
 }
 
 .slider input {
-    display: none;
+  display: none
 }
 
 .slider label {
-    background-color: #499bf8;
-    bottom: 24px;
-    cursor: pointer;
-    display: block;
-    height: 18px;
-    position: absolute;
-    width: 18px;
-    border-radius: 50%;
-    box-shadow: 2px 2px 4px 1px black;
-    z-index: 10;
-    opacity: 45%;
+  background-color: #499bf8
+  bottom: 24px
+  cursor: pointer
+  display: block
+  height: 18px
+  position: absolute
+  width: 18px
+  border-radius: 50%
+  box-shadow: 2px 2px 4px 1px black
+  z-index: 10
+  opacity: 45%
 }
 
 .slider label:hover {
-    background-color: #04456A;
+  background-color: #04456A
 }
 
 .slider li:nth-child(1) label {
-    left: 46px;
+  left: 46px
 }
 
 .slider li:nth-child(2) label {
-    left: 92px;
+  left: 92px
 }
 
 .slider li:nth-child(3) label {
-    left: 138px;
+  left: 138px
 }
 
 .slider .img {
-    opacity: 0;
-    visibility: hidden;
+  opacity: 0
+  visibility: hidden
 }
 
 .slider li input:checked~.img {
-    opacity: 1;
-    visibility: visible;
-    z-index: 10;
-    transition-duration: .6s;
+  opacity: 1
+  visibility: visible
+  z-index: 10
+  transition-duration: .6s
 }
 
 #fig {
-    font: normal normal 4em/1.15em 'epoque', sans-serif;
-    text-align: left;
+  font: normal normal 4em/1.15em 'epoque', sans-serif
+  text-align: left
 }
 
 p.figures1:hover {
-    color: #499bf8;
-    font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
-    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
-    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
-    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
-    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
+  color: #499bf8
+  font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum"
+  -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum"
+  -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum"
+  -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum"
+  -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum"
 }
 
 p.figures1::before {
-    content: "LINING: ";
+  content: "LINING: "
 }
 
 p.figures1:hover::before {
-    content: "OLD STYLE: ";
+  content: "OLD STYLE: "
 }
 
 p.figures2:hover {
-    font: normal normal 1em/1.15em 'epoque-light', sans-serif;
-    color: #499bf8;
-    font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "dnom";
-    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "dnom";
-    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "dnom";
-    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "dnom";
-    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "dnom";
+  font: normal normal 1em/1.15em 'epoque-light', sans-serif
+  color: #499bf8
+  font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "dnom"
+  -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "dnom"
+  -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "dnom"
+  -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "dnom"
+  -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "dnom"
 }
 
 .figures2::before {
-    content: "LINING: ";
+  content: "LINING: "
 }
 
 p.figures2:hover::before {
-    content: "INFERIORS: ";
+  content: "INFERIORS: "
 }
 
 p.figures3:hover {
-    font: normal normal 1em/1.15em 'epoque-light', sans-serif;
-    color: #499bf8;
-    font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "sups";
-    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig","sups";
-    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "sups";
-    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "sups";
-    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "sups";
+  font: normal normal 1em/1.15em 'epoque-light', sans-serif
+  color: #499bf8
+  font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "sups"
+  -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig","sups"
+  -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "sups"
+  -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "sups"
+  -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "sups"
 }
 
 .figures3::before {
-    content: "LINING: ";
+  content: "LINING: "
 }
 
 p.figures3:hover::before {
-    content: "SUPERIORS: ";
+  content: "SUPERIORS: "
 }
 
 p.figures4:hover {
-    font: normal normal 1em/1.15em 'epoque-light', sans-serif;
-    color: #499bf8;
-    font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr";
-    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr";
-    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr";
-    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr";
-    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr";
+  font: normal normal 1em/1.15em 'epoque-light', sans-serif
+  color: #499bf8
+  font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr"
+  -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr"
+  -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr"
+  -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr"
+  -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr"
 }
 
 #num:hover {
-    color: #499bf8;
-    font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "dnom";
-    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "dnom";
-    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "dnom";
-    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "dnom";
-    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "dnom";
+  color: #499bf8
+  font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "dnom"
+  -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "dnom"
+  -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "dnom"
+  -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "dnom"
+  -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "dnom"
 }
 
 .figures4::before {
-    content: "LINING: ";
+  content: "LINING: "
 }
 
 p.figures4:hover::before {
-    content: "NUMERATOR & DENOMINATOR: ";
+  content: "NUMERATOR & DENOMINATOR: "
 }
 
 #info {
-    width: 100%;
-    height: 678px;
-    margin: 0;
-    border: 0;
-    padding: 20px 0;
-    overflow: hidden;
+  width: 100%
+  height: 678px
+  margin: 0
+  border: 0
+  padding: 20px 0
+  overflow: hidden
 }
 
 .caixa {
-    max-width: 1200px;
-    margin: 20px 2.8vw;
-    padding-top: 18px;
-    box-sizing: border-box;
+  max-width: 1200px
+  margin: 20px 2.8vw
+  padding-top: 18px
+  box-sizing: border-box
 }
 
 #info>h3 {
-    width: 240px;
-    font: bold normal 2.5em/1em 'epoque-light', sans-serif;
-    margin: 24px auto 0 auto;
-    position: relative;
+  width: 240px
+  font: bold normal 2.5em/1em 'epoque-light', sans-serif
+  margin: 24px auto 0 auto
+  position: relative
 }
 
 #info article {
-    position: relative;
-    display: block;
-    max-width: 320px;
-    float: left;
-    margin: 0 4px;
-    z-index: 20;
+  position: relative
+  display: block
+  max-width: 320px
+  float: left
+  margin: 0 4px
+  z-index: 20
 }
 
 #estreito {
-    width: 200px;
+  width: 200px
 }
 
 #estreito>h3 {
-    box-sizing: content-box;
-    margin: 0 40px 0 0;
+  box-sizing: content-box
+  margin: 0 40px 0 0
 }
 
 article>h3 {
-    color: #04456ae8;
-    font: bold normal 2.5em/1em 'acay', sans-serif;
-    letter-spacing: 0.007em;
-    margin: 0 10px;
-    text-transform: uppercase;
+  color: #04456ae8
+  font: bold normal 2.5em/1em 'acay', sans-serif
+  letter-spacing: 0.007em
+  margin: 0 10px
+  text-transform: uppercase
 }
 
 #info p {
-    font: normal normal 1.11em/1.3 'epoque';
-    color: #04456ae8;
-    padding: 24px 0;
+  font: normal normal 1.11em/1.3 'epoque'
+  color: #04456ae8
+  padding: 24px 0
 }
 
 .clean {
-    clear: both;
-    width: 10px;
-    height: 10px;
-    margin: 10px;
+  clear: both
+  width: 10px
+  height: 10px
+  margin: 10px
 }
 
 footer {
-    width: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: black;
-    text-align: center;
-    color: white;
-    line-height: 1.2em;
-    z-index: 2001;
-    padding: 1px 0 6px 0;
-    position: relative;
+  width: 100%
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+  background-color: black
+  text-align: center
+  color: white
+  line-height: 1.2em
+  z-index: 2001
+  padding: 1px 0 6px 0
+  position: relative
 }
 
 @media screen and (min-width: 641px) and (max-width: 960px) {
-    section {
-        height: 54vw;
-    }
-    .paginas {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-    #prologo {
-        background-image: url("../midia/imagens/background001-tb.png");
-        padding-top: 10vh;
-        padding-bottom: 10vh;
-    }
-    .branca1 {
-        height: 85vw;
-        background-image: url("../midia/imagens/background002-tb.png");
-        padding-top: 10vw;
-        padding-bottom: 10vw;
-    }
-    #desc {
-        margin: 0 120px 0 120px;
-        font-size: 1.3em;
-        line-height: 1.35em;
-        font-weight: bold;
-    }
-    .superior {
-        display: block;
-        font-size: 5em;
-        margin: 5vh 15vh 0 6vh;
-    }
-    div#video {
-        height: 54vw;
-    }
-    .paginas {
-        height: 58vw;
-        padding-top: 18px;
-    }
-    #p96 {
-        width: 42%;
-        padding: 6px 10px 0 10px;
-        line-height: 5.5em;
-    }
-    #p96::first-line {
-        font-size: 10em;
-    }
-    #p48 {
-        width: 20%;
-        padding: 46px 10px 0px 10px;
-        line-height: 6.7em;
-    }
-    #p48::first-line {
-        font-size: 5em;
-    }
-    #p32 {
-        float: left;
-        width: 12%;
-        padding: 61px 12px 0px 12px;
-        line-height: 6.06em;
-    }
-    #p32::first-line {
-        font-size: 3em;
-    }
-    #p24 {
-        float: left;
-        padding: 68px 12px 0 0;
-        width: 12%;
-        line-height: 5.80em;
-    }
-    #p24::first-line {
-        font-size: 2.5em;
-    }
-    .final {
-        height: 70vw;
-    }
-    #fotos {
-        max-width: 960px;
-        min-width: 641px;
-    }
-    .slider {
-        max-width: 768px;
-        min-width: 444px;
-    }
-    #fig {
-        font: normal normal 3.4em/1em 'epoque', sans-serif;
-    }
-    .paginas>div {
-        padding-top: 80px;
-    }
-    #info {
-        box-sizing: content-box;
-        height: 796px;
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-    .caixa {
-        max-width: 864px;
-        margin: 0 auto;
-    }
-    #info>h3 {
-        width: 420px;
-        font: bold normal 2.5em/1em 'epoque-light', sans-serif;
-        margin: 8px auto 8px auto;
-        letter-spacing: -0.04em;
-        text-transform: uppercase;
-    }
-    #info article {
-        max-width: 310px;
-        float: left;
-        margin: 0 12px;
-        z-index: 20;
-    }
-    #estreito {
-        width: 150px;
-    }
-    #info p {
-        width: 300px;
-        font: normal normal 1.15em/1.2em 'epoque-light', sans-serif;
-        padding: 12px 10px 0 0;
-        margin: 0;
-    }
-    #estreito>p {
-        width: 160px;
-    }
+  section {
+    height: 54vw
+  }
+  .paginas {
+    padding-top: 60px
+    padding-bottom: 60px
+  }
+  #prologo {
+    background-image: url("../midia/imagens/background001-tb.png")
+    padding-top: 10vh
+    padding-bottom: 10vh
+  }
+  .branca1 {
+    height: 85vw
+    background-image: url("../midia/imagens/background002-tb.png")
+    padding-top: 10vw
+    padding-bottom: 10vw
+  }
+  #desc {
+    margin: 0 120px 0 120px
+    font-size: 1.3em
+    line-height: 1.35em
+    font-weight: bold
+  }
+  .superior {
+    display: block
+    font-size: 5em
+    margin: 5vh 15vh 0 6vh
+  }
+  div#video {
+    height: 54vw
+  }
+  .paginas {
+    height: 58vw
+    padding-top: 18px
+  }
+  #p96 {
+    width: 42%
+    padding: 6px 10px 0 10px
+    line-height: 5.5em
+  }
+  #p96::first-line {
+    font-size: 10em
+  }
+  #p48 {
+    width: 20%
+    padding: 46px 10px 0px 10px
+    line-height: 6.7em
+  }
+  #p48::first-line {
+    font-size: 5em
+  }
+  #p32 {
+    float: left
+    width: 12%
+    padding: 61px 12px 0px 12px
+    line-height: 6.06em
+  }
+  #p32::first-line {
+    font-size: 3em
+  }
+  #p24 {
+    float: left
+    padding: 68px 12px 0 0
+    width: 12%
+    line-height: 5.80em
+  }
+  #p24::first-line {
+    font-size: 2.5em
+  }
+  .final {
+    height: 70vw
+  }
+  #fotos {
+    max-width: 960px
+    min-width: 641px
+  }
+  .slider {
+    max-width: 768px
+    min-width: 444px
+  }
+  #fig {
+    font: normal normal 3.4em/1em 'epoque', sans-serif
+  }
+  .paginas>div {
+    padding-top: 80px
+  }
+  #info {
+    box-sizing: content-box
+    height: 796px
+    padding-top: 40px
+    padding-bottom: 40px
+  }
+  .caixa {
+    max-width: 864px
+    margin: 0 auto
+  }
+  #info>h3 {
+    width: 420px
+    font: bold normal 2.5em/1em 'epoque-light', sans-serif
+    margin: 8px auto 8px auto
+    letter-spacing: -0.04em
+    text-transform: uppercase
+  }
+  #info article {
+    max-width: 310px
+    float: left
+    margin: 0 12px
+    z-index: 20
+  }
+  #estreito {
+    width: 150px
+  }
+  #info p {
+    width: 300px
+    font: normal normal 1.15em/1.2em 'epoque-light', sans-serif
+    padding: 12px 10px 0 0
+    margin: 0
+  }
+  #estreito>p {
+    width: 160px
+  }
 }
 
 @media screen and (min-width: 480px) and (max-width: 640px) {
-    section {
-        position: relative;
-        height: 62vw;
-    }
-    .paginas {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-    .branca1 {
-        height: 88vh;
-        padding-top: 5vw;
-        padding-bottom: 5vw;
-    }
-    #desc {
-        margin: 0 40px 0 80px;
-        font-size: 1.2em;
-        line-height: 1.3em;
-        font-weight: bold;
-    }
-    .superior {
-        display: block;
-        font-size: 3.5em;
-        margin: .2vw 15vw 0 6vw;
-    }
-    div#video {
-        height: 54vw;
-    }
-    .paginas {
-        height: 72vw;
-        padding-top: 12px;
-    }
-    #p96 {
-        width: 42%;
-        padding: 0px 10px 0 10px;
-        line-height: 7.2em;
-    }
-    #p96::after {
-        content: "Époque 45 96pt";
-    }
-    #p96:hover::after {
-        content: "Époque 46 96pt";
-    }
-    #p96::first-line {
-        font-size: 6em;
-    }
-    #p48 {
-        width: 17%;
-        padding: 19px 10px 0px 10px;
-        line-height: 6.44em;
-    }
-    #p48::after {
-        content: "E 55 48pt";
-    }
-    #p48:hover::after {
-        content: "E 56 48pt";
-    }
-    #p48::first-line {
-        font-size: 3em;
-    }
-    #p32 {
-        float: left;
-        width: 15%;
-        padding: 28px 12px 0px 12px;
-        line-height: 6.06em;
-    }
-    #p32::after {
-        content: "65 32pt";
-    }
-    #p32:hover::after {
-        content: "66 32pt";
-    }
-    #p32::first-line {
-        font-size: 2.25em;
-    }
-    #p24 {
-        float: left;
-        padding: 34px 12px 0 0;
-        width: 16%;
-        line-height: 5.80em;
-    }
-    #p24::after {
-        content: "75 24pt";
-    }
-    #p24:hover::after {
-        content: "76 24pt";
-    }
-    #p24::first-line {
-        font-size: 1.5em;
-    }
-    .final {
-        height: 85vw;
-    }
-    #fotos {
-        max-width: 640px;
-        min-width: 480px;
-        left: 55%;
-        top: 65%;
-        transform: translate(-55%, -50%);
-    }
-    .slider {
-        max-width: 620px;
-        min-width: 410px;
-    }
-    #fig {
-        font: normal normal 2em/1.6em 'epoque', sans-serif;
-    }
-    .paginas>div {
-        padding-top: 40px;
-    }
-    #info {
-        padding-top: 40px;
-        height: 820px;
-        box-sizing: content-box;
-        padding-bottom: 40px;
-    }
-    .caixa {
-        max-width: 576px;
-        margin: 0 auto;
-    }
-    #info>h3 {
-        width: 400px;
-        font: bold normal 2em/1em 'epoque-light', sans-serif;
-        margin: 8px auto 8px auto;
-        letter-spacing: -0.03em;
-        text-transform: uppercase;
-    }
-    #info article {
-        max-width: 300px;
-        float: left;
-        margin: 0 10px;
-        z-index: 20;
-    }
-    #estreito {
-        width: 200px;
-    }
-    #info p {
-        width: 300px;
-        font: bold normal 1em/1.2em 'epoque-light', sans-serif;
-        padding: 12px 10px 0 0;
-        margin: 0;
-    }
-    #estreiro>p {
-        width: 200px;
-        padding-right: 20px;
-    }
+  section {
+    position: relative
+    height: 62vw
+  }
+  .paginas {
+    padding-top: 40px
+    padding-bottom: 40px
+  }
+  .branca1 {
+    height: 88vh
+    padding-top: 5vw
+    padding-bottom: 5vw
+  }
+  #desc {
+    margin: 0 40px 0 80px
+    font-size: 1.2em
+    line-height: 1.3em
+    font-weight: bold
+  }
+  .superior {
+    display: block
+    font-size: 3.5em
+    margin: .2vw 15vw 0 6vw
+  }
+  div#video {
+    height: 54vw
+  }
+  .paginas {
+    height: 72vw
+    padding-top: 12px
+  }
+  #p96 {
+    width: 42%
+    padding: 0px 10px 0 10px
+    line-height: 7.2em
+  }
+  #p96::after {
+    content: "Époque 45 96pt"
+  }
+  #p96:hover::after {
+    content: "Époque 46 96pt"
+  }
+  #p96::first-line {
+    font-size: 6em
+  }
+  #p48 {
+    width: 17%
+    padding: 19px 10px 0px 10px
+    line-height: 6.44em
+  }
+  #p48::after {
+    content: "E 55 48pt"
+  }
+  #p48:hover::after {
+    content: "E 56 48pt"
+  }
+  #p48::first-line {
+    font-size: 3em
+  }
+  #p32 {
+    float: left
+    width: 15%
+    padding: 28px 12px 0px 12px
+    line-height: 6.06em
+  }
+  #p32::after {
+    content: "65 32pt"
+  }
+  #p32:hover::after {
+    content: "66 32pt"
+  }
+  #p32::first-line {
+    font-size: 2.25em
+  }
+  #p24 {
+    float: left
+    padding: 34px 12px 0 0
+    width: 16%
+    line-height: 5.80em
+  }
+  #p24::after {
+    content: "75 24pt"
+  }
+  #p24:hover::after {
+    content: "76 24pt"
+  }
+  #p24::first-line {
+    font-size: 1.5em
+  }
+  .final {
+    height: 85vw
+  }
+  #fotos {
+    max-width: 640px
+    min-width: 480px
+    left: 55%
+    top: 65%
+    transform: translate(-55%, -50%)
+  }
+  .slider {
+    max-width: 620px
+    min-width: 410px
+  }
+  #fig {
+    font: normal normal 2em/1.6em 'epoque', sans-serif
+  }
+  .paginas>div {
+    padding-top: 40px
+  }
+  #info {
+    padding-top: 40px
+    height: 820px
+    box-sizing: content-box
+    padding-bottom: 40px
+  }
+  .caixa {
+    max-width: 576px
+    margin: 0 auto
+  }
+  #info>h3 {
+    width: 400px
+    font: bold normal 2em/1em 'epoque-light', sans-serif
+    margin: 8px auto 8px auto
+    letter-spacing: -0.03em
+    text-transform: uppercase
+  }
+  #info article {
+    max-width: 300px
+    float: left
+    margin: 0 10px
+    z-index: 20
+  }
+  #estreito {
+    width: 200px
+  }
+  #info p {
+    width: 300px
+    font: bold normal 1em/1.2em 'epoque-light', sans-serif
+    padding: 12px 10px 0 0
+    margin: 0
+  }
+  #estreiro>p {
+    width: 200px
+    padding-right: 20px
+  }
 }
 
 @media screen and (min-width: 300px) and (max-width: 480px) {
-    section {
-        height: 80vw;
-    }
-    section>h1 {
-        font: normal normal 5em/1 'epoque-light', sans-serif;
-    }
-    .branca1,
-    .paginas,
-    .prologo {
-        padding-top: 5vw;
-        padding-bottom: 15vw;
-    }
-    #prologo {
-        background-image: url("../midia/imagens/background001-tb.png");
-        padding-top: 12vh;
-        padding-bottom: 16vh;
-        font-size: 1.1em;
-    }
-    .branca1 {
-        background-image: url("../midia/imagens/background002-sm.png");
-    }
-    #desc {
-        margin: 0 2px 0 4px;
-        font-size: 1.15em;
-        line-height: 1.3em;
-        font-weight: bold;
-    }
-    .superior {
-        font: bold normal 3em/1em 'epoque-light', sans-serif;
-        margin: 2vh 30vh 0 3vh;
-    }
-    div#video {
-        height: 54vw;
-    }
-    .paginas#pesos {
-        height: 48vw;
-        padding-top: 4px;
-    }
-    h2 {
-        font-size: 1.8em;
-    }
-    #p96 {
-        width: 40%;
-        padding: 0px 1px 0 1px;
-        line-height: 7.2em;
-    }
-    #p96::after {
-        content: "Époque 45 96pt";
-    }
-    #p96:hover::after {
-        content: "Époque 46 96pt";
-    }
-    #p96::first-line {
-        font-size: 4em;
-    }
-    #p48 {
-        width: 21%;
-        padding: 19px 1px 0px 1px;
-        line-height: 6.44em;
-    }
-    #p48::after {
-        content: "E 55 48pt";
-    }
-    #p48:hover::after {
-        content: "E 56 48pt";
-    }
-    #p48::first-line {
-        font-size: 2em;
-    }
-    #p32 {
-        float: left;
-        width: 17%;
-        padding: 28px 1px 0px 1px;
-        line-height: 6.06em;
-    }
-    #p32::after {
-        content: "65 32pt";
-    }
-    #p32:hover::after {
-        content: "66 32pt";
-    }
-    #p32::first-line {
-        font-size: 1.5em;
-    }
-    #p24 {
-        float: left;
-        padding: 34px 1px 0 0;
-        width: 20%;
-        line-height: 5.80em;
-    }
-    #p24::after {
-        content: "75 24pt";
-    }
-    #p24:hover::after {
-        content: "76 24pt";
-    }
-    #p24::first-line {
-        font-size: 1em;
-    }
-    .final {
-        height: 100vw;
-    }
-    #fotos {
-        max-width: 480px;
-        min-width: 320px;
-        left: 50%;
-        top: 60%;
-        transform: translate(-50%, -40%);
-    }
-    .slider {
-        max-width: 432px;
-        min-width: 288px;
-    }
-    #fig {
-        font: normal normal 2em/1.5em 'epoque', sans-serif;
-    }
-    .paginas>div {
-        padding-top: 40px;
-    }
-    #info {
-        height: 260vw;
-    }
-    #info>h3 {
-        width: 300px;
-        font: bold normal 1.8em/1em 'epoque-light', sans-serif;
-        margin: 8px auto 0 auto;
-        letter-spacing: -0.04em;
-        text-transform: uppercase;
-    }
-    #info article {
-        max-width: 320px;
-        float: left;
-        margin: 0 4px;
-        z-index: 20;
-    }
-    #estreito {
-        width: 300px;
-    }
-    #info p {
-        width: 300px;
-        font: bold normal 0.85em/1.2em 'epoque-light', sans-serif;
-        padding: 12px 0;
-        margin: 0;
-    }
+  section {
+    height: 80vw
+  }
+  section>h1 {
+    font: normal normal 5em/1 'epoque-light', sans-serif
+  }
+  .branca1,
+  .paginas,
+  .prologo {
+    padding-top: 5vw
+    padding-bottom: 15vw
+  }
+  #prologo {
+    background-image: url("../midia/imagens/background001-tb.png")
+    padding-top: 12vh
+    padding-bottom: 16vh
+    font-size: 1.1em
+  }
+  .branca1 {
+    background-image: url("../midia/imagens/background002-sm.png")
+  }
+  #desc {
+    margin: 0 2px 0 4px
+    font-size: 1.15em
+    line-height: 1.3em
+    font-weight: bold
+  }
+  .superior {
+    font: bold normal 3em/1em 'epoque-light', sans-serif
+    margin: 2vh 30vh 0 3vh
+  }
+  div#video {
+    height: 54vw
+  }
+  .paginas#pesos {
+    height: 48vw
+    padding-top: 4px
+  }
+  h2 {
+    font-size: 1.8em
+  }
+  #p96 {
+    width: 40%
+    padding: 0px 1px 0 1px
+    line-height: 7.2em
+  }
+  #p96::after {
+    content: "Époque 45 96pt"
+  }
+  #p96:hover::after {
+    content: "Époque 46 96pt"
+  }
+  #p96::first-line {
+    font-size: 4em
+  }
+  #p48 {
+    width: 21%
+    padding: 19px 1px 0px 1px
+    line-height: 6.44em
+  }
+  #p48::after {
+    content: "E 55 48pt"
+  }
+  #p48:hover::after {
+    content: "E 56 48pt"
+  }
+  #p48::first-line {
+    font-size: 2em
+  }
+  #p32 {
+    float: left
+    width: 17%
+    padding: 28px 1px 0px 1px
+    line-height: 6.06em
+  }
+  #p32::after {
+    content: "65 32pt"
+  }
+  #p32:hover::after {
+    content: "66 32pt"
+  }
+  #p32::first-line {
+    font-size: 1.5em
+  }
+  #p24 {
+    float: left
+    padding: 34px 1px 0 0
+    width: 20%
+    line-height: 5.80em
+  }
+  #p24::after {
+    content: "75 24pt"
+  }
+  #p24:hover::after {
+    content: "76 24pt"
+  }
+  #p24::first-line {
+    font-size: 1em
+  }
+  .final {
+    height: 100vw
+  }
+  #fotos {
+    max-width: 480px
+    min-width: 320px
+    left: 50%
+    top: 60%
+    transform: translate(-50%, -40%)
+  }
+  .slider {
+    max-width: 432px
+    min-width: 288px
+  }
+  #fig {
+    font: normal normal 2em/1.5em 'epoque', sans-serif
+  }
+  .paginas>div {
+    padding-top: 40px
+  }
+  #info {
+    height: 260vw
+  }
+  #info>h3 {
+    width: 300px
+    font: bold normal 1.8em/1em 'epoque-light', sans-serif
+    margin: 8px auto 0 auto
+    letter-spacing: -0.04em
+    text-transform: uppercase
+  }
+  #info article {
+    max-width: 320px
+    float: left
+    margin: 0 4px
+    z-index: 20
+  }
+  #estreito {
+    width: 300px
+  }
+  #info p {
+    width: 300px
+    font: bold normal 0.85em/1.2em 'epoque-light', sans-serif
+    padding: 12px 0
+    margin: 0
+  }
 }

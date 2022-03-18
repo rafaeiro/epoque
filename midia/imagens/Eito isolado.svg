@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) -->
 <svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve">
+ viewBox="0 0 150 150" style="enable-background:new 0 0 150 150" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#9E005D;}
-	.st1{fill:none;}
+ .st0{fill:#9E005D}
+ .st1{fill:none}
 </style>
-<text transform="matrix(1 0 0 1 -280.5273 -91.3916)" style="display:none;"><tspan x="0" y="0" style="display:inline;fill:#1E2019; font-family:'Epoque-Black'; font-size:184.2133px;">Rafa</tspan><tspan x="349.63" y="0" style="display:inline;fill:#9E005D; font-family:'Epoque-Light'; font-size:184.2133px;"></tspan><tspan x="437.68" y="0" style="display:inline; font-family:'Epoque-Roman'; font-size:184.2133px;"> </tspan><tspan x="492.95" y="0" style="display:inline;fill:#1E2019; font-family:'Epoque-Black'; font-size:184.2133px; letter-spacing:-8;">T</tspan><tspan x="575.84" y="0" style="display:inline;fill:#1E2019; font-family:'Epoque-Black'; font-size:184.2133px;">yp</tspan><tspan x="753.79" y="0" style="display:inline;fill:#9E005D; font-family:'Epoque-Light'; font-size:184.2133px;"></tspan></text>
-<image style="display:none;overflow:visible;" width="1366" height="768" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA
+<text transform="matrix(1 0 0 1 -280.5273 -91.3916)" style="display:none"><tspan x="0" y="0" style="display:inlinefill:#1E2019 font-family:'Epoque-Black' font-size:184.2133px">Rafa</tspan><tspan x="349.63" y="0" style="display:inlinefill:#9E005D font-family:'Epoque-Light' font-size:184.2133px"></tspan><tspan x="437.68" y="0" style="display:inline font-family:'Epoque-Roman' font-size:184.2133px"> </tspan><tspan x="492.95" y="0" style="display:inlinefill:#1E2019 font-family:'Epoque-Black' font-size:184.2133px letter-spacing:-8">T</tspan><tspan x="575.84" y="0" style="display:inlinefill:#1E2019 font-family:'Epoque-Black' font-size:184.2133px">yp</tspan><tspan x="753.79" y="0" style="display:inlinefill:#9E005D font-family:'Epoque-Light' font-size:184.2133px"></tspan></text>
+<image style="display:noneoverflow:visible" width="1366" height="768" xlink:href="data:image/jpegbase64,/9j/4AAQSkZJRgABAgEASABIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA
 EAMCAwYAACWwAABHrAAAvZH/2wCEABALCwsMCxAMDBAXDw0PFxsUEBAUGx8XFxcXFx8eFxoaGhoX
 Hh4jJSclIx4vLzMzLy9AQEBAQEBAQEBAQEBAQEABEQ8PERMRFRISFRQRFBEUGhQWFhQaJhoaHBoa
 JjAjHh4eHiMwKy4nJycuKzU1MDA1NUBAP0BAQEBAQEBAQEBAQP/CABEIAwAFVgMBIgACEQEDEQH/
@@ -861,12 +861,12 @@ MsWVMwKnIrXANmOIoppdTLArG7LFIyAnjOUit18TLu8+8yZ2y7y+bPa/WvjelXVaqadVOZRJIzgH
 jGYmmkkYu7m7MxuSTwkn6f8A1H/YV//Z" transform="matrix(1 0 0 1 -558 -1084)">
 </image>
 <g>
-	<path class="st0" d="M117.12,116.81c-7.82,7.59-18.16,13.79-30.11,13.79c-20,0-31.95-13.33-36.32-30.11h37.93l2.89-8.21H27.83
-		l-2.66,8.21h13.79c5.06,23.45,22.53,39.54,48.28,39.54c15.63,0,28.05-7.36,37.93-16.55L117.12,116.81z"/>
-	<path class="st0" d="M73.45,24.08c4.6,0,7.59-2.53,7.59-9.88c0-5.52-2.99-8.97-7.59-8.97c-4.6,0-7.59,3.45-7.59,8.97
-		C65.86,21.56,68.85,24.08,73.45,24.08z"/>
-	<path class="st0" d="M89.09,79.8l2.75-7.82H50c3.68-15.17,13.79-29.65,30.57-30.11c8.97,0,16.55,5.29,22.07,11.49l3.91-10.11
-		c-6.9-6.9-16.55-10.57-25.98-10.57c-23.22,0-37.01,19.31-41.38,39.31H27.93l-2.11,7.82H89.09z"/>
+ <path class="st0" d="M117.12,116.81c-7.82,7.59-18.16,13.79-30.11,13.79c-20,0-31.95-13.33-36.32-30.11h37.93l2.89-8.21H27.83
+ l-2.66,8.21h13.79c5.06,23.45,22.53,39.54,48.28,39.54c15.63,0,28.05-7.36,37.93-16.55L117.12,116.81z"/>
+ <path class="st0" d="M73.45,24.08c4.6,0,7.59-2.53,7.59-9.88c0-5.52-2.99-8.97-7.59-8.97c-4.6,0-7.59,3.45-7.59,8.97
+ C65.86,21.56,68.85,24.08,73.45,24.08z"/>
+ <path class="st0" d="M89.09,79.8l2.75-7.82H50c3.68-15.17,13.79-29.65,30.57-30.11c8.97,0,16.55,5.29,22.07,11.49l3.91-10.11
+ c-6.9-6.9-16.55-10.57-25.98-10.57c-23.22,0-37.01,19.31-41.38,39.31H27.93l-2.11,7.82H89.09z"/>
 </g>
 <rect class="st1" width="150" height="150"/>
 </svg>

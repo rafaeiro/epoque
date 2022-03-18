@@ -1,113 +1,113 @@
-@charset "utf-8";
+@charset "utf-8"
 
 .caracteres {
-    color: #04456A;
-    text-align: center;
-    font-weight: bold;
-    padding-top: 1em;
+  color: #04456A
+  text-align: center
+  font-weight: bold
+  padding-top: 1em
 }
 #mapadecaracteres {
-    height: 100vh;
-    /* overflow: hidden; */
+  height: 100vh
+  /* overflow: hidden */
 }
 #map {
-    margin:0 16.82vw;
+  margin:0 16.82vw
 }
 
 .charmap {
-    position: relative;
-    float: left;
-    text-align: center;
-    padding-top: 8vw;
-    font-size: 2.65em;
-    line-height: 1.2em;
+  position: relative
+  float: left
+  text-align: center
+  padding-top: 8vw
+  font-size: 2.65em
+  line-height: 1.2em
 }
 
 .char {
-    text-align: center;
-    color: #04456A;
-    padding: 0;
-    font-weight: bold;
-    display: inline-block;  
-    width: 5vw;
-    height: 5vw;
-    box-sizing: border-box;
+  text-align: center
+  color: #04456A
+  padding: 0
+  font-weight: bold
+  display: inline-block 
+  width: 5vw
+  height: 5vw
+  box-sizing: border-box
 }
 .char:hover { 
-    background-color: #33333310;
-    border:1px solid #04456A;
-    cursor: crosshair;
+  background-color: #33333310
+  border:1px solid #04456A
+  cursor: crosshair
 
 }
 
 .char:active { 
-    position: fixed;
-    top: 50vh;
-    left: 75vh;
-    font-size: 13.25em;
-    color: #499bf8;
-    z-index: 2000;
+  position: fixed
+  top: 50vh
+  left: 75vh
+  font-size: 13.25em
+  color: #499bf8
+  z-index: 2000
 }
 .ss01 { 
-    font-feature-settings: "dlig", "ss01";
-    -moz-font-feature-settings: "dlig", "ss01";
-    -webkit-font-feature-settings: "dlig", "ss01";
-    -ms-font-feature-settings: "dlig", "ss01";
-    -o-font-feature-settings: "dlig", "ss01";
+  font-feature-settings: "dlig", "ss01"
+  -moz-font-feature-settings: "dlig", "ss01"
+  -webkit-font-feature-settings: "dlig", "ss01"
+  -ms-font-feature-settings: "dlig", "ss01"
+  -o-font-feature-settings: "dlig", "ss01"
 }
 .liga {
-    font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig";
-    -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig";
-    -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig";
-    -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig";
-    -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig";
+  font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig"
+  -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig"
+  -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig"
+  -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig"
+  -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig"
 }
 
 .tnum { 
-    font-feature-settings: "tnum";
-    -moz-font-feature-settings: "tnum";
-    -webkit-font-feature-settings: "tnum";
-    -ms-font-feature-settings: "tnum";
-    -o-font-feature-settings: "tnum";
+  font-feature-settings: "tnum"
+  -moz-font-feature-settings: "tnum"
+  -webkit-font-feature-settings: "tnum"
+  -ms-font-feature-settings: "tnum"
+  -o-font-feature-settings: "tnum"
 }
 
 .pnum {
-    font-feature-settings: "pnum";
-    -moz-font-feature-settings: "pnum";
-    -webkit-font-feature-settings: "pnum";
-    -ms-font-feature-settings: "pnum";
-    -o-font-feature-settings: "pnum";
+  font-feature-settings: "pnum"
+  -moz-font-feature-settings: "pnum"
+  -webkit-font-feature-settings: "pnum"
+  -ms-font-feature-settings: "pnum"
+  -o-font-feature-settings: "pnum"
 } 
 
 .onum {
-    font-feature-settings: "onum";
-    -moz-font-feature-settings: "onum";
-    -webkit-font-feature-settings: "onum";
-    -ms-font-feature-settings: "onum";
-    -o-font-feature-settings: "onum";
+  font-feature-settings: "onum"
+  -moz-font-feature-settings: "onum"
+  -webkit-font-feature-settings: "onum"
+  -ms-font-feature-settings: "onum"
+  -o-font-feature-settings: "onum"
 }
 
 .numr {
-    font-feature-settings: "kern" off, "liga" off, "calt" off, "numr";
-    -moz-font-feature-settings: "kern" off, "liga" off, "calt" off, "numr";
-    -webkit-font-feature-settings: "kern" off, "liga" off, "calt" off, "numr";
-    -ms-font-feature-settings: "kern" off, "liga" off, "calt" off, "numr";
-    -o-font-feature-settings: "kern" off, "liga" off, "calt" off, "numr";
+  font-feature-settings: "kern" off, "liga" off, "calt" off, "numr"
+  -moz-font-feature-settings: "kern" off, "liga" off, "calt" off, "numr"
+  -webkit-font-feature-settings: "kern" off, "liga" off, "calt" off, "numr"
+  -ms-font-feature-settings: "kern" off, "liga" off, "calt" off, "numr"
+  -o-font-feature-settings: "kern" off, "liga" off, "calt" off, "numr"
 }
 
 .dnum {
-    font-feature-settings: "dnom";
-    -moz-font-feature-settings:  "dnom";
-    -webkit-font-feature-settings: "dnom";
-    -ms-font-feature-settings: "dnom";
-    -o-font-feature-settings: "dnom";
+  font-feature-settings: "dnom"
+  -moz-font-feature-settings: "dnom"
+  -webkit-font-feature-settings: "dnom"
+  -ms-font-feature-settings: "dnom"
+  -o-font-feature-settings: "dnom"
 }
 
 .NDL {
-    font-feature-settings: "kern" on, "calt" on;
-    -moz-font-feature-settings: "kern" on, "calt" on;
-    -webkit-font-feature-settings: "kern" on, "calt" on;
-    -ms-font-feature-settings: "kern" on, "calt" on;
-    -o-font-feature-settings: "kern" on, "calt" on;
+  font-feature-settings: "kern" on, "calt" on
+  -moz-font-feature-settings: "kern" on, "calt" on
+  -webkit-font-feature-settings: "kern" on, "calt" on
+  -ms-font-feature-settings: "kern" on, "calt" on
+  -o-font-feature-settings: "kern" on, "calt" on
 }
 
