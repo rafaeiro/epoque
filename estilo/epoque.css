@@ -1,24 +1,25 @@
-@charset "utf-8"
+@charset "utf-8";
+
 * {
-  color: lavender
+  color: lavender;
 }
 body {
-  font: normal normal normal 1em/1 'epoque-light', sans-serif
+  font: normal normal normal 1em/1 'epoque-light', sans-serif;
 }
 section>h1 {
-  font: normal normal 6em/1 'epoque-light', sans-serif
-  text-align: center
-  color: white
-  padding-top: 96px
+  font: normal normal 6em/1 'epoque-light', sans-serif;
+  text-align: center;
+  color: white;
+  padding-top: 96px;
 }
 
 .salt {
-  color: white
-  font-feature-settings: "kern" on, "liga" on, "calt" off, "salt"
-  -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt"
-  -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt"
-  -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt"
-  -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt"
+  color: white;
+  font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+  -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+  -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+  -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+  -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
 }
 
 p,
@@ -29,307 +30,307 @@ h1,
 h2,
 h3,
 ul {
-  margin: 0
-  padding: 0
-  border: 0
-  font-size: 100%
-  font: inherit
-  vertical-align: baseline
-  text-decoration: none
-  list-style-type: none
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  list-style-type: none;
 }
 a {
-  color:#499bf8 
+  color:#499bf8;
 }
 a:hover:active {
-  color:#1a67be 
+  color:#1a67be;
 }
 a:visited {
-  color:#451f57b7 
+  color:#451f57b7;
 }
 body {
-  margin: 0
-  padding: 0
-  border: 0
-  position: relative
-  width: 100%
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: relative;
+  width: 100%;
 }
 
 section {
-  position: relative
-  height: 68vh
+  position: relative;
+  height: 68vh;
 }
 
 #prologo p {
-  text-align: center
-  font-weight: bold
-  font-size: 1.25em
-  padding-top: 15vh
-  padding-bottom: 5px
-  color: white
-  z-index: 1010
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25em;
+  padding-top: 15vh;
+  padding-bottom: 5px;
+  color: white;
+  z-index: 1010;
 }
 
 .indice a {
-  color: rgba(230, 230, 250, 0.747)
-  position: relative
-  float: left
-  text-decoration: none
-  background-color: rgba(51, 82, 90, 0.08)
-  padding: .2em .4em .28em .4em
-  margin-top: 154px
-  border-style: solid
-  border-color: rgba(4, 69, 106, 0.053)
-  border-left-color: rgba(4, 69, 106, 0.09)
-  border-right-color: rgba(255, 255, 255, 0.288)
-  border-width: 1px
+  color: rgba(230, 230, 250, 0.747);
+  position: relative;
+  float: left;
+  text-decoration: none;
+  background-color: rgba(51, 82, 90, 0.08);
+  padding: .2em .4em .28em .4em;
+  margin-top: 154px;
+  border-style: solid;
+  border-color: rgba(4, 69, 106, 0.053);
+  border-left-color: rgba(4, 69, 106, 0.09);
+  border-right-color: rgba(255, 255, 255, 0.288);
+  border-width: 1px;
 }
 
 .indice a:hover {
-  background-color: rgba(46, 107, 122, 0.18)
+  background-color: rgba(46, 107, 122, 0.18);
 }
 .indi {
-  color: rgba(110, 110, 160, 0.747)
-  border-radius: .5em
-  position: fixed
-  right: 1em
-  text-decoration: none
-  background-color: rgba(53, 107, 121, 0.24)
-  padding: .2em .4em .28em .4em
-  bottom: 2em
-  border-style: solid
-  border-color: rgba(4, 69, 106, 0.053)
-  border-left-color: rgba(4, 69, 106, 0.09)
-  border-right-color: rgba(255, 255, 255, 0.288)
-  border-width: 1px
-  z-index: 1001
+  color: rgba(110, 110, 160, 0.747);
+  border-radius: .5em;
+  position: fixed;
+  right: 1em;
+  text-decoration: none;
+  background-color: rgba(53, 107, 121, 0.24);
+  padding: .2em .4em .28em .4em;
+  bottom: 2em;
+  border-style: solid;
+  border-color: rgba(4, 69, 106, 0.053);
+  border-left-color: rgba(4, 69, 106, 0.09);
+  border-right-color: rgba(255, 255, 255, 0.288);
+  border-width: 1px;
+  z-index: 1001;
 }
 
 .indi:hover {
-  background-color: rgba(28, 68, 78, 0.62)
+  background-color: rgba(28, 68, 78, 0.62);
 }
 .indi:visited {
-  color: rgba(76, 76, 161, 0.747)
+  color: rgba(76, 76, 161, 0.747);
 }
 #prologo {
-  background-color: rgb(252, 253, 253)
-  width: 100%
-  background-image: url("../midia/imagens/background001.png")
-  background-position: center center
-  background-size: cover
-  background-attachment: fixed
-  box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.48)
-  padding-top: 80px
-  padding-bottom: 80px
-  z-index: 1010
+  background-color: rgb(252, 253, 253);
+  width: 100%;
+  background-image: url("../midia/imagens/background001.png");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.48);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  z-index: 1010;
 }
 
 .branca1 {
-  height: 80vh
-  background-color: black
-  background-image: url("../midia/imagens/background002.png")
-  background-position: center center
-  background-size: cover
-  background-attachment: fixed
-  padding-top: 10vh
-  padding-bottom: 10vh
-  z-index: 1
+  height: 80vh;
+  background-color: black;
+  background-image: url("../midia/imagens/background002.png");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  z-index: 1;
 }
 
 #desc {
-  color: #04456A
-  text-align: left
-  margin: 0 18vw 0 18vw
-  padding-top: 8vw
-  font-size: 1.42em
-  line-height: 1.3em
-  font-weight: bold
+  color: #04456A;
+  text-align: left;
+  margin: 0 18vw 0 18vw;
+  padding-top: 8vw;
+  font-size: 1.42em;
+  line-height: 1.3em;
+  font-weight: bold;
 }
 
 #pesos {
-  max-width: 1600px
-  font-size: 1em
-  font-weight: bold
-  margin: 0 auto
+  max-width: 1600px;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0 auto;
 }
 
 h2 {
-  font-size: 3em
+  font-size: 3em;
 }
 
 #p96 {
-  float: left
-  width: 30%
-  padding: 18px 12px 0 12px
-  line-height: 6.15em
+  float: left;
+  width: 30%;
+  padding: 18px 12px 0 12px;
+  line-height: 6.15em;
 }
 
 #p96:hover {
-  font: italic bold 1em/6.15em 'epoque-light', sans-serif
-  font-feature-settings: "kern" on, "liga" on, "calt" off, "salt"
-  -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt"
-  -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt"
-  -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt"
-  -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt"
-  color: #499bf8
+  font: italic bold 1em/6.15em 'epoque-light', sans-serif;
+  font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+  -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+  -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+  -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+  -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+  color: #499bf8;
 }
 
 #p96::after {
-  content: "Light 96pt"
+  content: "Light 96pt";
 }
 
 #p96:hover::after {
-  content: "Light it 96pt"
+  content: "Light it 96pt";
 }
 
 #p96::first-line {
-  font: normal normal normal 12em/1em 'epoque-light', sans-serif
-  display: inline-block
-  float: left
+  font: normal normal normal 12em/1em 'epoque-light', sans-serif;
+  display: inline-block;
+  float: left;
 }
 
 #p48 {
-  float: left
-  width: 24%
-  padding: 89px 12px 0px 12px
-  line-height: 7.05em
+  float: left;
+  width: 24%;
+  padding: 89px 12px 0px 12px;
+  line-height: 7.05em;
 }
 
 #p48:hover {
-  font-style: italic
-  color: #499bf8
+  font-style: italic;
+  color: #499bf8;
 }
 
 #p48::after {
-  content: "Roman 48pt"
+  content: "Roman 48pt";
 }
 
 #p48:hover::after {
-  content: "Roman it 48pt"
+  content: "Roman it 48pt";
 }
 
 #p48::first-line {
-  font-family: 'epoque'
-  font-variant: normal
-  font-weight: normal
-  display: inline-block
-  font-size: 6em
-  float: left
+  font-family: 'epoque';
+  font-variant: normal;
+  font-weight: normal;
+  display: inline-block;
+  font-size: 6em;
+  float: left;
 }
 
 #p32 {
-  float: left
-  width: 20%
-  padding: 106px 12px 0px 12px
-  line-height: 6.255em
+  float: left;
+  width: 20%;
+  padding: 106px 12px 0px 12px;
+  line-height: 6.255em;
 }
 
 #p32:hover {
-  font-style: italic
-  font-weight: normal
-  color: #499bf8
+  font-style: italic;
+  font-weight: normal;
+  color: #499bf8;
 }
 
 #p32::after {
-  content: "Bold 32pt"
+  content: "Bold 32pt";
 }
 
 #p32:hover::after {
-  content: "Bold it 32pt"
+  content: "Bold it 32pt";
 }
 
 #p32::first-line {
-  font-family: 'epoque-light'
-  font-variant: "normal"
-  font-weight: "bold"
-  display: "inline-block"
-  font-size: 4em
-  float: left
+  font-family: 'epoque-light';
+  font-variant: "normal";
+  font-weight: "bold";
+  display: "inline-block";
+  font-size: 4em;
+  float: left;
 }
 
 #p24 {
-  float: left
-  padding: 118px 12px 0 0
-  width: 18%
-  line-height: 5.80em
+  float: left;
+  padding: 118px 12px 0 0;
+  width: 18%;
+  line-height: 5.80em;
 }
 
 #p24:hover {
-  font-style: italic
-  color: #499bf8
+  font-style: italic;
+  color: #499bf8;
 }
 
 #p24::after {
-  content: "Black 24pt"
+  content: "Black 24pt";
 }
 
 #p24:hover::after {
-  content: "Black it 24pt"
+  content: "Black it 24pt";
 }
 
 #p24::first-line {
-  font-family: 'epoque'
-  font-variant: normal
-  font-weight: bold
-  display: block
-  font-size: 3em
+  font-family: 'epoque';
+  font-variant: normal;
+  font-weight: bold;
+  display: block;
+  font-size: 3em;
 }
 
 .paginas {
-  position: relative
-  background-color: #04456A
-  height: 68vh
-  text-align: center
-  padding-top: 20px
-  box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.425)
-  overflow: hidden
-  z-index: 1000
+  position: relative;
+  background-color: #04456A;
+  height: 68vh;
+  text-align: center;
+  padding-top: 20px;
+  box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.425);
+  overflow: hidden;
+  z-index: 1000;
 }
 
 .superior {
-  position: absolute
-  z-index: 2
-  display: block
-  font: bold normal 8em/1.15 'epoque', sans-serif
-  color: lavender
-  background-color: #04456ae8
-  clear: both
-  margin: 20vh 15vh 5vh 6vh
+  position: absolute;
+  z-index: 2;
+  display: block;
+  font: bold normal 8em/1.15 'epoque', sans-serif;
+  color: lavender;
+  background-color: #04456ae8;
+  clear: both;
+  margin: 20vh 15vh 5vh 6vh;
 }
 
 .superior>span {
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
 div#video {
-  height: 99vh
-  position: relative
-  display: block
+  height: 99vh;
+  position: relative;
+  display: block;
 }
 
 video#marquise {
-  position: static
-  width: 100%
-  margin: 0 auto 0 auto
-  z-index: 1
+  position: static;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  z-index: 1;
 }
 
 .final {
-  position: relative
-  height: 52vw
-  background-color: white
-  padding-top: 8hv
-  padding-bottom: 8hv
-  z-index: 1000
-  bottom: 0
-  z-index: 999
+  position: relative;
+  height: 52vw;
+  background-color: white;
+  padding-top: 8hv;
+  padding-bottom: 8hv;
+  z-index: 1000;
+  bottom: 0;
+  z-index: 999;
 }
 
 picture>img {
-  display: block
-  max-width: 100%
-  margin-left: auto
-  margin-right: auto
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #fotos {
