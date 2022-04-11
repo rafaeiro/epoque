@@ -49,7 +49,7 @@
     color: #499bf8;
     z-index: 2000;
 }
-.ss01 { 
+ { 
     font-feature-settings: "dlig", "ss01";
     -moz-font-feature-settings: "dlig", "ss01";
     -webkit-font-feature-settings: "dlig", "ss01";

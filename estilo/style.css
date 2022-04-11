@@ -29,7 +29,7 @@ section#res {
    -webkit-line-clamp: 2; /* número máximo de linhas*/
    -webkit-box-orient: vertical;
    /*white-space: nowrap;*/ /*usado para apagar o que estiver fora do overflow*/ 
-   /*dessa forma as reticencias não aparecem*/
+   /*dessa forma as reticentcias não aparecem*/
 }
 
 footer {
