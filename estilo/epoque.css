@@ -168,7 +168,10 @@ section {
 h2 {
     font-size: 3em;
 }
-
+.tamanhos {
+    width: 100%;
+    float: left;
+}
 #p96 {
     float: left;
     width: 30%;
@@ -190,6 +193,7 @@ h2 {
 
 #p96::after {
     content: "Light 96pt";
+    line-height: 1em;
 }
 
 #p96:hover::after {
@@ -217,6 +221,7 @@ h2 {
 
 #p48::after {
     content: "Roman 48pt";
+    line-height: 1em;
 }
 
 #p48:hover::after {
@@ -250,6 +255,7 @@ h2 {
 
 #p32::after {
     content: "Bold 32pt";
+    line-height: 1em;
 }
 
 #p32:hover::after {
@@ -283,6 +289,7 @@ h2 {
 
 #p24::after {
     content: "Black 24pt";
+    line-height: 1em;
 }
 
 #p24:hover::after {
@@ -593,11 +600,12 @@ footer {
     position: relative;
 }
 
-@media screen and (min-width: 641px) and (max-width: 960px) {
+@media screen and (min-width: 641px) and (max-width: 1080px) {
     section {
         height: 54vw;
     }
     .paginas {
+        height: 100vh;
         padding-top: 60px;
         padding-bottom: 60px;
     }
@@ -630,6 +638,17 @@ footer {
         line-height: 1.35em;
         font-weight: bold;
     }
+    .tamanhos {
+        width: 50%;
+    }
+    .desc { 
+        width: 50%;
+        margin: 5% 46%;
+        padding: 10vh 4vw 10vh 5vw;
+        font-size: 1.1em;
+        line-height: 1.25em;
+        font-weight: 400;
+    }
     .superior {
         display: block;
         font-size: 5em;
@@ -639,42 +658,64 @@ footer {
         height: 54vw;
     }
     .paginas {
-        height: 58vw;
+        height: 80vh;
         padding-top: 18px;
     }
     #p96 {
-        width: 42%;
-        padding: 6px 10px 0 10px;
-        line-height: 5.5em;
+        position: relative;
+        text-align: left;
+        float: left;
+        width: 50%;
+        margin: 10% 4vw 0 2vw;
+        padding: 10% 0;
     }
     #p96::first-line {
         font-size: 10em;
+        line-height: 0.25em;
+        letter-spacing: -0.005em;
+        
     }
     #p48 {
-        width: 20%;
-        padding: 46px 10px 0px 10px;
-        line-height: 6.7em;
+        position: relative;
+        text-align: left;
+        float: left;
+        width: 50%;
+        margin: 0 2vw;
+        padding: 0;
+        line-height: 6em;
     }
     #p48::first-line {
         font-size: 5em;
+        line-height: 0.01em;
+        letter-spacing: 0.005em;
     }
     #p32 {
+        position: relative;
+        text-align: left;
         float: left;
-        width: 12%;
-        padding: 61px 12px 0px 12px;
-        line-height: 6.06em;
+        width: 50%;
+        margin: 0 2vw;
+        padding: 0;
+        line-height: 4em;
     }
     #p32::first-line {
         font-size: 3em;
+        line-height: 0.05em;
+        letter-spacing: 0.15em;
     }
     #p24 {
+        position: relative;
+        text-align: left;
         float: left;
-        padding: 68px 12px 0 0;
-        width: 12%;
-        line-height: 5.80em;
+        width: 50%;
+        margin: 0 2vw;
+        padding: 0 0 15vh 0;
+        line-height: 2.5em;
     }
     #p24::first-line {
         font-size: 2.5em;
+        line-height: 0.6em;
+        letter-spacing: 0.05em;
     }
     .final {
         height: 70vw;
@@ -733,7 +774,7 @@ footer {
 @media screen and (min-width: 480px) and (max-width: 640px) {
     section {
         position: relative;
-        height: 62vw;
+        height: 68vw;
     }
     section>h1 {
         text-align: center;
@@ -747,7 +788,7 @@ footer {
         padding-bottom: 10vw;
     }
     #prologo {
-        background-image: url("../midia/imagens/background001-tb.png");
+        background-image: url("../midia/imagens/background001-sm.png");
         padding-top: 12vh;
         padding-bottom: 17vh;
         font-size: 1em;
@@ -764,11 +805,16 @@ footer {
         font-size: .75em;
     }
     .paginas {
+        height: 180vh;
         padding-top: 40px;
         padding-bottom: 40px;
     }
+    .paginas>div {
+        padding-top: 40px;
+    }
     .branca1 {
         height: 88vh;
+        background-image: url("../midia/imagens/background002-sm.png");
         padding-top: 5vw;
         padding-bottom: 5vw;
     }
@@ -786,14 +832,20 @@ footer {
     div#video {
         height: 54vw;
     }
-    .paginas {
-        height: 72vw;
-        padding-top: 12px;
-    }
+
     #p96 {
-        width: 42%;
-        padding: 0px 10px 0 10px;
-        line-height: 7.2em;
+        position: relative;
+        text-align: left;
+        float: left;
+        width: 80%;
+        margin: 10% 23vw 0 17vw;
+        padding: 10% 0;
+        line-height: 6.5em;
+    }
+    #p96::first-line {
+        font-size: 10em;
+        line-height: 0.25em;
+        letter-spacing: -0.005em;
     }
     #p96::after {
         content: "Époque 45 96pt";
@@ -801,13 +853,14 @@ footer {
     #p96:hover::after {
         content: "Époque 46 96pt";
     }
-    #p96::first-line {
-        font-size: 6em;
-    }
     #p48 {
-        width: 17%;
-        padding: 19px 10px 0px 10px;
-        line-height: 6.44em;
+        position: relative;
+        text-align: left;
+        float: left;
+        width: 80%;
+        margin: -20px 17vw;
+        padding: 0;
+        line-height: 6em;
     }
     #p48::after {
         content: "E 55 48pt";
@@ -815,14 +868,20 @@ footer {
     #p48:hover::after {
         content: "E 56 48pt";
     }
+
     #p48::first-line {
-        font-size: 3em;
+        font-size: 5em;
+        line-height: 0.05em;
+        letter-spacing: 0.005em;
     }
     #p32 {
+        position: relative;
+        text-align: left;
         float: left;
-        width: 15%;
-        padding: 28px 12px 0px 12px;
-        line-height: 6.06em;
+        width: 50%;
+        margin: 30px 17vw;
+        padding: 0;
+        line-height: 4em;
     }
     #p32::after {
         content: "65 32pt";
@@ -831,13 +890,18 @@ footer {
         content: "66 32pt";
     }
     #p32::first-line {
-        font-size: 2.25em;
+        font-size: 3em;
+        line-height: 0.05em;
+        letter-spacing: 0.15em;
     }
     #p24 {
+        position: relative;
+        text-align: left;
         float: left;
-        padding: 34px 12px 0 0;
-        width: 16%;
-        line-height: 5.80em;
+        width: 80%;
+        margin: -20px 17vw;
+        padding: 0 0 15vh 0;
+        line-height: 2.5em;
     }
     #p24::after {
         content: "75 24pt";
@@ -846,7 +910,9 @@ footer {
         content: "76 24pt";
     }
     #p24::first-line {
-        font-size: 1.5em;
+        font-size: 2.5em;
+        line-height: 0.6em;
+        letter-spacing: 0.05em;
     }
     .final {
         height: 85vw;
@@ -865,9 +931,7 @@ footer {
     #fig {
         font: normal normal 2em/1.6em 'epoque', sans-serif;
     }
-    .paginas>div {
-        padding-top: 40px;
-    }
+
     #info {
         padding-top: 40px;
         height: 820px;
@@ -921,7 +985,7 @@ footer {
         padding-bottom: 15vw;
     }
     #prologo {
-        background-image: url("../midia/imagens/background001-tb.png");
+        background-image: url("../midia/imagens/background001-sm.png");
         padding-top: 12vh;
         padding-bottom: 17vh;
         font-size: 1.1em;
@@ -957,16 +1021,25 @@ footer {
         height: 54vw;
     }
     .paginas#pesos {
-        height: 48vw;
+        height: 200vh;
         padding-top: 4px;
     }
     h2 {
         font-size: 1.8em;
     }
     #p96 {
-        width: 40%;
-        padding: 30px 1px 0 1px;
-        line-height: 10.2em;
+        position: relative;
+        text-align: left;
+        float: left;
+        width: 90vw;
+        margin: 10% 5vw 0 5vw;
+        padding: 10% 0;
+        line-height: 6.5em;
+    }
+    #p96::first-line {
+        font-size: 8em;
+        line-height: 0.25em;
+        letter-spacing: -0.005em;
     }
     #p96::after {
         content: "Époque 45 96pt";
@@ -974,13 +1047,14 @@ footer {
     #p96:hover::after {
         content: "Époque 46 96pt";
     }
-    #p96::first-line {
-        font-size: 4em;
-    }
     #p48 {
-        width: 21%;
-        padding: 22px 1px 0px 1px;
-        line-height: 6.44em;
+        position: relative;
+        text-align: left;
+        float: left;
+        width: 80%;
+        margin: -20px 20vw;
+        padding: 0;
+        line-height: 6em;
     }
     #p48::after {
         content: "E 55 48pt";
@@ -988,14 +1062,20 @@ footer {
     #p48:hover::after {
         content: "E 56 48pt";
     }
+
     #p48::first-line {
-        font-size: 2em;
+        font-size: 4em;
+        line-height: 0.05em;
+        letter-spacing: 0.005em;
     }
     #p32 {
+        position: relative;
+        text-align: left;
         float: left;
-        width: 17%;
-        padding: 28px 1px 0px 1px;
-        line-height: 6.06em;
+        width: 50%;
+        margin: 30px 20vw;
+        padding: 0;
+        line-height: 4em;
     }
     #p32::after {
         content: "65 32pt";
@@ -1004,13 +1084,18 @@ footer {
         content: "66 32pt";
     }
     #p32::first-line {
-        font-size: 1.5em;
+        font-size: 3em;
+        line-height: 0.05em;
+        letter-spacing: 0.15em;
     }
     #p24 {
+        position: relative;
+        text-align: left;
         float: left;
-        padding: 33px 1px 0 0;
-        width: 20%;
-        line-height: 5.80em;
+        width: 80%;
+        margin: -20px 20vw;
+        padding: 0 0 15vh 0;
+        line-height: 2.5em;
     }
     #p24::after {
         content: "75 24pt";
@@ -1019,7 +1104,9 @@ footer {
         content: "76 24pt";
     }
     #p24::first-line {
-        font-size: 1em;
+        font-size: 2em;
+        line-height: 0.6em;
+        letter-spacing: 0.05em;
     }
     .final {
         height: 100vw;
