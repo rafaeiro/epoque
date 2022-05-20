@@ -666,8 +666,7 @@ footer {
     .div {
         position: relative;
         width: 48%;
-        /* float: right; */
-        margin: -1vw 46%;
+        margin: -3.5vh 46%;
         padding: 10vh 4vw 10vh 5vw;
     }
     .numeros {
@@ -695,7 +694,7 @@ footer {
         width: 48.5vw;
         text-align: right;
         float: right;
-        margin: -3% 0vw 0 0vw;
+        margin: -3vh 0vw 0 0vw;
         padding: 10% 0% 10% 1%;
     }
     #p96::first-line {
@@ -1064,7 +1063,7 @@ footer {
     .numeros {
         width: 95%;
         margin: 0 2.5%;
-        padding:  3rem 0vw 0 0vw;
+        padding:  1.2rem 0vw 0 0vw;
     }
     #terceira{
         margin-top: 9.2em;
@@ -1183,6 +1182,9 @@ footer {
     }
     #fig {
         font: normal normal 2em/1.5em 'epoque', sans-serif;
+    }
+    .figures4 {
+        padding-bottom: 2vh;
     }
     .paginas>div {
         padding-top: 40px;
