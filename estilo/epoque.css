@@ -1171,10 +1171,10 @@ footer {
     }
     #fotos {
         max-width: 480px;
-        min-width: 320px;
+        min-width: 280px;
         left: 50%;
         top: 60%;
-        transform: translate(-50%, -40%);
+        transform: translate(-50%, -32%);
     }
     .slider {
         max-width: 432px;
