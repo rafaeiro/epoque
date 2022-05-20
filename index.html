@@ -1,788 +1,788 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE.smcp html>
+<html.smcp lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Époque</title>
-    <link rel="stylesheet" href="fonts/myfonts/epoque/epoque.css" type="text/css" charset="utf-8">
-    <link rel="stylesheet" href="fonts/myfonts/epoque-light/epoque-light.css" type="text/css" charset="utf-8">
+.smcp .smcp .smcp .smcp <meta.smcp charset="UTF-8">
+.smcp .smcp .smcp .smcp <meta.smcp http-equiv="X-UA-Compatible".smcp content="IE=edge">
+.smcp .smcp .smcp .smcp <meta.smcp name="viewport".smcp content="width=device-width,.smcp initial-scale=1.0">
+.smcp .smcp .smcp .smcp <title>Époque</title>
+.smcp .smcp .smcp .smcp <link.smcp rel="stylesheet".smcp href="fonts/myfonts/epoque/epoque.css".smcp type="text/css".smcp charset="utf-8">
+.smcp .smcp .smcp .smcp <link.smcp rel="stylesheet".smcp href="fonts/myfonts/epoque-light/epoque-light.css".smcp type="text/css".smcp charset="utf-8">
 
-    <link rel="stylesheet" type="text/css" href="estilo/cabecalho.css" charset="utf-8"/>
-    <link rel="stylesheet" href="estilo/epoque.css" type="text/css" charset="utf-8">
-    <link rel="stylesheet" href="estilo/rodape.css" type="text/css" charset="utf-8">
-    <link rel="stylesheet" href="estilo/mapchar.css" type="text/css" charset="utf-8">
-    <link rel="shortcut icon" href="midia/favicon.ico" type="image/x-icon">
+.smcp .smcp .smcp .smcp <link.smcp rel="stylesheet".smcp type="text/css".smcp href="estilo/cabecalho.css".smcp charset="utf-8"/>
+.smcp .smcp .smcp .smcp <link.smcp rel="stylesheet".smcp href="estilo/epoque.css".smcp type="text/css".smcp charset="utf-8">
+.smcp .smcp .smcp .smcp <link.smcp rel="stylesheet".smcp href="estilo/rodape.css".smcp type="text/css".smcp charset="utf-8">
+.smcp .smcp .smcp .smcp <link.smcp rel="stylesheet".smcp href="estilo/mapchar.css".smcp type="text/css".smcp charset="utf-8">
+.smcp .smcp .smcp .smcp <link.smcp rel="shortcut.smcp icon".smcp href="midia/favicon.ico".smcp type="image/x-icon">
 
-    <style>
-@font-face {
-    font-family: 'acay';
-    src: url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.eot');
-    src: url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.woff2') format('woff2'),
-         url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.woff') format('woff'),
-         url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'acay';
-    src: url('fonts/webfontkit-acay-light/garimpeira-xlight_f-webfont.eot');
-    src: url('fonts/webfontkit-acay-light/garimpeira-xlight_f-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/webfontkit-acay-light/garimpeira-xlight_f-webfont.woff2') format('woff2'),
-         url('fonts/webfontkit-acay-light/garimpeira-xlight_f-webfont.woff') format('woff'),
-         url('fonts/webfontkit-acay-light/garimpeira-xlight_f-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+.smcp .smcp .smcp .smcp <style>
+@font-face.smcp {
+.smcp .smcp .smcp .smcp font-family:.smcp 'acay';
+.smcp .smcp .smcp .smcp src:.smcp url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.eot');
+.smcp .smcp .smcp .smcp src:.smcp url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.eot?#iefix').smcp format('embedded-opentype'),
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.woff2').smcp format('woff2'),
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.woff').smcp format('woff'),
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp url('fonts/webfontkit-acay-heavy/garimpeira-black-webfont.ttf').smcp format('truetype');
+.smcp .smcp .smcp .smcp font-weight:.smcp bold;
+.smcp .smcp .smcp .smcp font-style:.smcp normal;
 
 }
-.menu, .rodape {
-    font-family: 'acay';
-    font-style: normal;
-    font-size: 1.05em;
-    letter-spacing: 0.015em;
+@font-face.smcp {
+.smcp .smcp .smcp .smcp font-family:.smcp 'acay';
+.smcp .smcp .smcp .smcp src:.smcp url('fonts/webfontkit-acay-light/garimpeira-xlight_f-webfont.eot');
+.smcp .smcp .smcp .smcp src:.smcp url('fonts/webfontkit-acay-light/garimpeira-xlight_f-webfont.eot?#iefix').smcp format('embedded-opentype'),
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp url('fonts/webfontkit-acay-light/garimpeira-xlight_f-webfont.woff2').smcp format('woff2'),
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp url('fonts/webfontkit-acay-light/garimpeira-xlight_f-webfont.woff').smcp format('woff'),
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp url('fonts/webfontkit-acay-light/garimpeira-xlight_f-webfont.ttf').smcp format('truetype');
+.smcp .smcp .smcp .smcp font-weight:.smcp normal;
+.smcp .smcp .smcp .smcp font-style:.smcp normal;
+
 }
-#escondido {
-    display: none;
+.menu,.smcp .rodape.smcp {
+.smcp .smcp .smcp .smcp font-family:.smcp 'acay';
+.smcp .smcp .smcp .smcp font-style:.smcp normal;
+.smcp .smcp .smcp .smcp font-size:.smcp 1.05em;
+.smcp .smcp .smcp .smcp letter-spacing:.smcp 0.015em;
 }
-#esconder {
-    display: none;
+#escondido.smcp {
+.smcp .smcp .smcp .smcp display:.smcp none;
 }
-.esconde {
-    font-family: 'acay';
-    font-size: .4em;
-    font-weight: 100;
+#esconder.smcp {
+.smcp .smcp .smcp .smcp display:.smcp none;
 }
-.esconde:hover {
-    font-weight: 900;
+.esconde.smcp {
+.smcp .smcp .smcp .smcp font-family:.smcp 'acay';
+.smcp .smcp .smcp .smcp font-size:.smcp .4em;
+.smcp .smcp .smcp .smcp font-weight:.smcp 100;
+}
+.esconde:hover.smcp {
+.smcp .smcp .smcp .smcp font-weight:.smcp 900;
 }
 
-    </style>
+.smcp .smcp .smcp .smcp </style>
 </head>
 
 <body>
-    <header>
+.smcp .smcp .smcp .smcp <header>
 
-        <nav id="nav">
-            <div>
-                <a href="https://rafaeiro.github.io/typeiro/"><img src="midia/imagens/Eito isolado.png" alt="logo"></a>
-            </div>
-            <div class="container">
-                <input type="checkbox" id="checkbox-menu">
-            
-                <label class="check" for="checkbox-menu">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <ul class="menu">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <nav.smcp id="nav">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <div>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <a.smcp href="https://rafaeiro.github.io/typeiro/"><img.smcp src="midia/imagens/Eito.smcp isolado.png".smcp alt="logo"></a>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </div>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <div.smcp class="container">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <input.smcp type="checkbox".smcp id="checkbox-menu">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <label.smcp class="check".smcp for="checkbox-menu">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <span></span>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <span></span>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <span></span>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <ul.smcp class="menu">
 
-                    <li class="portfa"><a href="">Fontes</a>
-                        <ul>
-    
-                            <li class="fontes"><a href="#">Époque</a></li>
-                            <li class="fontes"><a href="#">Époque Seria</a></li>
-                            <li class="fontes"><a href="#">Alumina</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contato</a></li>
-                </ul>  
-                </label>
-                <ul class="menu">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li.smcp class="portfa"><a.smcp href="">Fontes</a>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <ul>
+.smcp .smcp .smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li.smcp class="fontes"><a.smcp href="#">Époque</a></li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li.smcp class="fontes"><a.smcp href="#">Époque.smcp Seria</a></li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li.smcp class="fontes"><a.smcp href="#">Alumina</a></li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </ul>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li><a.smcp href="">Blog</a></li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li><a.smcp href="">Contato</a></li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </ul>.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </label>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <ul.smcp class="menu">
 
-                    <li class="portfa"><a href="">Fontes</a>
-                        <ul>
-    
-                            <li class="fontes"><a href="#">Époque</a></li>
-                            <li class="fontes"><a href="#">Époque Seria</a></li>
-                            <li class="fontes"><a href="#">Alumina</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contato</a></li>
-                </ul>
-              </div>
-            
-        </nav>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li.smcp class="portfa"><a.smcp href="">Fontes</a>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <ul>
+.smcp .smcp .smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li.smcp class="fontes"><a.smcp href="#">Époque</a></li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li.smcp class="fontes"><a.smcp href="#">Époque.smcp Seria</a></li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li.smcp class="fontes"><a.smcp href="#">Alumina</a></li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </ul>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li><a.smcp href="">Blog</a></li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li><a.smcp href="">Contato</a></li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </ul>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </div>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </nav>
 
-    </header>
-    <section id="prologo">
-        <h1 class="center">ÉPOQU<span class="salt">E</span></h1>
-        <p lang="pt-br">Uma família tipográfica OpenType que evoca a era de ouro</p>
-        <ul class="indice">
-            <li><a href="#desc">Sobre</a></li><!--
-    --><li><a href="#video">Em movimento</a></li><!--
-    --><li><a href="#pesos">Pesos & tamanhos</a></li><!--
-    --><li><a href="#exemplo">Exemplos</a></li><!--
-    --><li><a href="#paginas">Algarismos</a></li><!--
-    --><li><a href="#info">Informações</a></li>
-        </ul>
+.smcp .smcp .smcp .smcp </header>
+.smcp .smcp .smcp .smcp <section.smcp id="prologo">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <h1.smcp class="center">ÉPOQU<span.smcp class="salt">E</span></h1>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <p.smcp lang="pt-br">Uma.smcp família.smcp tipográfica.smcp OpenType.smcp que.smcp evoca.smcp a.smcp era.smcp de.smcp ouro</p>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <ul.smcp class="indice">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li><a.smcp href="#desc">Sobre</a></li><!--
+.smcp .smcp .smcp .smcp --><li><a.smcp href="#video">Em.smcp movimento</a></li><!--
+.smcp .smcp .smcp .smcp --><li><a.smcp href="#pesos">Pesos.smcp &.smcp tamanhos</a></li><!--
+.smcp .smcp .smcp .smcp --><li><a.smcp href="#exemplo">Exemplos</a></li><!--
+.smcp .smcp .smcp .smcp --><li><a.smcp href="#paginas">Algarismos</a></li><!--
+.smcp .smcp .smcp .smcp --><li><a.smcp href="#info">Informações</a></li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </ul>
 
-    </section>
-    <section class="branca1">
-        <p id="desc">
-            A fonte <a href="https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque/">Époque</a> surgiu inicialmente para composição de um catálogo de moda com alguns materiais da Amazônia brasileira. As peças da coleção utilizavam a borracha natural como
-            principal matéria-prima, por causa disso, os desenhos das maiúsculas utiliza formas que remetem à tipografia do período histórico 1890-1910 época em que a borracha era o principal motor da economia amazônica. Essa font-face possui um conjunto
-            completo de numerais, um conjunto de ligaduras padrão, além de alternativas em glifos específicos e um grande conjunto de ligaduras discricionárias compostas principalmente por MAIÚSCULAS. A família Époque é composta por quatro pesos sem itálico,
-            porém conta com variantes alternativas no lugar. É uma fonte recomendada para títulos, logotipos e pôsteres.</br>
-        </p>
+.smcp .smcp .smcp .smcp </section>
+.smcp .smcp .smcp .smcp <section.smcp class="branca1">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <p.smcp id="desc">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp A.smcp fonte.smcp <a.smcp href="https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque/">Époque</a>.smcp surgiu.smcp inicialmente.smcp para.smcp composição.smcp de.smcp um.smcp catálogo.smcp de.smcp moda.smcp com.smcp alguns.smcp materiais.smcp da.smcp Amazônia.smcp brasileira..smcp As.smcp peças.smcp da.smcp coleção.smcp utilizavam.smcp a.smcp borracha.smcp natural.smcp como
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp principal.smcp matéria-prima,.smcp por.smcp causa.smcp disso,.smcp os.smcp desenhos.smcp das.smcp maiúsculas.smcp utiliza.smcp formas.smcp que.smcp remetem.smcp à.smcp tipografia.smcp do.smcp período.smcp histórico.smcp 1890-1910.smcp época.smcp em.smcp que.smcp a.smcp borracha.smcp era.smcp o.smcp principal.smcp motor.smcp da.smcp economia.smcp amazônica..smcp Essa.smcp font-face.smcp possui.smcp um.smcp conjunto
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp completo.smcp de.smcp numerais,.smcp um.smcp conjunto.smcp de.smcp ligaduras.smcp padrão,.smcp além.smcp de.smcp alternativas.smcp em.smcp glifos.smcp específicos.smcp e.smcp um.smcp grande.smcp conjunto.smcp de.smcp ligaduras.smcp discricionárias.smcp compostas.smcp principalmente.smcp por.smcp MAIÚSCULAS..smcp A.smcp família.smcp Époque.smcp é.smcp composta.smcp por.smcp quatro.smcp pesos.smcp sem.smcp itálico,
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp porém.smcp conta.smcp com.smcp variantes.smcp alternativas.smcp no.smcp lugar..smcp É.smcp uma.smcp fonte.smcp recomendada.smcp para.smcp títulos,.smcp logotipos.smcp e.smcp pôsteres.</br>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </p>
 
-    </section>
+.smcp .smcp .smcp .smcp </section>
 
-    <a class="indi" href="#nav">Início</a>
+.smcp .smcp .smcp .smcp <a.smcp class="indi".smcp href="#nav">Início</a>
 
-    <div id="terceira">
-      <p class="superior">Essa fonte foi feita para <span>impre&#61983;ão</span></p>
-      <div id="video">
-          <video id="marquise" src="midia/MAGIQUE LETTERS.mp4" autoplay loop></video>
-      </div>
-    </div>
+.smcp .smcp .smcp .smcp <div.smcp id="terceira">
+.smcp .smcp .smcp .smcp .smcp .smcp <p.smcp class="superior">Essa.smcp fonte.smcp foi.smcp feita.smcp para.smcp <span>impre&#61983;ão</span></p>
+.smcp .smcp .smcp .smcp .smcp .smcp <div.smcp id="video">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <video.smcp id="marquise".smcp src="midia/MAGIQUE.smcp LETTERS.mp4".smcp autoplay.smcp loop></video>
+.smcp .smcp .smcp .smcp .smcp .smcp </div>
+.smcp .smcp .smcp .smcp </div>
 
-    <section class="paginas">
-        <article id="pesos">
-            <h2>Fontes de Light ao Black</h2>
-            <a href="https://www.myfonts.com/cart/1639428949" target="blanc">
-                <p id="p96">Aaeg<br></p>
-            </a>
-            <a href="https://www.myfonts.com/cart/1639434152" target="blanc">
-                <p id="p48">Aaeg<br></p>
-            </a>
-            <a href="https://www.myfonts.com/cart/1639439961" target="blanc">
-                <p id="p32">Aaeg<br></p>
-            </a>
-            <a href="https://www.myfonts.com/cart/1639443576" target="blanc">
-                <p id="p24">Aaeg<br></p>
-            </a>
-        </article>
+.smcp .smcp .smcp .smcp <section.smcp class="paginas">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <article.smcp id="pesos">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <h2>Fontes.smcp de.smcp Light.smcp ao.smcp Black</h2>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <a.smcp href="https://www.myfonts.com/cart/1639428949".smcp target="blanc">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <p.smcp id="p96">Aaeg<br></p>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </a>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <a.smcp href="https://www.myfonts.com/cart/1639434152".smcp target="blanc">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <p.smcp id="p48">Aaeg<br></p>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </a>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <a.smcp href="https://www.myfonts.com/cart/1639439961".smcp target="blanc">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <p.smcp id="p32">Aaeg<br></p>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </a>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <a.smcp href="https://www.myfonts.com/cart/1639443576".smcp target="blanc">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <p.smcp id="p24">Aaeg<br></p>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </a>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </article>
 
-    </section>
+.smcp .smcp .smcp .smcp </section>
 
-    <section id="exemplo" class="final">
+.smcp .smcp .smcp .smcp <section.smcp id="exemplo".smcp class="final">
 
-        <div id="fotos">
-            <ul class="slider">
-                <li>
-                    <input type="radio" id="slide1" name="slide" checked>
-                    <label for="slide1"></label>
-                    <picture class="img">
-                        <source media="(max-width: 512px)" srcset="midia/imagens/philarmonic_p.png" type="image/png">
-                        <source media="(max-width: 960px)" srcset="midia/imagens/philarmonic_m.png" type="image/png">
-                        <img src="midia/imagens/Philarmonic.png" alt="compre cartolas philarmonic">
-                    </picture>
-                </li>
-                <li>
-                    <input type="radio" id="slide2" name="slide">
-                    <label for="slide2"></label>
-                    <picture class="img">
-                        <source media="(max-width: 512px)" srcset="midia/imagens/choco-p.png" type="image/png">
-                        <source media="(max-width: 960px)" srcset="midia/imagens/choco-m.png" type="image/png">
-                        <img src="midia/imagens/choco.png" alt="Barra de chocolate de cupuaçu da amazônia">
-                    </picture>
-                </li>
-                <li>
-                    <input type="radio" id="slide3" name="slide">
-                    <label for="slide3"></label>
-                    <picture class="img">
-                        <source media="(max-width: 512px)" srcset="midia/imagens/cafe_p.png" type="image/png">
-                        <source media="(max-width: 960px)" srcset="midia/imagens/cafe_m.png" type="image/png">
-                        <img src="midia/imagens/café.png" alt="Terra do Alumínio">
-                    </picture>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <section id="paginas" class="paginas">
-        <H2><span  lang="en">Figures</span></H2>
-        <div class="caixa">
-            <P id="fig" class="figures1"><span>1 2 3 4 5 6 7 8 9 0</span></P>
-            <P id="fig" class="figures2">H<span>2</span>O</P>
-            <p id="fig" class="figures3"><span lang="en">Footnote</span><span>56</span>&nbsp;&nbsp; h<span>2</span> = a<span>2</span> + b<span>2</span></P>
-            <p id="fig" class="figures4"><span>123</span>/<span id="num">456</span></p>
-        </div>
-    </section>
-<section id="mapadecaracteres">
-    <h2 class="caracteres">Conjunto de caracteres</h2>
-    <div id="map">
-      <ul class="charmap">  
-        <div id="escondido"> 
-         <li class="char salt" title="uni0123">&#291</li><!--  
-         --><li class="char salt" title="quoteleftsalt">‘</li><!--  
-         --><li class="char figures title="eight">8</li><!-- 
-         --><li class="char figures onum tnum" title="eight onum tnum">8</li><!-- 
-         --><li class="char figures tnum" title="eighttnum">8</li><!-- 
-         --><li class="char figures onum pnum" title="eight onum pnum">8</li><!-- 
-         --><li class="char figures numr" title="eight numr">8</li><!-- 
-         --><li class="char figures dnum" title="eight dnum">8</li><!-- 
-         --><li class="char figures" title="five">5</li><!-- 
-         --><li class="char figures onum tnum" title="five onum tnum">5</li><!-- 
-         --><li class="char figures tnum" title="fivetnum">5</li><!-- 
-         --><li class="char figures onum pnum" title="five onum pnum">5</li><!-- 
-         --><li class="char figures numr" title="five numr">5</li><!-- 
-         --><li class="char figures dnum" title="five dnum">5</li><!-- 
-         --><li class="char figures title=four">4</li><!-- 
-         --><li class="char figures onum tnum" title="four onum tnum">4</li><!-- 
-         --><li class="char figures tnum" title="fourtnum">4</li><!-- 
-         --><li class="char figures onum pnum" title="four onum pnum">4</li><!-- 
-         --><li class="char figures numr" title="four numr">4</li><!-- 
-         --><li class="char figures dnum" title="four dnum">4</li><!-- 
-         --><li class="char figures title=nine">9</li><!-- 
-         --><li class="char figures onum tnum" title="nine onum tnum">9</li><!-- 
-         --><li class="char figures tnum" title="ninetnum">9</li><!-- 
-         --><li class="char figures onum pnum" title="nine onum pnum">9</li><!-- 
-         --><li class="char figures numr" title="nine numr">9</li><!-- 
-         --><li class="char figures dnum" title="nine dnum">9</li><!-- 
-         --><li class="char figures title=one">1</li><!-- 
-         --><li class="char figures onum tnum" title="one onum tnum">1</li><!-- 
-         --><li class="char figures tnum" title="onetnum">1</li><!-- 
-         --><li class="char figures onum pnum" title="one onum pnum">1</li><!-- 
-         --><li class="char figures numr" title="one numr">1</li><!-- 
-         --><li class="char figures dnum" title="one dnum">1</li><!-- 
-         --><li class="char figures title="onehalf">½</li><!-- 
-         --><li class="char figures title="onequarter">¼</li><!-- 
-         --><li class="char figures title="onesuperior">¹</li><!-- 
-         --><li class="char figures title="seven">7</li><!-- 
-         --><li class="char figures onum tnum" title="seven onum tnum">7</li><!-- 
-         --><li class="char figures tnum" title="seventnum">7</li><!-- 
-         --><li class="char figures onum pnum" title="seven onum pnum">7</li><!-- 
-         --><li class="char figures numr" title="seven numr">7</li><!-- 
-         --><li class="char figures dnum" title="seven dnum">7</li><!-- 
-         --><li class="char figures title=six">6</li><!-- 
-         --><li class="char figures onum tnum" title="six onum tnum">6</li><!-- 
-         --><li class="char figures tnum" title="sixtnum">6</li><!-- 
-         --><li class="char figures onum pnum" title="six onum pnum">6</li><!-- 
-         --><li class="char figures numr" title="six numr">6</li><!-- 
-         --><li class="char figures dnum" title="six dnum">6</li><!-- 
-         --><li class="char figures title="three">3</li><!-- 
-         --><li class="char figures onum tnum" title="three onum tnum">3</li><!-- 
-         --><li class="char figures tnum" title="threetnum">3</li><!-- 
-         --><li class="char figures onum pnum" title="three onum pnum">3</li><!-- 
-         --><li class="char figures numr" title="three numr">3</li><!-- 
-         --><li class="char figures dnum" title="three dnum">3</li><!-- 
-         --><li class="char figures title="threequarters">¾</li><!-- 
-         --><li class="char figures title="threesuperior">³</li><!-- 
-         --><li class="char figures title="two">2</li><!-- 
-         --><li class="char figures onum tnum" title="two onum tnum">2</li><!-- 
-         --><li class="char figures tnum" title="twotnum">2</li><!-- 
-         --><li class="char figures onum pnum" title="two onum pnum">2</li><!-- 
-         --><li class="char figures numr" title="two numr">2</li><!-- 
-         --><li class="char figures dnum" title="two dnum">2</li><!-- 
-         --><li class="char figures title="twosuperior">²</li><!-- 
-         --><li class="char figures title="zero">0</li><!-- 
-         --><li class="char figures onum tnum" title="zero onum tnum">0</li><!-- 
-         --><li class="char figures tnum" title="zero tnum">0</li><!-- 
-         --><li class="char figures onum pnum" title="zero onum pnum">0</li><!-- 
-         --><li class="char figures numr" title="zero numr">0</li><!-- 
-         --><li class="char figures dnum" title="zero dnum">0</li><!--  
-         --><li class="char" title="acute">´</li><!--  
-         --><li class="char" title="ampersand">&amp</li><!--  
-         --><li class="char" title="approxequal">≈</li><!--  
-         --><li class="char" title="asciicircum">^</li><!--  
-         --><li class="char" title="asciitilde">~</li><!--  
-         --><li class="char" title="asterisk">*</li><!--  
-         --><li class="char" title="at">@</li><!--  
-         --><li class="char" title="backslash">\</li><!--  
-         --><li class="char" title="bar">|</li><!--  
-         --><li class="char" title="braceleft">{</li><!--  
-         --><li class="char" title="braceright">}</li><!--  
-         --><li class="char" title="bracketleft.cent ">[</li><!--  
-         --><li class="char" title="bracketright.cent ">]</li><!--  
-         --><li class="char" title="breve">˘</li><!--  
-         --><li class="char" title="brokenbar">¦</li><!--  
-         --><li class="char" title="bullet">•</li><!--  
-         --><li class="char" title="C">C</li><!--  
-         --><li class="char" title="c">c</li><!--  
-         --><li class="char" title="caron">ˇ</li><!--  
-         --><li class="char" title="cedilla">¸</li><!--  
-         --><li class="char" title="cent">¢</li><!--  
-         --><li class="char" title="circumflex">ˆ</li><!--  
-         --><li class="char" title="colon">:</li><!--  
-         --><li class="char" title="comma">,</li><!--  
-         --><li class="char" title="copyright">©</li><!--  
-         --><li class="char" title="CR">&nbsp</li><!--  
-         --><li class="char" title="currency">¤</li><!--  
-         --><li class="char" title="d">d</li><!--  
-         --><li class="char" title="dagger">†</li><!--  
-         --><li class="char" title="daggerdbl">‡</li><!--  
-         --><li class="char" title="degree">°</li><!--  
-         --><li class="char" title="dieresis">¨</li><!--  
-         --><li class="char" title="divide">÷</li><!--  
-         --><li class="char" title="dollar">$</li><!--  
-         --><li class="char" title="dotaccent">•</li><!--  
-         --><li class="char" title="ellipsis">…</li><!--  
-         --><li class="char" title="emdash">—</li><!--  
-         --><li class="char" title="endash">–</li><!--  
-         --><li class="char" title="equal">=</li><!--  
-         --><li class="char" title="estimated">℮</li><!--  
-         --><li class="char" title="Euro">€</li><!--  
-         --><li class="char" title="exclam">@</li><!--  
-         --><li class="char" title="exclamdown">¡</li><!--  
-         --><li class="char" title="florin">ƒ</li><!--  
-         --><li class="char" title="fraction">⁄</li><!--  
-         --><li class="char" title="grave">`</li><!--  
-         --><li class="char" title="greater">></li><!--  
-         --><li class="char" title="greaterequal">≤</li><!--  
-         --><li class="char" title="guillemotleft">«</li><!--  
-         --><li class="char" title="guillemotright">»</li><!--  
-         --><li class="char" title="guilsinglleft">‹</li><!--  
-         --><li class="char" title="guilsinglright">›</li><!--  
-         --><li class="char" title="hungarumlaut">˝</li><!--  
-         --><li class="char" title="hyphen">-</li><!--  
-         --><li class="char" title="iacute">í</li><!--  
-         --><li class="char" title="Igrave">Ì</li><!--  
-         --><li class="char" title="infinity">∞</li><!--  
-         --><li class="char" title="integral">∫</li><!--  
-         --><li class="char" title="less"><</li><!--  
-         --><li class="char" title="lessequal">≤</li><!--  
-         --><li class="char" title="lira">&#8356</li><!--  
-         --><li class="char" title="logicalnot">∫</li><!--  
-         --><li class="char" title="lozenge">◊</li><!--  
-         --><li class="char" title="macron">¯</li><!--  
-         --><li class="char" title="macron">–</li><!--  
-         --><li class="char" title="minus">-</li><!--  
-         --><li class="char" title="mu">µ</li><!--  
-         --><li class="char" title="multiply">×</li><!--  
-         --><li class="char" title="notequal">≠</li><!--  
-         --><li class="char" title="NULL">&#0</li><!--  
-         --><li class="char" title="numbersign">#</li><!--  
-         --><li class="char" title="o">o</li><!--  
-         --><li class="char" title="ordfeminine">ª</li><!--  
-         --><li class="char" title="ordmasculine">º</li><!--  
-         --><li class="char" title="paragraph">¶</li><!--  
-         --><li class="char" title="parenleft.smcp ">(</li><!--  
-         --><li class="char" title="parenright.smcp ">)</li><!--  
-         --><li class="char" title="partialdiff">∂</li><!--  
-         --><li class="char" title="percent">%</li><!--  
-         --><li class="char" title="period">.</li><!--  
-         --><li class="char" title="periodcentered">•</li><!--  
-         --><li class="char" title="perthousand">‰</li><!--  
-         --><li class="char" title="pi">π</li><!--  
-         --><li class="char" title="plus">+</li><!--  
-         --><li class="char" title="plusminus">±</li><!--  
-         --><li class="char" title="product">∏</li><!--  
-         --><li class="char" title="question">?</li><!--  
-         --><li class="char" title="questiondown">¿</li><!--  
-         --><li class="char" title="quotedbl">"</li><!--  
-         --><li class="char" title="quotedblbase">„</li><!--  
-         --><li class="char" title="quotedblleft"> </li><!--  
-         --><li class="char" title="quoteright">’</li><!--  
-         --><li class="char" title="quotesinglbase">‚</li><!--  
-         --><li class="char" title="quotesingle">'</li><!--  
-         --><li class="char" title="radical">√</li><!--  
-         --><li class="char" title="registered">®</li><!--  
-         --><li class="char" title="ring">˚</li><!--  
-         --><li class="char" title="section">§</li><!--  
-         --><li class="char" title="semicolon"></li><!--  
-         --><li class="char" title="slash">/</li><!--  
-         --><li class="char" title="space">&nbsp</li><!--  
-         --><li class="char" title="sterling">£</li><!--  
-         --><li class="char" title="summation">∑</li><!--  
-         --><li class="char" title="t">t</li><!--  
-         --><li class="char" title="tilde">˜</li><!--  
-         --><li class="char" title="trademark">™</li><!--  
-         --><li class="char" title="U">U</li><!--  
-         --><li class="char" title="underscore">_</li><!--  
-         --><li class="char" title="uni00A0">&nbsp</li><!--  
-         --><li class="char" title="uni00AD">&#xAD</li><!--
-        --><li class="char lowercase calt01" title="f calt01">fà</li><!--
-        --><li class="char lowercase calt02" title="f calt02">fì</li><!--
-        --><li class="char lowercase liga" title="f_b liga">fb</li><!--
-        --><li class="char lowercase liga" title="f_f liga">ff</li>
-           </div> 
-         <div>
-           <li class="char" title="uni0122">Ģ</li><!--
-           --><li class="char" title="uni0123">&#291</li><!--
-           --><li class="char" title="uni0136">&#x136</li><!--
-           --><li class="char" title="uni0137">&#x137</li><!--
-           --><li class="char" title="uni013B">&#x13B</li><!--
-           --><li class="char" title="uni013C">&#x13C</li><!--
-           --><li class="char" title="uni203D">‽</li><!--
-           --><li class="char" title="uni2113">ℓ</li><!--
-           --><li class="char" title="uni2E18">⸘</li><!--
-           --><li class="char" title="yen">¥</li><!--
-           --><li class="char lowercase" title="a">a</li><!--
-           --><li class="char lowercase" title="aacute">á</li><!--
-           --><li class="char lowercase" title="abreve">ă</li><!--
-           --><li class="char lowercase" title="acircumflex">â</li><!--
-           --><li class="char lowercase" title="adieresis">ä</li><!--
-           --><li class="char lowercase" title="ae">æ</li><!--
-           --><li class="char lowercase" title="agrave">à</li><!--
-           --><li class="char lowercase" title="amacron">ā</li><!--
-           --><li class="char lowercase" title="Aogonek">ą</li><!--
-           --><li class="char lowercase" title="aring">å</li><!--
-           --><li class="char lowercase" title="atilde">ã</li><!--
-           --><li class="char lowercase" title="b">b</li><!--
-           --><li class="char lowercase" title="cacute">ć</li><!--
-           --><li class="char lowercase" title="ccaron">č</li><!--
-           --><li class="char lowercase" title="Ccedilla">ç</li><!--
-           --><li class="char lowercase" title="dcaron">ď</li><!--
-           --><li class="char lowercase" title="dcroat">đ</li><!--
-           --><li class="char lowercase" title="e">e</li><!--
-           --><li class="char lowercase" title="eacute">é</li><!--
-           --><li class="char lowercase" title="ecaron">ě</li><!--
-           --><li class="char lowercase" title="ecircumflex">ê</li><!--
-           --><li class="char lowercase" title="Edieresis">ë</li><!--
-           --><li class="char lowercase" title="edotaccent">ė</li><!--
-           --><li class="char lowercase" title="egrave">è</li><!--
-           --><li class="char lowercase" title="emacron">ē</li><!--
-           --><li class="char lowercase" title="eogonek">ę</li><!--
-           --><li class="char lowercase" title="eth">ð</li><!--
-           --><li class="char lowercase" title="f">f</li><!--
-           --><li class="char lowercase" title="g">g</li><!--
-           --><li class="char lowercase" title="germandbls">ß</li><!--
-           --><li class="char lowercase" title="h">h</li><!--
-           --><li class="char lowercase" title="i">i</li><!--
-           --><li class="char lowercase" title="icircumflex">î</li><!--
-           --><li class="char lowercase" title="idieresis">ï</li><!--
-           --><li class="char lowercase" title="igrave">ì</li><!--
-           --><li class="char lowercase" title="imacron">ī</li><!--
-           --><li class="char lowercase" title="iogonek">į</li><!--
-           --><li class="char lowercase" title="J">J</li><!--
-           --><li class="char lowercase" title="j">j</li><!--
-           --><li class="char lowercase" title="k">k</li><!--
-           --><li class="char lowercase" title="l">l</li><!--
-           --><li class="char lowercase" title="lacute">ĺ</li><!--
-           --><li class="char lowercase" title="lcaron">ľ</li><!--
-           --><li class="char lowercase" title="ldot">ŀ</li><!--
-           --><li class="char lowercase" title="lslash">ł</li><!--
-           --><li class="char lowercase" title="m">m</li><!--
-           --><li class="char lowercase" title="n">n</li><!--
-           --><li class="char lowercase" title="nacute">ń</li><!--
-           --><li class="char lowercase" title="ncaron">ň</li><!--
-           --><li class="char lowercase" title="ntilde">ñ</li><!--
-           --><li class="char lowercase" title="oacute">ó</li><!--
-           --><li class="char lowercase" title="ocircumflex">ô</li><!--
-           --><li class="char lowercase" title="odieresis">ö</li><!--
-           --><li class="char lowercase" title="oe">œ</li><!--
-           --><li class="char lowercase" title="ogonek">˛</li><!--
-           --><li class="char lowercase" title="ograve">ò</li><!--
-           --><li class="char lowercase" title="ohungarumlaut">ő</li><!--
-           --><li class="char lowercase" title="omacron">ō</li><!--
-           --><li class="char lowercase" title="oslash">ø</li><!--
-           --><li class="char lowercase" title="otilde">õ</li><!--
-           --><li class="char lowercase" title="p">p</li><!--
-           --><li class="char lowercase" title="q">q</li><!--
-           --><li class="char lowercase" title="r">r</li><!--
-           --><li class="char lowercase" title="racute">ŕ</li><!--
-           --><li class="char lowercase" title="rcaron">ř</li><!--
-           --><li class="char lowercase" title="s">s</li><!--
-           --><li class="char lowercase" title="sacute">ś</li><!--
-           --><li class="char lowercase" title="Scaron">š</li><!--
-           --><li class="char lowercase" title="scedilla">ş</li><!--
-           --><li class="char lowercase" title="tcaron">ť</li><!--
-           --><li class="char lowercase" title="thorn">þ</li><!--
-           --><li class="char lowercase" title="uacute">ú</li><!--
-           --><li class="char lowercase" title="Uacute">Ú</li><!--
-           --><li class="char lowercase" title="ubreve">ŭ</li><!--
-           --><li class="char lowercase" title="ucircumflex">û</li><!--
-           --><li class="char lowercase" title="ugrave">ù</li><!--
-           --><li class="char lowercase" title="uhungarumlaut">ű</li><!--
-           --><li class="char lowercase" title="umacron">ū</li><!--
-           --><li class="char lowercase" title="uni0146">ņ</li><!--
-           --><li class="char lowercase" title="uni0157">ŗ</li><!--
-           --><li class="char lowercase" title="uni0163">ţ</li><!--
-           --><li class="char lowercase" title="uni0219">ș</li><!--
-           --><li class="char lowercase" title="uni021B">ț</li><!--
-           --><li class="char lowercase" title="uogonek">ų</li><!--
-           --><li class="char lowercase" title="uring">ů</li><!--
-           --><li class="char lowercase" title="v">v</li><!--
-           --><li class="char lowercase" title="w">w</li><!--
-           --><li class="char lowercase" title="x">x</li><!--
-           --><li class="char lowercase" title="y">y</li><!--
-           --><li class="char lowercase" title="yacute">ý</li><!--
-           --><li class="char lowercase" title="Yacute">Ý</li><!--
-           --><li class="char lowercase" title="ydieresis">ÿ</li><!--
-           --><li class="char lowercase" title="z">z</li><!--
-           --><li class="char lowercase" title="zacute">ź</li>
-         </div>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <div.smcp id="fotos">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <ul.smcp class="slider">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <input.smcp type="radio".smcp id="slide1".smcp name="slide".smcp checked>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <label.smcp for="slide1"></label>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <picture.smcp class="img">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <source.smcp media="(max-width:.smcp 512px)".smcp srcset="midia/imagens/philarmonic_p.png".smcp type="image/png">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <source.smcp media="(max-width:.smcp 960px)".smcp srcset="midia/imagens/philarmonic_m.png".smcp type="image/png">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <img.smcp src="midia/imagens/Philarmonic.png".smcp alt="compre.smcp cartolas.smcp philarmonic">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </picture>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <input.smcp type="radio".smcp id="slide2".smcp name="slide">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <label.smcp for="slide2"></label>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <picture.smcp class="img">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <source.smcp media="(max-width:.smcp 512px)".smcp srcset="midia/imagens/choco-p.png".smcp type="image/png">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <source.smcp media="(max-width:.smcp 960px)".smcp srcset="midia/imagens/choco-m.png".smcp type="image/png">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <img.smcp src="midia/imagens/choco.png".smcp alt="Barra.smcp de.smcp chocolate.smcp de.smcp cupuaçu.smcp da.smcp amazônia">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </picture>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <input.smcp type="radio".smcp id="slide3".smcp name="slide">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <label.smcp for="slide3"></label>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <picture.smcp class="img">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <source.smcp media="(max-width:.smcp 512px)".smcp srcset="midia/imagens/cafe_p.png".smcp type="image/png">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <source.smcp media="(max-width:.smcp 960px)".smcp srcset="midia/imagens/cafe_m.png".smcp type="image/png">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <img.smcp src="midia/imagens/café.png".smcp alt="Terra.smcp do.smcp Alumínio">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </picture>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </ul>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </div>
+.smcp .smcp .smcp .smcp </section>
+.smcp .smcp .smcp .smcp <section.smcp id="paginas".smcp class="paginas">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <H2><span.smcp .smcp lang="en">Figures</span></H2>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <div.smcp class="caixa">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <P.smcp id="fig".smcp class="figures1"><span>1.smcp 2.smcp 3.smcp 4.smcp 5.smcp 6.smcp 7.smcp 8.smcp 9.smcp 0</span></P>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <P.smcp id="fig".smcp class="figures2">H<span>2</span>O</P>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <p.smcp id="fig".smcp class="figures3"><span.smcp lang="en">Footnote</span><span>56</span>&nbsp;&nbsp;.smcp h<span>2</span>.smcp =.smcp a<span>2</span>.smcp +.smcp b<span>2</span></P>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <p.smcp id="fig".smcp class="figures4"><span>123</span>/<span.smcp id="num">456</span></p>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </div>
+.smcp .smcp .smcp .smcp </section>
+<section.smcp id="mapadecaracteres">
+.smcp .smcp .smcp .smcp <h2.smcp class="caracteres">Conjunto.smcp de.smcp caracteres</h2>
+.smcp .smcp .smcp .smcp <div.smcp id="map">
+.smcp .smcp .smcp .smcp .smcp .smcp <ul.smcp class="charmap">.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <div.smcp id="escondido">.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li.smcp class="char.smcp salt".smcp title="uni0123">&#291</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp salt".smcp title="quoteleftsalt">‘</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp title="eight">8</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp onum.smcp tnum".smcp title="eight.smcp onum.smcp tnum">8</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp tnum".smcp title="eighttnum">8</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp onum.smcp pnum".smcp title="eight.smcp onum.smcp pnum">8</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp numr".smcp title="eight.smcp numr">8</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp dnum".smcp title="eight.smcp dnum">8</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures".smcp title="five">5</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp onum.smcp tnum".smcp title="five.smcp onum.smcp tnum">5</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp tnum".smcp title="fivetnum">5</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp onum.smcp pnum".smcp title="five.smcp onum.smcp pnum">5</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp numr".smcp title="five.smcp numr">5</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp dnum".smcp title="five.smcp dnum">5</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp title=four">4</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp onum.smcp tnum".smcp title="four.smcp onum.smcp tnum">4</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp tnum".smcp title="fourtnum">4</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp onum.smcp pnum".smcp title="four.smcp onum.smcp pnum">4</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp numr".smcp title="four.smcp numr">4</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp dnum".smcp title="four.smcp dnum">4</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp title=nine">9</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp onum.smcp tnum".smcp title="nine.smcp onum.smcp tnum">9</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp tnum".smcp title="ninetnum">9</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp onum.smcp pnum".smcp title="nine.smcp onum.smcp pnum">9</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp numr".smcp title="nine.smcp numr">9</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp dnum".smcp title="nine.smcp dnum">9</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp title=one">1</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp onum.smcp tnum".smcp title="one.smcp onum.smcp tnum">1</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp tnum".smcp title="onetnum">1</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp onum.smcp pnum".smcp title="one.smcp onum.smcp pnum">1</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp numr".smcp title="one.smcp numr">1</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp dnum".smcp title="one.smcp dnum">1</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp title="onehalf">½</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp title="onequarter">¼</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp title="onesuperior">¹</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp title="seven">7</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp onum.smcp tnum".smcp title="seven.smcp onum.smcp tnum">7</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp tnum".smcp title="seventnum">7</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp onum.smcp pnum".smcp title="seven.smcp onum.smcp pnum">7</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp numr".smcp title="seven.smcp numr">7</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp dnum".smcp title="seven.smcp dnum">7</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp title=six">6</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp onum.smcp tnum".smcp title="six.smcp onum.smcp tnum">6</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp tnum".smcp title="sixtnum">6</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp onum.smcp pnum".smcp title="six.smcp onum.smcp pnum">6</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp numr".smcp title="six.smcp numr">6</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp dnum".smcp title="six.smcp dnum">6</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp title="three">3</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp onum.smcp tnum".smcp title="three.smcp onum.smcp tnum">3</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp tnum".smcp title="threetnum">3</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp onum.smcp pnum".smcp title="three.smcp onum.smcp pnum">3</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp numr".smcp title="three.smcp numr">3</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp dnum".smcp title="three.smcp dnum">3</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp title="threequarters">¾</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp title="threesuperior">³</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp title="two">2</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp onum.smcp tnum".smcp title="two.smcp onum.smcp tnum">2</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp tnum".smcp title="twotnum">2</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp onum.smcp pnum".smcp title="two.smcp onum.smcp pnum">2</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp numr".smcp title="two.smcp numr">2</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp dnum".smcp title="two.smcp dnum">2</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp title="twosuperior">²</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp title="zero">0</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp onum.smcp tnum".smcp title="zero.smcp onum.smcp tnum">0</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp tnum".smcp title="zero.smcp tnum">0</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp onum.smcp pnum".smcp title="zero.smcp onum.smcp pnum">0</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp numr".smcp title="zero.smcp numr">0</li><!--.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp figures.smcp dnum".smcp title="zero.smcp dnum">0</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="acute">´</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="ampersand">&amp</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="approxequal">≈</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="asciicircum">^</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="asciitilde">~</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="asterisk">*</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="at">@</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="backslash">\</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="bar">|</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="braceleft">{</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="braceright">}</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="bracketleft.smcp ">[</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="bracketright.smcp ">]</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="breve">˘</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="brokenbar">¦</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="bullet">•</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="C">C</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="c">c</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="caron">ˇ</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="cedilla">¸</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="cent">¢</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="circumflex">ˆ</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="colon">:</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="comma">,</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="copyright">©</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="CR">&nbsp</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="currency">¤</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="d">d</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="dagger">†</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="daggerdbl">‡</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="degree">°</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="dieresis">¨</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="divide">÷</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="dollar">$</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="dotaccent">•</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="ellipsis">…</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="emdash">—</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="endash">–</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="equal">=</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="estimated">℮</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="Euro">€</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="exclam">@</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="exclamdown">¡</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="florin">ƒ</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="fraction">⁄</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="grave">`</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="greater">></li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="greaterequal">≤</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="guillemotleft">«</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="guillemotright">»</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="guilsinglleft">‹</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="guilsinglright">›</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="hungarumlaut">˝</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="hyphen">-</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="iacute">í</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="Igrave">Ì</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="infinity">∞</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="integral">∫</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="less"><</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="lessequal">≤</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="lira">&#8356</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="logicalnot">∫</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="lozenge">◊</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="macron">¯</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="macron">–</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="minus">-</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="mu">µ</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="multiply">×</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="notequal">≠</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="NULL">&#0</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="numbersign">#</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="o">o</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="ordfeminine">ª</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="ordmasculine">º</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="paragraph">¶</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="parenleft.smcp.smcp ">(</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="parenright.smcp.smcp ">)</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="partialdiff">∂</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="percent">%</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="period">.</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="periodcentered">•</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="perthousand">‰</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="pi">π</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="plus">+</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="plusminus">±</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="product">∏</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="question">?</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="questiondown">¿</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="quotedbl">"</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="quotedblbase">„</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="quotedblleft">.smcp </li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="quoteright">’</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="quotesinglbase">‚</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="quotesingle">'</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="radical">√</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="registered">®</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="ring">˚</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="section">§</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="semicolon"></li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="slash">/</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="space">&nbsp</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="sterling">£</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="summation">∑</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="t">t</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="tilde">˜</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="trademark">™</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="U">U</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="underscore">_</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="uni00A0">&nbsp</li><!--.smcp .smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="uni00AD">&#xAD</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp calt01".smcp title="f.smcp calt01">fà</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp calt02".smcp title="f.smcp calt02">fì</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp liga".smcp title="f_b.smcp liga">fb</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp liga".smcp title="f_f.smcp liga">ff</li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </div>.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <div>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li.smcp class="char".smcp title="uni0122">Ģ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="uni0123">&#291</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="uni0136">&#x136</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="uni0137">&#x137</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="uni013B">&#x13B</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="uni013C">&#x13C</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="uni203D">‽</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="uni2113">ℓ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="uni2E18">⸘</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="yen">¥</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="a">a</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="aacute">á</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="abreve">ă</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="acircumflex">â</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="adieresis">ä</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="ae">æ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="agrave">à</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="amacron">ā</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="Aogonek">ą</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="aring">å</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="atilde">ã</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="b">b</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="cacute">ć</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="ccaron">č</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="Ccedilla">ç</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="dcaron">ď</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="dcroat">đ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="e">e</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="eacute">é</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="ecaron">ě</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="ecircumflex">ê</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="Edieresis">ë</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="edotaccent">ė</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="egrave">è</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="emacron">ē</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="eogonek">ę</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="eth">ð</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="f">f</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="g">g</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="germandbls">ß</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="h">h</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="i">i</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="icircumflex">î</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="idieresis">ï</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="igrave">ì</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="imacron">ī</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="iogonek">į</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="J">J</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="j">j</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="k">k</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="l">l</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="lacute">ĺ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="lcaron">ľ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="ldot">ŀ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="lslash">ł</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="m">m</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="n">n</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="nacute">ń</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="ncaron">ň</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="ntilde">ñ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="oacute">ó</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="ocircumflex">ô</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="odieresis">ö</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="oe">œ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="ogonek">˛</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="ograve">ò</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="ohungarumlaut">ő</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="omacron">ō</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="oslash">ø</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="otilde">õ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="p">p</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="q">q</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="r">r</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="racute">ŕ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="rcaron">ř</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="s">s</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="sacute">ś</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="Scaron">š</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="scedilla">ş</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="tcaron">ť</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="thorn">þ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="uacute">ú</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="Uacute">Ú</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="ubreve">ŭ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="ucircumflex">û</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="ugrave">ù</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="uhungarumlaut">ű</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="umacron">ū</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="uni0146">ņ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="uni0157">ŗ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="uni0163">ţ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="uni0219">ș</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="uni021B">ț</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="uogonek">ų</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="uring">ů</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="v">v</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="w">w</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="x">x</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="y">y</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="yacute">ý</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="Yacute">Ý</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="ydieresis">ÿ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="z">z</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="zacute">ź</li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </div>
 
-         <div id="esconder">
-           <li class="char lowercase liga pt-br" title="atilde_o liga pt-br">ão</li><!--
-           --><li class="char lowercase pt-br liga" title="otilde_e pt-br liga">õe</li><!--
-           --><li class="char lowercase salt" title="a salt">a</li><!--
-           --><li class="char lowercase salt" title="aacute salt">á</li><!--
-           --><li class="char lowercase salt" title="abreve salt">ă</li><!--
-           --><li class="char lowercase salt" title="acircumflex salt">â</li><!--
-           --><li class="char lowercase salt" title="adieresis salt">ä</li><!--
-           --><li class="char lowercase salt" title="ae salt">æ</li><!--
-           --><li class="char lowercase salt" title="agrave salt">à</li><!--
-           --><li class="char lowercase salt" title="aogonek salt">ą</li><!--
-           --><li class="char lowercase salt" title="aring salt">å</li><!--
-           --><li class="char lowercase salt" title="atilde salt">ã</li><!--
-           --><li class="char lowercase salt" title="Ecircumflex salt">ê</li><!--
-           --><li class="char lowercase salt" title="g salt">g</li><!--
-           --><li class="char lowercase salt" title="gbreve salt">ğ</li><!--
-           --><li class="char lowercase salt" title="gbreve salt">ğ</li><!--
-           --><li class="char lowercase salt" title="udieresissalt">ü</li><!--
-           --><li class="char uppercase" title="A">A</li><!--
-           --><li class="char uppercase salt "title="A salt">A</li><!--
-           --><li class="char uppercase" title="Aacute">Á</li><!--
-           --><li class="char uppercase salt "title="Aacute salt">Á</li><!--
-           --><li class="char uppercase" title="Abreve">Ă</li><!--
-           --><li class="char uppercase salt "title="Abreve salt">Ă</li><!--
-           --><li class="char uppercase" title="Acircumflex">Â</li><!--
-           --><li class="char uppercase salt "title="Acircumflex salt">Â</li><!--
-           --><li class="char uppercase" title="Adieresis">Ä</li><!--
-           --><li class="char uppercase salt "title="Adieresis salt">Ä</li><!--
-           --><li class="char uppercase" title="AE">Æ</li><!--
-           --><li class="char uppercase" title="Agrave">À</li><!--
-           --><li class="char uppercase salt title="Agrave salt">À</li><!--
-           --><li class="char uppercase" title="Amacron">Ā</li><!--
-           --><li class="char uppercase salt "title="Amacron salt">Ā</li><!--
-           --><li class="char uppercase salt "title="Amacron salt">Ā</li><!--
-           --><li class="char uppercase" title="aogonek">Ą</li><!--
-           --><li class="char uppercase salt "title="Aogonek salt">Ą</li><!--
-           --><li class="char uppercase" title="Aring">Å</li><!--
-           --><li class="char uppercase salt "title="Aring salt">Å</li><!--
-           --><li class="char uppercase" title="Atilde">Ã</li><!--
-           --><li class="char uppercase salt "title="Atilde salt">Ã</li><!--
-           --><li class="char uppercase" title="B">B</li><!--
-           --><li class="char uppercase" title="Cacute">Ć</li><!--
-           --><li class="char uppercase" title="Ccaron">Č</li><!--
-           --><li class="char uppercase" title="ccedilla">Ç</li><!--
-           --><li class="char uppercase" title="D">D</li><!--
-           --><li class="char uppercase" title="Dcaron">Ď</li><!--
-           --><li class="char uppercase" title="Dcroat">Đ</li><!--
-           --><li class="char uppercase" title="Delta">∆</li><!--
-           --><li class="char uppercase" title="dotlessi">ı</li><!--
-           --><li class="char uppercase" title="E">E</li><!--
-           --><li class="char uppercase salt liga" title="E salt liga">EW</li><!--
-           --><li class="char uppercase salt liga" title="E salt liga">EY</li><!--
-           --><li class="char uppercase salt liga" title="E salt liga">ET</li><!--
-           --><li class="char uppercase salt liga" title="E salt liga">EV</li><!--
-           --><li class="char uppercase" title="Eacute">É</li><!--
-           --><li class="char uppercase salt "title="Eacute salt">É</li><!--
-           --><li class="char uppercase" title="Ecaron">Ě</li><!--
-           --><li class="char uppercase" title="Ecircumflex">Ê</li><!--
-           --><li class="char uppercase" title="edieresis">Ë</li><!--
-           --><li class="char uppercase salt "title="Edieresis salt">Ë</li><!--
-           --><li class="char uppercase" title="Edotaccent">Ė</li><!--
-           --><li class="char uppercase" title="Egrave">È</li><!--
-           --><li class="char uppercase salt "title="Egrave salt">È</li><!--
-           --><li class="char uppercase" title="Emacron">Ē</li><!--
-           --><li class="char uppercase" title="Eogonek">Ę</li><!--
-           --><li class="char uppercase" title="Eth">Ð</li><!--
-           --><li class="char uppercase" title="F">F</li><!--
-           --><li class="char uppercase" title="G">G</li><!--
-           --><li class="char uppercase" title="Gbreve">Ğ</li><!--
-           --><li class="char uppercase" title="H">H</li><!--
-           --><li class="char uppercase" title="I">I</li><!--
-           --><li class="char uppercase" title="Iacute">Í</li><!--
-           --><li class="char uppercase NDL" title="Iacute_J NDL">íj</li><!--
-           --><li class="char uppercase NDL" title="iacute_j NDL">ÍJ</li><!--
-           --><li class="char uppercase" title="Icircumflex">Î</li><!--
-           --><li class="char uppercase" title="Idieresis">Ï</li><!--
-           --><li class="char uppercase" title="Idotaccent">İ</li><!--
-           --><li class="char uppercase liga" title="IJ liga">IJ</li><!--
-           --><li class="char uppercase" title="Imacron">Ī</li><!--
-           --><li class="char uppercase" title="Iogonek">Į</li><!--
-           --><li class="char uppercase" title="K">K</li><!--
-           --><li class="char uppercase salt" title="K salt">K</li><!--
-           --><li class="char uppercase" title="L">L</li><!--
-           --><li class="char uppercase liga" title="L_L liga">LL</li><!--
-           --><li class="char uppercase liga" title="LA liga">LA</li><!--
-           --><li class="char uppercase liga" title="LA liga">LA</li><!--
-           --><li class="char uppercase" title="Lacute">Ĺ</li><!--
-           --><li class="char uppercase" title="Lcaron">Ľ</li><!--
-           --><li class="char uppercase" title="Lcaron">Ľ</li><!--
-           --><li class="char uppercase" title="Ldot">Ŀ</li><!--
-           --><li class="char uppercase liga" title="LE liga">LE</li><!--
-           --><li class="char uppercase liga" title="LI liga">LI</li><!--
-           --><li class="char uppercase liga" title="LO liga">LO</li><!--
-           --><li class="char uppercase" title="Lslash">Ł</li><!--
-           --><li class="char uppercase liga" title="LU liga">LU</li><!--
-           --><li class="char uppercase" title="M">M</li><!--
-           --><li class="char uppercase" title="N">N</li><!--
-           --><li class="char uppercase salt" title="N salt">N</li><!--
-           --><li class="char uppercase liga" title="N_N liga">NN</li><!--
-           --><li class="char uppercase liga" title="N_T liga">NT</li><!--
-           --><li class="char uppercase" title="Nacute">Ń</li><!--
-           --><li class="char uppercase" title="Ncaron">Ň</li><!--
-           --><li class="char uppercase" title="Ntilde">Ñ</li><!--
-           --><li class="char uppercase" title="O">O</li><!--
-           --><li class="char uppercase" title="Oacute">Ó</li><!--
-           --><li class="char uppercase" title="Ocircumflex">Ô</li><!--
-           --><li class="char uppercase" title="Odieresis">Ö</li><!--
-           --><li class="char uppercase" title="OE">Œ</li><!--
-           --><li class="char uppercase" title="Ograve">Ò</li><!--
-           --><li class="char uppercase" title="Ohungarumlaut">Ő</li><!--
-           --><li class="char uppercase" title="Omacron">Ō</li><!--
-           --><li class="char uppercase" title="Omega">Ω</li><!--
-           --><li class="char uppercase liga" title="OO liga">OO</li><!--
-           --><li class="char uppercase" title="Oslash">Ø</li><!--
-           --><li class="char uppercase" title="Otilde">Õ</li><!--
-           --><li class="char uppercase" title="P">P</li><!--
-           --><li class="char uppercase" title="Q">Q</li><!--
-           --><li class="char uppercase salt" title="Q">Q</li><!--
-           --><li class="char uppercase" title="R">R</li><!--
-           --><li class="char uppercase salt" title="R salt">R</li><!--
-           --><li class="char uppercase" title="Racute">Ŕ</li><!--
-           --><li class="char uppercase" title="Rcaron">Ř</li><!--
-           --><li class="char uppercase" title="S">S</li><!--
-           --><li class="char uppercase" title="Sacute">Ś</li><!--
-           --><li class="char uppercase" title="scaron">Š</li><!--
-           --><li class="char uppercase" title="Scedilla">Ş</li><!--
-           --><li class="char uppercase liga" title="ST liga">ST</li><!--
-           --><li class="char uppercase" title="T">T</li><!--
-           --><li class="char uppercase" title="T">T</li><!--
-           --><li class="char uppercase liga" title="T_H liga">TH</li><!--
-           --><li class="char uppercase liga" title="T_Z liga">TZ</li><!--
-           --><li class="char uppercase" title="Tcaron">Ť</li><!--
-           --><li class="char uppercase" title="Thorn">Þ</li><!--
-           --><li class="char uppercase" title="u">u</li><!--
-           --><li class="char uppercase" title="Ubreve">Ŭ</li><!--
-           --><li class="char uppercase" title="Ucircumflex">Û</li><!--
-           --><li class="char uppercase" title="Udieresis">Ü</li><!--
-           --><li class="char uppercase" title="Ugrave">Ù</li><!--
-           --><li class="char uppercase" title="Uhungarumlaut">Ű</li><!--
-           --><li class="char uppercase" title="Umacron">Ū</li><!--
-           --><li class="char uppercase" title="uni0145">Ņ</li><!--
-           --><li class="char uppercase" title="uni0156">Ŗ</li><!--
-           --><li class="char uppercase" title="uni0162">Ţ</li><!--
-           --><li class="char uppercase" title="uni0218">Ș</li><!--
-           --><li class="char uppercase" title="uni021A">Ț</li><!--
-           --><li class="char uppercase" title="uniE9E">ẞ</li><!--
-           --><li class="char uppercase calt" title="uniE9E calt">ẞ</li><!--
-           --><li class="char uppercase" title="Uogonek">Ų</li><!--
-           --><li class="char uppercase" title="Uring">Ů</li><!--
-           --><li class="char uppercase" title="V">V</li><!--
-           --><li class="char uppercase salt" title="V salt">V</li><!--
-           --><li class="char uppercase" title="W">W</li><!--
-           --><li class="char uppercase salt" title="W salt">W</li><!--
-           --><li class="char uppercase ss01" title="W ss01">W</li><!--
-           --><li class="char uppercase" title="X">X</li><!--
-           --><li class="char uppercase" title="Y">Y</li><!--
-           --><li class="char uppercase salt" title="Y salt">Y</li><!--
-           --><li class="char uppercase" title="Ydieresis">Ÿ</li><!--
-           --><li class="char uppercase" title="Z">Z</li><!--
-           --><li class="char uppercase liga" title="ZA liga">ZA</li><!--
-           --><li class="char uppercase" title="Zacute">Ź</li><!--
-           --><li class="char uppercase" title="Zcaron">Ž</li><!--
-           --><li class="char uppercase" title="Zdotaccent">Ż</li><!--
-           --><li class="char uppercase liga" title="ZE liga">ZE</li><!--
-                 --><li class="char lowercase liga" title="f_f_l liga">ffl</li><!--
-           --><li class="char lowercase liga" title="f_h liga">fh</li><!--
-           --><li class="char lowercase liga" title="f_k liga">fk</li><!--
-           --><li class="char lowercase liga" title="f_t liga">ft</li><!--
-           --><li class="char lowercase liga" title="fi liga">fi</li><!--
-           --><li class="char lowercase liga" title="fl liga">fl</li><!--
-           --><li class="char lowercase liga" title="ij liga">ĳ</li><!--
-           --><li class="char lowercase" title="zcaron">ž</li><!--
-           --><li class="char lowercase" title="zdotaccent">ż</li><!--
-           --><li class="char" title="">&nbsp;</li><!--
-          --><li class="char" title="">&nbsp;</li><!--
-           --><li class="char" title="">&nbsp;</li><!--
-           --><li class="char" title="">&nbsp;</li><!--
-           --><li class="char" title="">&nbsp;</li><!--
-           --><li class="char" title="">&nbsp;</li><!--
-           --><li class="char" title="">&nbsp;</li><!--
-           --><li class="char" title="">&nbsp;</li><!--
-           --><li class="char" title="">&nbsp;</li><!--
-           --><li class="char " title=".notdef">&#000;</li>
-         </div>
-         <a id="vejaMais" class="esconde">VEJA MAIS</a></br> 
-           </ul>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <div.smcp id="esconder">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li.smcp class="char.smcp lowercase.smcp liga.smcp pt-br".smcp title="atilde_o.smcp liga.smcp pt-br">ão</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp pt-br.smcp liga".smcp title="otilde_e.smcp pt-br.smcp liga">õe</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp salt".smcp title="a.smcp salt">a</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp salt".smcp title="aacute.smcp salt">á</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp salt".smcp title="abreve.smcp salt">ă</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp salt".smcp title="acircumflex.smcp salt">â</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp salt".smcp title="adieresis.smcp salt">ä</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp salt".smcp title="ae.smcp salt">æ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp salt".smcp title="agrave.smcp salt">à</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp salt".smcp title="aogonek.smcp salt">ą</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp salt".smcp title="aring.smcp salt">å</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp salt".smcp title="atilde.smcp salt">ã</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp salt".smcp title="Ecircumflex.smcp salt">ê</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp salt".smcp title="g.smcp salt">g</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp salt".smcp title="gbreve.smcp salt">ğ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp salt".smcp title="gbreve.smcp salt">ğ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp salt".smcp title="udieresissalt">ü</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="A">A</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt.smcp "title="A.smcp salt">A</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Aacute">Á</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt.smcp "title="Aacute.smcp salt">Á</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Abreve">Ă</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt.smcp "title="Abreve.smcp salt">Ă</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Acircumflex">Â</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt.smcp "title="Acircumflex.smcp salt">Â</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Adieresis">Ä</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt.smcp "title="Adieresis.smcp salt">Ä</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="AE">Æ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Agrave">À</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt.smcp title="Agrave.smcp salt">À</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Amacron">Ā</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt.smcp "title="Amacron.smcp salt">Ā</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt.smcp "title="Amacron.smcp salt">Ā</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="aogonek">Ą</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt.smcp "title="Aogonek.smcp salt">Ą</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Aring">Å</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt.smcp "title="Aring.smcp salt">Å</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Atilde">Ã</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt.smcp "title="Atilde.smcp salt">Ã</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="B">B</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Cacute">Ć</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Ccaron">Č</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="ccedilla">Ç</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="D">D</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Dcaron">Ď</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Dcroat">Đ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Delta">∆</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="dotlessi">ı</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="E">E</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt.smcp liga".smcp title="E.smcp salt.smcp liga">EW</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt.smcp liga".smcp title="E.smcp salt.smcp liga">EY</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt.smcp liga".smcp title="E.smcp salt.smcp liga">ET</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt.smcp liga".smcp title="E.smcp salt.smcp liga">EV</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Eacute">É</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt.smcp "title="Eacute.smcp salt">É</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Ecaron">Ě</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Ecircumflex">Ê</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="edieresis">Ë</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt.smcp "title="Edieresis.smcp salt">Ë</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Edotaccent">Ė</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Egrave">È</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt.smcp "title="Egrave.smcp salt">È</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Emacron">Ē</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Eogonek">Ę</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Eth">Ð</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="F">F</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="G">G</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Gbreve">Ğ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="H">H</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="I">I</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Iacute">Í</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp NDL".smcp title="Iacute_J.smcp NDL">íj</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp NDL".smcp title="iacute_j.smcp NDL">ÍJ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Icircumflex">Î</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Idieresis">Ï</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Idotaccent">İ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp liga".smcp title="IJ.smcp liga">IJ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Imacron">Ī</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Iogonek">Į</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="K">K</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt".smcp title="K.smcp salt">K</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="L">L</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp liga".smcp title="L_L.smcp liga">LL</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp liga".smcp title="LA.smcp liga">LA</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp liga".smcp title="LA.smcp liga">LA</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Lacute">Ĺ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Lcaron">Ľ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Lcaron">Ľ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Ldot">Ŀ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp liga".smcp title="LE.smcp liga">LE</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp liga".smcp title="LI.smcp liga">LI</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp liga".smcp title="LO.smcp liga">LO</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Lslash">Ł</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp liga".smcp title="LU.smcp liga">LU</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="M">M</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="N">N</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt".smcp title="N.smcp salt">N</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp liga".smcp title="N_N.smcp liga">NN</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp liga".smcp title="N_T.smcp liga">NT</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Nacute">Ń</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Ncaron">Ň</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Ntilde">Ñ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="O">O</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Oacute">Ó</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Ocircumflex">Ô</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Odieresis">Ö</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="OE">Œ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Ograve">Ò</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Ohungarumlaut">Ő</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Omacron">Ō</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Omega">Ω</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp liga".smcp title="OO.smcp liga">OO</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Oslash">Ø</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Otilde">Õ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="P">P</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Q">Q</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt".smcp title="Q">Q</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="R">R</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt".smcp title="R.smcp salt">R</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Racute">Ŕ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Rcaron">Ř</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="S">S</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Sacute">Ś</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="scaron">Š</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Scedilla">Ş</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp liga".smcp title="ST.smcp liga">ST</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="T">T</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="T">T</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp liga".smcp title="T_H.smcp liga">TH</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp liga".smcp title="T_Z.smcp liga">TZ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Tcaron">Ť</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Thorn">Þ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="u">u</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Ubreve">Ŭ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Ucircumflex">Û</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Udieresis">Ü</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Ugrave">Ù</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Uhungarumlaut">Ű</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Umacron">Ū</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="uni0145">Ņ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="uni0156">Ŗ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="uni0162">Ţ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="uni0218">Ș</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="uni021A">Ț</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="uniE9E">ẞ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp calt".smcp title="uniE9E.smcp calt">ẞ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Uogonek">Ų</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Uring">Ů</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="V">V</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt".smcp title="V.smcp salt">V</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="W">W</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt".smcp title="W.smcp salt">W</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp ss01".smcp title="W.smcp ss01">W</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="X">X</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Y">Y</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp salt".smcp title="Y.smcp salt">Y</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Ydieresis">Ÿ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Z">Z</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp liga".smcp title="ZA.smcp liga">ZA</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Zacute">Ź</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Zcaron">Ž</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase".smcp title="Zdotaccent">Ż</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp uppercase.smcp liga".smcp title="ZE.smcp liga">ZE</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp liga".smcp title="f_f_l.smcp liga">ffl</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp liga".smcp title="f_h.smcp liga">fh</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp liga".smcp title="f_k.smcp liga">fk</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp liga".smcp title="f_t.smcp liga">ft</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp liga".smcp title="fi.smcp liga">fi</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp liga".smcp title="fl.smcp liga">fl</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase.smcp liga".smcp title="ij.smcp liga">ĳ</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="zcaron">ž</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp lowercase".smcp title="zdotaccent">ż</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="">&nbsp;</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="">&nbsp;</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="">&nbsp;</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="">&nbsp;</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="">&nbsp;</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="">&nbsp;</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="">&nbsp;</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="">&nbsp;</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char".smcp title="">&nbsp;</li><!--
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp --><li.smcp class="char.smcp ".smcp title=".notdef">&#000;</li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </div>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <a.smcp id="vejaMais".smcp class="esconde">VEJA.smcp MAIS</a></br>.smcp 
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </ul>
 
-    </div>
+.smcp .smcp .smcp .smcp </div>
 
 </section>
-    <section id="info">
+.smcp .smcp .smcp .smcp <section.smcp id="info">
 
 
-        <div class="caixa">
-            <article class="quebra">
-                <h3 >O que vem junto</h3>
-                <p> 8 Fontes - 4 regulares e 4 alternativas<br> 650 Caracteres<br>+ futuras atualizações</p>
-            </article>
-            <article>
-                <h3>Suporte aos Seguintes Idiomas</h3>
-                <p>Afaan Oromo, albanês, basco, bósnio, catalão, croata, tcheco, dinamarquês, holandês, inglês, estoniano, faroense, filipino, finlandês, francês, galego, alemão, haitiano crioulo, húngaro, Ido, indonésio, irlandês, italiano, letão, Lituano,
-                    malaio, norueguês, bokmål, occitano, polonês, português, romeno, eslovaco, esloveno, espanhol, suaíli, sueco, turco, vietnamita, galês, zapoteca, zulu. </p>
-            </article>
-            <article id="estreito">
-                <h3 class="quebra">Recursos Opentype</h3>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <div.smcp class="caixa">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <article.smcp class="quebra">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <h3.smcp >O.smcp que.smcp vem.smcp junto</h3>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <p>.smcp 8.smcp Fontes.smcp -.smcp 4.smcp regulares.smcp e.smcp 4.smcp alternativas<br>.smcp 650.smcp Caracteres<br>+.smcp futuras.smcp atualizações</p>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </article>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <article>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <h3>Suporte.smcp aos.smcp Seguintes.smcp Idiomas</h3>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <p>Afaan.smcp Oromo,.smcp albanês,.smcp basco,.smcp bósnio,.smcp catalão,.smcp croata,.smcp tcheco,.smcp dinamarquês,.smcp holandês,.smcp inglês,.smcp estoniano,.smcp faroense,.smcp filipino,.smcp finlandês,.smcp francês,.smcp galego,.smcp alemão,.smcp haitiano.smcp crioulo,.smcp húngaro,.smcp Ido,.smcp indonésio,.smcp irlandês,.smcp italiano,.smcp letão,.smcp Lituano,
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp malaio,.smcp norueguês,.smcp bokmål,.smcp occitano,.smcp polonês,.smcp português,.smcp romeno,.smcp eslovaco,.smcp esloveno,.smcp espanhol,.smcp suaíli,.smcp sueco,.smcp turco,.smcp vietnamita,.smcp galês,.smcp zapoteca,.smcp zulu..smcp </p>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </article>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <article.smcp id="estreito">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <h3.smcp class="quebra">Recursos.smcp Opentype</h3>
 
-                <p>
-                    Kerning, Alternates, Ligatures, Additional Numbers, Dingbats, Fractions, Oldstyle, Figures, Stylistic Sets.</p>
-            </article>
-            <article>
-                <h3 class="quebro">Ao licentciar você pode</h3>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <p>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp Kerning,.smcp Alternates,.smcp Ligatures,.smcp Additional.smcp Numbers,.smcp Dingbats,.smcp Fractions,.smcp Oldstyle,.smcp Figures,.smcp Stylistic.smcp Sets.</p>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </article>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <article>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <h3.smcp class="quebro">Ao.smcp licentciar.smcp você.smcp pode</h3>
 
-                <p>Existem vários tipos de licentças, desde a mais simples que lhe permite instalá-la e usá-la em projetos impressos e imagens estáticas (png, tiff, jpg); há uma específica para produzir web sites que lhe dá acesso a uma webfont kit o que
-                    lhe permite costumizar sites usando a css.</p>
-            </article>
-            <div class="clean">
-                <a href="#"></a>
-            </div>
-        </div>
-    </section>
-    <section id="rodape">
-        <div class="logo">
-            <h4><a href="https://rafaeiro.github.io/typeiro/"><svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 883 261"><path class="cls-1" d="M6.21,163.61V42H44.34c19.9,0,51.22.56,51,26.9-.18,12.89-7.73,27.82-15.29,36.66a86.73,86.73,0,0,1-14,12.89c16.58,10.32,33.9,34.64,33.16,45.14H74.92c.37-4.79-3.86-12.34-11.05-20.45-5.53-6.26-11.24-11.24-16.39-13.45a152.83,152.83,0,0,1-18.06,6.82v27.08ZM29.42,61.73V115.9A74.32,74.32,0,0,0,58.16,99.68c7.55-6.81,13.63-17.5,13.63-26.89,0-9.58-6.45-11.06-29.29-11.06Z" transform="translate(28 20)"/><path class="cls-1" d="M190.24,163.61H170.71l-2-9.4h-.56c-6.08,9.4-15.47,11.79-23.39,11.79-21.92,0-38.14-18.6-38.14-43.66,0-25.24,16.77-45.68,39.43-45.68,9.76,0,18.24,3.87,22.1,11h.19V78.5h21.92Zm-60.79-42.37c0,14,4.79,27.08,19.16,27.08,8.29,0,13.26-4.24,16.21-9.77a35.56,35.56,0,0,0,3.5-16.21c0-6.44-1.29-12.71-3.5-17.13-2.95-6.08-8.11-10.87-16.4-10.87C136.26,94.34,129.45,104.47,129.45,121.24Z" transform="translate(28 20)"/><path class="cls-1" d="M236.11,78.5h16.58V95.08H236.11v68.53H214.18V95.08H200.92V82.37L214,78.5h.18V73.89c0-21.73,13.08-38.87,38.14-38.87,6.44,0,12.52,1.66,16.95,5.71l-8.11,14.56a26.52,26.52,0,0,0-10.32-2.4c-10.87,0-14.73,9.58-14.92,19.9Z" transform="translate(28 20)"/><path class="cls-1" d="M326.74,106.87v56.74H308.69l-2.58-8.84h-.19c-4.05,6.63-15.66,10.68-22.47,10.68-13.27-.18-28.92-9.76-28.92-24.68,0-14.56,12.34-22.11,27.63-25.06L299.11,112c2.21-.37,5.52-2,5.52-5.53-.18-8.84-6.63-13.08-14.18-13.08-6.82,0-13.08,1.47-19.16,7L258.76,89c9.58-10.5,20.45-12.71,31.69-12.71C308.13,76.47,326.74,83.66,326.74,106.87Zm-39.42,41.45c5,0,10.13-2.95,13.26-6.82A24.57,24.57,0,0,0,305,129.34c0-1.84-.18-4.79-.37-6.44-1.29,2.94-4.23,4-6.08,4.6l-12,3.13c-6.82,1.84-9,5.9-9,9C277.55,144.63,282.34,148.32,287.32,148.32Z" transform="translate(28 20)"/><path class="cls-1" d="M514.81,163.61V61.55H482V42h89V61.55H538V163.61Z" transform="translate(28 20)"/><path class="cls-1" d="M564,178.53c2.58,1.66,8.29,2.39,11.6,2.39,2.77-.36,7.56-3.31,18.43-21.36l.18-.37c-15.29-22.48-25.42-51-26.71-72.77V78.5h22.1v7c1.11,16.21,7.74,37.21,17.32,54.16,9.58-17.13,16-38.13,17.32-54.16v-7h19.89v7.92c-1.1,16.76-7,38.13-17.5,56.56-10,17.31-31.87,56.92-56.55,56.92a16.37,16.37,0,0,1-5.35-.55,2.84,2.84,0,0,1-.73-2.21Z" transform="translate(28 20)"/><path class="cls-1" d="M659.42,198.61V78.5H680.6v8.84h.19s8.29-10.68,22.47-11c14.56-.37,34.27,10.87,34.27,44.21,0,37-21.19,45.32-34.08,45.32-8.66,0-14.74-3.5-21.92-8.84h-.19c.19,2.94.19,6.44.19,8.84v32.79ZM680.79,122c0,4.24.37,10.5.74,16.4,6.26,5.53,12.15,9.21,19,9.21,6.63,0,14.19-4.42,14.19-26.71,0-19.34-7.19-26.53-15.85-26.53C686.13,94.34,680.79,106.32,680.79,122Z" transform="translate(28 20)"/><rect class="cls-2" width="883" height="261"/><path class="cls-3" d="M412.77,146.66c-6.27,6.08-14.56,11.05-24.14,11.05-16,0-25.6-10.68-29.1-24.13h30.39l2.31-6.58h-51l-2.13,6.58h11.05c4.05,18.79,18.05,31.69,38.69,31.69,12.52,0,22.47-5.9,30.39-13.27Z" transform="translate(28 20)"/><path class="cls-3" d="M377.76,63.58c3.69,0,6.08-2,6.08-7.92,0-4.43-2.39-7.19-6.08-7.19s-6.08,2.76-6.08,7.19C371.68,61.55,374.08,63.58,377.76,63.58Z" transform="translate(28 20)"/><path class="cls-3" d="M390.3,117l2.2-6.26H359C361.92,98.58,370,87,383.47,86.6c7.19,0,13.27,4.24,17.69,9.22l3.13-8.11a29.71,29.71,0,0,0-20.82-8.47c-18.6,0-29.66,15.47-33.16,31.5h-9L339.6,117Z" transform="translate(28 20)"/><path class="cls-3" d="M781.92,63.58c3.69,0,6.08-2,6.08-7.92,0-4.43-2.39-7.19-6.08-7.19s-6.08,2.76-6.08,7.19C775.84,61.55,778.24,63.58,781.92,63.58Z" transform="translate(28 20)"/><path class="cls-3" d="M794.46,117l2.2-6.26H763.13c3-12.16,11-23.77,24.5-24.14,7.19,0,13.27,4.24,17.69,9.22l3.13-8.11a29.71,29.71,0,0,0-20.82-8.47c-18.6,0-29.66,15.47-33.16,31.5h-9l-1.7,6.26Z" transform="translate(28 20)"/><path class="cls-3" d="M816.92,146.66c-6.26,6.08-14.55,11.05-24.13,11.05-16,0-25.61-10.68-29.11-24.13h30.4l2.31-6.58h-51l-2.13,6.58h11c4.05,18.79,18.05,31.69,38.68,31.69,12.53,0,22.48-5.9,30.4-13.27Z" transform="translate(28 20)"/></svg></a></h4>
-        </div>
-        <div>
-            <h4 class='rodape'>CONTATO</h4>
-            <ul>
-                <li>rafaeiro@yahoo.com.br</li>
-                <li>+55 91 9 8610 3962</li>
-            </ul>
-        </div>
-        <div>
-            <h4 class='rodape'>REDES SOCIAIS</h4>
-            <ul class="line">
-                <li class="line">
-                    <a href="https://www.behance.net/rafaeir" target="blanc_">
-                        <svg class="cor-f" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22 7h-7v-2h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14h-8.027c.13 3.211 3.483 3.312 4.588 2.029h3.168zm-7.686-4h4.965c-.105-1.547-1.136-2.219-2.477-2.219-1.466 0-2.277.768-2.488 2.219zm-9.574 6.988h-6.466v-14.967h6.953c5.476.081 5.58 5.444 2.72 6.906 3.461 1.26 3.577 8.061-3.207 8.061zm-3.466-8.988h3.584c2.508 0 2.906-3-.312-3h-3.272v3zm3.391 3h-3.391v3.016h3.341c3.055 0 2.868-3.016.05-3.016z"/></svg>
-                    </a>
-                </li>
-                <li class="line">
-                    <a href="https://www.instagram.com/typeiro/" target="blanc">
-                        <svg class="cor-f" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-                    </a>
-                </li>
-                <li class="line">
-                    <a href="https://dribbble.com/Rafaeiro-Typeiro" target="blanc">
-                        <svg class="cor-f" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.628 0-12 5.373-12 12s5.372 12 12 12 12-5.373 12-12-5.372-12-12-12zm9.885 11.441c-2.575-.422-4.943-.445-7.103-.073-.244-.563-.497-1.125-.767-1.68 2.31-1 4.165-2.358 5.548-4.082 1.35 1.594 2.197 3.619 2.322 5.835zm-3.842-7.282c-1.205 1.554-2.868 2.783-4.986 3.68-1.016-1.861-2.178-3.676-3.488-5.438.779-.197 1.591-.314 2.431-.314 2.275 0 4.368.779 6.043 2.072zm-10.516-.993c1.331 1.742 2.511 3.538 3.537 5.381-2.43.715-5.331 1.082-8.684 1.105.692-2.835 2.601-5.193 5.147-6.486zm-5.44 8.834l.013-.256c3.849-.005 7.169-.448 9.95-1.322.233.475.456.952.67 1.432-3.38 1.057-6.165 3.222-8.337 6.48-1.432-1.719-2.296-3.927-2.296-6.334zm3.829 7.81c1.969-3.088 4.482-5.098 7.598-6.027.928 2.42 1.609 4.91 2.043 7.46-3.349 1.291-6.953.666-9.641-1.433zm11.586.43c-.438-2.353-1.08-4.653-1.92-6.897 1.876-.265 3.94-.196 6.199.196-.437 2.786-2.028 5.192-4.279 6.701z"/></svg>
-                    </a>
-                </li>
-                <li class="line">
-                    <a href="https://www.facebook.com/rafaeiro/" target="blanc">
-                        <svg class="cor-f" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/></svg>
-                    </a>
-                </li>
-                <li class="line">
-                    <a href="https://twitter.com/typeiro" target="blanc">
-                        <svg class="cor-f" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
-            </svg></a>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <footer>
-        <small>Produzido como portfólio de Rafael Ferreira</small>
-    </footer>
-    <script type="text/javascript">
-        function exibirMais()
-        {
-        let el = document.querySelector("#escondido");
-        let bx = document.querySelector("#esconder");
-        let es = document.querySelector(".esconde");
-        if(el.style.display == 'none'){
-            el.style.display = 'block';
-            bx.style.display = 'block';
-            es.innerHTML="VEJA MENOS";
-        }else{
-            el.style.display = 'none';
-            bx.style.display = 'none';
-            es.innerHTML="VEJA MAIS";
-        }
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <p>Existem.smcp vários.smcp tipos.smcp de.smcp licentças,.smcp desde.smcp a.smcp mais.smcp simples.smcp que.smcp lhe.smcp permite.smcp instalá-la.smcp e.smcp usá-la.smcp em.smcp projetos.smcp impressos.smcp e.smcp imagens.smcp estáticas.smcp (png,.smcp tiff,.smcp jpg);.smcp há.smcp uma.smcp específica.smcp para.smcp produzir.smcp web.smcp sites.smcp que.smcp lhe.smcp dá.smcp acesso.smcp a.smcp uma.smcp webfont.smcp kit.smcp o.smcp que
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp lhe.smcp permite.smcp costumizar.smcp sites.smcp usando.smcp a.smcp css.</p>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </article>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <div.smcp class="clean">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <a.smcp href="#"></a>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </div>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </div>
+.smcp .smcp .smcp .smcp </section>
+.smcp .smcp .smcp .smcp <section.smcp id="rodape">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <div.smcp class="logo">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <h4><a.smcp href="https://rafaeiro.github.io/typeiro/"><svg.smcp id="Camada_1".smcp data-name="Camada.smcp 1".smcp xmlns="http://www.w3.org/2000/svg".smcp viewBox="0.smcp 0.smcp 883.smcp 261"><path.smcp class="cls-1".smcp d="M6.21,163.61V42H44.34c19.9,0,51.22.56,51,26.9-.18,12.89-7.73,27.82-15.29,36.66a86.73,86.73,0,0,1-14,12.89c16.58,10.32,33.9,34.64,33.16,45.14H74.92c.37-4.79-3.86-12.34-11.05-20.45-5.53-6.26-11.24-11.24-16.39-13.45a152.83,152.83,0,0,1-18.06,6.82v27.08ZM29.42,61.73V115.9A74.32,74.32,0,0,0,58.16,99.68c7.55-6.81,13.63-17.5,13.63-26.89,0-9.58-6.45-11.06-29.29-11.06Z".smcp transform="translate(28.smcp 20)"/><path.smcp class="cls-1".smcp d="M190.24,163.61H170.71l-2-9.4h-.56c-6.08,9.4-15.47,11.79-23.39,11.79-21.92,0-38.14-18.6-38.14-43.66,0-25.24,16.77-45.68,39.43-45.68,9.76,0,18.24,3.87,22.1,11h.19V78.5h21.92Zm-60.79-42.37c0,14,4.79,27.08,19.16,27.08,8.29,0,13.26-4.24,16.21-9.77a35.56,35.56,0,0,0,3.5-16.21c0-6.44-1.29-12.71-3.5-17.13-2.95-6.08-8.11-10.87-16.4-10.87C136.26,94.34,129.45,104.47,129.45,121.24Z".smcp transform="translate(28.smcp 20)"/><path.smcp class="cls-1".smcp d="M236.11,78.5h16.58V95.08H236.11v68.53H214.18V95.08H200.92V82.37L214,78.5h.18V73.89c0-21.73,13.08-38.87,38.14-38.87,6.44,0,12.52,1.66,16.95,5.71l-8.11,14.56a26.52,26.52,0,0,0-10.32-2.4c-10.87,0-14.73,9.58-14.92,19.9Z".smcp transform="translate(28.smcp 20)"/><path.smcp class="cls-1".smcp d="M326.74,106.87v56.74H308.69l-2.58-8.84h-.19c-4.05,6.63-15.66,10.68-22.47,10.68-13.27-.18-28.92-9.76-28.92-24.68,0-14.56,12.34-22.11,27.63-25.06L299.11,112c2.21-.37,5.52-2,5.52-5.53-.18-8.84-6.63-13.08-14.18-13.08-6.82,0-13.08,1.47-19.16,7L258.76,89c9.58-10.5,20.45-12.71,31.69-12.71C308.13,76.47,326.74,83.66,326.74,106.87Zm-39.42,41.45c5,0,10.13-2.95,13.26-6.82A24.57,24.57,0,0,0,305,129.34c0-1.84-.18-4.79-.37-6.44-1.29,2.94-4.23,4-6.08,4.6l-12,3.13c-6.82,1.84-9,5.9-9,9C277.55,144.63,282.34,148.32,287.32,148.32Z".smcp transform="translate(28.smcp 20)"/><path.smcp class="cls-1".smcp d="M514.81,163.61V61.55H482V42h89V61.55H538V163.61Z".smcp transform="translate(28.smcp 20)"/><path.smcp class="cls-1".smcp d="M564,178.53c2.58,1.66,8.29,2.39,11.6,2.39,2.77-.36,7.56-3.31,18.43-21.36l.18-.37c-15.29-22.48-25.42-51-26.71-72.77V78.5h22.1v7c1.11,16.21,7.74,37.21,17.32,54.16,9.58-17.13,16-38.13,17.32-54.16v-7h19.89v7.92c-1.1,16.76-7,38.13-17.5,56.56-10,17.31-31.87,56.92-56.55,56.92a16.37,16.37,0,0,1-5.35-.55,2.84,2.84,0,0,1-.73-2.21Z".smcp transform="translate(28.smcp 20)"/><path.smcp class="cls-1".smcp d="M659.42,198.61V78.5H680.6v8.84h.19s8.29-10.68,22.47-11c14.56-.37,34.27,10.87,34.27,44.21,0,37-21.19,45.32-34.08,45.32-8.66,0-14.74-3.5-21.92-8.84h-.19c.19,2.94.19,6.44.19,8.84v32.79ZM680.79,122c0,4.24.37,10.5.74,16.4,6.26,5.53,12.15,9.21,19,9.21,6.63,0,14.19-4.42,14.19-26.71,0-19.34-7.19-26.53-15.85-26.53C686.13,94.34,680.79,106.32,680.79,122Z".smcp transform="translate(28.smcp 20)"/><rect.smcp class="cls-2".smcp width="883".smcp height="261"/><path.smcp class="cls-3".smcp d="M412.77,146.66c-6.27,6.08-14.56,11.05-24.14,11.05-16,0-25.6-10.68-29.1-24.13h30.39l2.31-6.58h-51l-2.13,6.58h11.05c4.05,18.79,18.05,31.69,38.69,31.69,12.52,0,22.47-5.9,30.39-13.27Z".smcp transform="translate(28.smcp 20)"/><path.smcp class="cls-3".smcp d="M377.76,63.58c3.69,0,6.08-2,6.08-7.92,0-4.43-2.39-7.19-6.08-7.19s-6.08,2.76-6.08,7.19C371.68,61.55,374.08,63.58,377.76,63.58Z".smcp transform="translate(28.smcp 20)"/><path.smcp class="cls-3".smcp d="M390.3,117l2.2-6.26H359C361.92,98.58,370,87,383.47,86.6c7.19,0,13.27,4.24,17.69,9.22l3.13-8.11a29.71,29.71,0,0,0-20.82-8.47c-18.6,0-29.66,15.47-33.16,31.5h-9L339.6,117Z".smcp transform="translate(28.smcp 20)"/><path.smcp class="cls-3".smcp d="M781.92,63.58c3.69,0,6.08-2,6.08-7.92,0-4.43-2.39-7.19-6.08-7.19s-6.08,2.76-6.08,7.19C775.84,61.55,778.24,63.58,781.92,63.58Z".smcp transform="translate(28.smcp 20)"/><path.smcp class="cls-3".smcp d="M794.46,117l2.2-6.26H763.13c3-12.16,11-23.77,24.5-24.14,7.19,0,13.27,4.24,17.69,9.22l3.13-8.11a29.71,29.71,0,0,0-20.82-8.47c-18.6,0-29.66,15.47-33.16,31.5h-9l-1.7,6.26Z".smcp transform="translate(28.smcp 20)"/><path.smcp class="cls-3".smcp d="M816.92,146.66c-6.26,6.08-14.55,11.05-24.13,11.05-16,0-25.61-10.68-29.11-24.13h30.4l2.31-6.58h-51l-2.13,6.58h11c4.05,18.79,18.05,31.69,38.68,31.69,12.53,0,22.48-5.9,30.4-13.27Z".smcp transform="translate(28.smcp 20)"/></svg></a></h4>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </div>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <div>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <h4.smcp class='rodape'>CONTATO</h4>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <ul>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li>rafaeiro@yahoo.com.br</li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li>+55.smcp 91.smcp 9.smcp 8610.smcp 3962</li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </ul>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </div>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <div>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <h4.smcp class='rodape'>REDES.smcp SOCIAIS</h4>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <ul.smcp class="line">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li.smcp class="line">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <a.smcp href="https://www.behance.net/rafaeir".smcp target="blanc_">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <svg.smcp class="cor-f".smcp xmlns="http://www.w3.org/2000/svg".smcp width="24".smcp height="24".smcp viewBox="0.smcp 0.smcp 24.smcp 24"><path.smcp d="M22.smcp 7h-7v-2h7v2zm1.726.smcp 10c-.442.smcp 1.297-2.029.smcp 3-5.101.smcp 3-3.074.smcp 0-5.564-1.729-5.564-5.675.smcp 0-3.91.smcp 2.325-5.92.smcp 5.466-5.92.smcp 3.082.smcp 0.smcp 4.964.smcp 1.782.smcp 5.375.smcp 4.426.078.506.109.smcp 1.188.095.smcp 2.14h-8.027c.13.smcp 3.211.smcp 3.483.smcp 3.312.smcp 4.588.smcp 2.029h3.168zm-7.686-4h4.965c-.105-1.547-1.136-2.219-2.477-2.219-1.466.smcp 0-2.277.768-2.488.smcp 2.219zm-9.574.smcp 6.988h-6.466v-14.967h6.953c5.476.081.smcp 5.58.smcp 5.444.smcp 2.72.smcp 6.906.smcp 3.461.smcp 1.26.smcp 3.577.smcp 8.061-3.207.smcp 8.061zm-3.466-8.988h3.584c2.508.smcp 0.smcp 2.906-3-.312-3h-3.272v3zm3.391.smcp 3h-3.391v3.016h3.341c3.055.smcp 0.smcp 2.868-3.016.05-3.016z"/></svg>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </a>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li.smcp class="line">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <a.smcp href="https://www.instagram.com/typeiro/".smcp target="blanc">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <svg.smcp class="cor-f".smcp xmlns="http://www.w3.org/2000/svg".smcp width="24".smcp height="24".smcp viewBox="0.smcp 0.smcp 24.smcp 24"><path.smcp d="M12.smcp 2.163c3.204.smcp 0.smcp 3.584.012.smcp 4.85.07.smcp 3.252.148.smcp 4.771.smcp 1.691.smcp 4.919.smcp 4.919.058.smcp 1.265.069.smcp 1.645.069.smcp 4.849.smcp 0.smcp 3.205-.012.smcp 3.584-.069.smcp 4.849-.149.smcp 3.225-1.664.smcp 4.771-4.919.smcp 4.919-1.266.058-1.644.07-4.85.07-3.204.smcp 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849.smcp 0-3.204.013-3.583.07-4.849.149-3.227.smcp 1.664-4.771.smcp 4.919-4.919.smcp 1.266-.057.smcp 1.645-.069.smcp 4.849-.069zm0-2.163c-3.259.smcp 0-3.667.014-4.947.072-4.358.2-6.78.smcp 2.618-6.98.smcp 6.98-.059.smcp 1.281-.073.smcp 1.689-.073.smcp 4.948.smcp 0.smcp 3.259.014.smcp 3.668.072.smcp 4.948.2.smcp 4.358.smcp 2.618.smcp 6.78.smcp 6.98.smcp 6.98.smcp 1.281.058.smcp 1.689.072.smcp 4.948.072.smcp 3.259.smcp 0.smcp 3.668-.014.smcp 4.948-.072.smcp 4.354-.2.smcp 6.782-2.618.smcp 6.979-6.98.059-1.28.073-1.689.073-4.948.smcp 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0.smcp 5.838c-3.403.smcp 0-6.162.smcp 2.759-6.162.smcp 6.162s2.759.smcp 6.163.smcp 6.162.smcp 6.163.smcp 6.162-2.759.smcp 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0.smcp 10.162c-2.209.smcp 0-4-1.79-4-4.smcp 0-2.209.smcp 1.791-4.smcp 4-4s4.smcp 1.791.smcp 4.smcp 4c0.smcp 2.21-1.791.smcp 4-4.smcp 4zm6.406-11.845c-.796.smcp 0-1.441.645-1.441.smcp 1.44s.645.smcp 1.44.smcp 1.441.smcp 1.44c.795.smcp 0.smcp 1.439-.645.smcp 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </a>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li.smcp class="line">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <a.smcp href="https://dribbble.com/Rafaeiro-Typeiro".smcp target="blanc">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <svg.smcp class="cor-f".smcp xmlns="http://www.w3.org/2000/svg".smcp width="24".smcp height="24".smcp viewBox="0.smcp 0.smcp 24.smcp 24"><path.smcp d="M12.smcp 0c-6.628.smcp 0-12.smcp 5.373-12.smcp 12s5.372.smcp 12.smcp 12.smcp 12.smcp 12-5.373.smcp 12-12-5.372-12-12-12zm9.885.smcp 11.441c-2.575-.422-4.943-.445-7.103-.073-.244-.563-.497-1.125-.767-1.68.smcp 2.31-1.smcp 4.165-2.358.smcp 5.548-4.082.smcp 1.35.smcp 1.594.smcp 2.197.smcp 3.619.smcp 2.322.smcp 5.835zm-3.842-7.282c-1.205.smcp 1.554-2.868.smcp 2.783-4.986.smcp 3.68-1.016-1.861-2.178-3.676-3.488-5.438.779-.197.smcp 1.591-.314.smcp 2.431-.314.smcp 2.275.smcp 0.smcp 4.368.779.smcp 6.043.smcp 2.072zm-10.516-.993c1.331.smcp 1.742.smcp 2.511.smcp 3.538.smcp 3.537.smcp 5.381-2.43.715-5.331.smcp 1.082-8.684.smcp 1.105.692-2.835.smcp 2.601-5.193.smcp 5.147-6.486zm-5.44.smcp 8.834l.013-.256c3.849-.005.smcp 7.169-.448.smcp 9.95-1.322.233.475.456.952.67.smcp 1.432-3.38.smcp 1.057-6.165.smcp 3.222-8.337.smcp 6.48-1.432-1.719-2.296-3.927-2.296-6.334zm3.829.smcp 7.81c1.969-3.088.smcp 4.482-5.098.smcp 7.598-6.027.928.smcp 2.42.smcp 1.609.smcp 4.91.smcp 2.043.smcp 7.46-3.349.smcp 1.291-6.953.666-9.641-1.433zm11.586.43c-.438-2.353-1.08-4.653-1.92-6.897.smcp 1.876-.265.smcp 3.94-.196.smcp 6.199.196-.437.smcp 2.786-2.028.smcp 5.192-4.279.smcp 6.701z"/></svg>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </a>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li.smcp class="line">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <a.smcp href="https://www.facebook.com/rafaeiro/".smcp target="blanc">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <svg.smcp class="cor-f".smcp xmlns="http://www.w3.org/2000/svg".smcp width="24".smcp height="24".smcp viewBox="0.smcp 0.smcp 24.smcp 24"><path.smcp d="M12.smcp 0c-6.627.smcp 0-12.smcp 5.373-12.smcp 12s5.373.smcp 12.smcp 12.smcp 12.smcp 12-5.373.smcp 12-12-5.373-12-12-12zm3.smcp 8h-1.35c-.538.smcp 0-.65.221-.65.778v1.222h2l-.209.smcp 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692.smcp 3.029-2.692h1.971v3z"/></svg>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </a>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <li.smcp class="line">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <a.smcp href="https://twitter.com/typeiro".smcp target="blanc">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <svg.smcp class="cor-f".smcp xmlns="http://www.w3.org/2000/svg".smcp width="24".smcp height="24".smcp viewBox="0.smcp 0.smcp 24.smcp 24"><path.smcp d="M24.smcp 4.557c-.883.392-1.832.656-2.828.775.smcp 1.017-.609.smcp 1.798-1.574.smcp 2.165-2.724-.951.564-2.005.974-3.127.smcp 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179.smcp 0-5.515.smcp 2.966-4.797.smcp 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29.smcp 2.213-.669.smcp 5.108.smcp 1.523.smcp 6.574-.806-.026-1.566-.247-2.229-.616-.054.smcp 2.281.smcp 1.581.smcp 4.415.smcp 3.949.smcp 4.89-.693.188-1.452.232-2.224.084.626.smcp 1.956.smcp 2.444.smcp 3.379.smcp 4.6.smcp 3.419-2.07.smcp 1.623-4.678.smcp 2.348-7.29.smcp 2.04.smcp 2.179.smcp 1.397.smcp 4.768.smcp 2.212.smcp 7.548.smcp 2.212.smcp 9.142.smcp 0.smcp 14.307-7.721.smcp 13.995-14.646.962-.695.smcp 1.797-1.562.smcp 2.457-2.549z"/>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </svg></a>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </li>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </ul>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp </div>
+.smcp .smcp .smcp .smcp </section>
+.smcp .smcp .smcp .smcp <footer>
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp <small>Produzido.smcp como.smcp portfólio.smcp de.smcp Rafael.smcp Ferreira</small>
+.smcp .smcp .smcp .smcp </footer>
+.smcp .smcp .smcp .smcp <script.smcp type="text/javascript">
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp function.smcp exibirMais()
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp {
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp let.smcp el.smcp =.smcp document.querySelector("#escondido");
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp let.smcp bx.smcp =.smcp document.querySelector("#esconder");
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp let.smcp es.smcp =.smcp document.querySelector(".esconde");
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp if(el.style.display.smcp ==.smcp 'none'){
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp el.style.display.smcp =.smcp 'block';
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp bx.style.display.smcp =.smcp 'block';
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp es.innerHTML="VEJA.smcp MENOS";
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp }else{
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp el.style.display.smcp =.smcp 'none';
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp bx.style.display.smcp =.smcp 'none';
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp es.innerHTML="VEJA.smcp MAIS";
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp }
 
-        }
-    var btn = document.getElementById("vejaMais");
-    btn.addEventListener("click", exibirMais);
+.smcp .smcp .smcp .smcp .smcp .smcp .smcp .smcp }
+.smcp .smcp .smcp .smcp var.smcp btn.smcp =.smcp document.getElementById("vejaMais");
+.smcp .smcp .smcp .smcp btn.addEventListener("click",.smcp exibirMais);
 
-    </script>
+.smcp .smcp .smcp .smcp </script>
 </body>
 
 </html>
