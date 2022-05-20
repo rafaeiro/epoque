@@ -746,8 +746,11 @@ footer {
         height: 70vw;
     }
     #fotos {
-        max-width: 960px;
+        max-width: 1080px;
         min-width: 641px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -40%);
     }
     .slider {
         max-width: 768px;
@@ -961,8 +964,8 @@ footer {
         max-width: 640px;
         min-width: 480px;
         left: 55%;
-        top: 65%;
-        transform: translate(-55%, -50%);
+        top: 60%;
+        transform: translate(-55%, -48%);
     }
     .slider {
         max-width: 620px;
