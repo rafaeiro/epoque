@@ -602,6 +602,7 @@ article>h3 {
 }
 #canais {
     background-color: #f1f2f3;
+    height: 60vh;
 }
 #canais>h2 {
     color: #006699;
