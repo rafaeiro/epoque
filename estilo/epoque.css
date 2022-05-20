@@ -600,7 +600,28 @@ article>h3 {
     height: 10px;
     margin: 10px;
 }
-
+#canais {
+    background-color: #f1f2f3;
+}
+#canais>h2 {
+    color: #006699;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 30px;
+}
+#lojas {
+    width: 80vw;
+    margin: auto;
+}
+#lojas>li>a>img {
+    width: 200px;
+    float: left;
+    margin-top: 15vh;
+    padding: 0 2vw;
+}
+#fon {
+    padding-top: 1vw;
+}
 footer {
     width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -985,6 +1006,7 @@ footer {
         max-width: 576px;
         margin: 0 auto;
     }
+    
     #info>h3 {
         width: 400px;
         font: bold normal 2em/1em 'epoque-light', sans-serif;
