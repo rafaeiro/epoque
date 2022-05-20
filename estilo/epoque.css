@@ -145,15 +145,25 @@ section {
     line-height: 1.3em;
     font-weight: bold;
 }
-.desc {
-    color: #ffffff;
-    text-align: left;
+.div {
     margin: 0 18vw 4vw 18vw;
     padding-top: 25vw;
     padding-bottom: 20vw;
+}
+.desc {
+    color: #ffffff;
+    text-align: left;
     font-size: 1.2em;
     line-height: 1.3em;
     font-weight: 500;
+}
+.numeros {
+    width: 65%;
+    margin: 0 4%;
+    padding: 1rem 0vw 2vh 0vw;
+}
+#paginas {
+    height: 150vh;
 }
 #terceira{
     z-index: 1;
@@ -445,6 +455,9 @@ picture>img {
     font: normal normal 4em/1.15em 'epoque', sans-serif;
     text-align: left;
 }
+.figures4 {
+    padding-bottom: 10vh;
+}
 
 p.figures1:hover {
     color: #499bf8;
@@ -609,6 +622,9 @@ footer {
         padding-top: 60px;
         padding-bottom: 60px;
     }
+    #alg {
+        height: 110vh;
+    }
     #prologo {
         background-image: url("../midia/imagens/background001-tb.png");
         padding-top: 10vh;
@@ -640,14 +656,27 @@ footer {
     }
     .tamanhos {
         width: 50%;
+        float: left;
     }
-    .desc { 
-        width: 50%;
-        margin: 5% 46%;
-        padding: 10vh 4vw 10vh 5vw;
+    .desc {  
         font-size: 1.1em;
         line-height: 1.25em;
         font-weight: 400;
+    }
+    .div {
+        position: relative;
+        width: 48%;
+        /* float: right; */
+        margin: -1vw 46%;
+        padding: 10vh 4vw 10vh 5vw;
+    }
+    .numeros {
+        width: 75%;
+        margin: 0;
+        padding: 1.5rem 5vw 0 5vw;
+    }
+    #paginas {
+        height: 120vh;
     }
     .superior {
         display: block;
@@ -663,25 +692,24 @@ footer {
     }
     #p96 {
         position: relative;
-        text-align: left;
-        float: left;
-        width: 50%;
-        margin: 10% 4vw 0 2vw;
-        padding: 10% 0;
+        width: 48.5vw;
+        text-align: right;
+        float: right;
+        margin: -3% 0vw 0 0vw;
+        padding: 10% 0% 10% 1%;
     }
     #p96::first-line {
         font-size: 10em;
-        line-height: 0.25em;
+        line-height: .5em;
         letter-spacing: -0.005em;
         
     }
     #p48 {
         position: relative;
-        text-align: left;
-        float: left;
+        text-align: right;
+        float: right;
         width: 50%;
-        margin: 0 2vw;
-        padding: 0;
+        padding: 0 1vw;
         line-height: 6em;
     }
     #p48::first-line {
@@ -691,11 +719,10 @@ footer {
     }
     #p32 {
         position: relative;
-        text-align: left;
-        float: left;
+        text-align: right;
+        float: right;
         width: 50%;
-        margin: 0 2vw;
-        padding: 0;
+        padding: 0 .4vw;
         line-height: 4em;
     }
     #p32::first-line {
@@ -705,11 +732,10 @@ footer {
     }
     #p24 {
         position: relative;
-        text-align: left;
-        float: left;
+        text-align: right;
+        float: right;
         width: 50%;
-        margin: 0 2vw;
-        padding: 0 0 15vh 0;
+        padding: 0 0.4vw 15vh 0;
         line-height: 2.5em;
     }
     #p24::first-line {
@@ -825,12 +851,19 @@ footer {
         font-weight: bold;
     }
     .desc { 
-        width: 70%;
-        margin: 0 10%;
-        padding: 10vh 4vw 10vh 5vw;
         font-size: 1.1em;
         line-height: 1.25em;
         font-weight: 400;
+    }
+    .div {
+        width: 70%;
+        margin: 0 10%;
+        padding: 10vh 4vw 10vh 5vw;
+    }
+    .numeros {
+        width: 80%;
+        margin: 0 10%;
+        padding: 2rem 0vw 0h 0vw;
     }
     .superior {
         display: block;
@@ -1019,12 +1052,19 @@ footer {
         font-weight: bold;
     }
     .desc { 
-        width: 80%;
-        margin: 0 5%;
-        padding: 10vh 5vw 10vh 5vw;
         font-size: 1.1em;
         line-height: 1.25em;
         font-weight: 400;
+    }
+    .div {
+        width: 80%;
+        margin: 0 5%;
+        padding: 10vh 5vw 10vh 5vw;
+    }
+    .numeros {
+        width: 95%;
+        margin: 0 2.5%;
+        padding:  3rem 0vw 0 0vw;
     }
     #terceira{
         margin-top: 9.2em;
