@@ -150,6 +150,16 @@ section {
     padding-top: 25vw;
     padding-bottom: 20vw;
 }
+.tabular {
+    width: 100%;
+}
+.principal {
+    position: relative;
+    display: block;
+    width: 65vw;
+    margin: 0;
+    padding: 0;
+}
 .desc {
     color: #ffffff;
     text-align: left;
@@ -158,10 +168,18 @@ section {
     font-weight: 500;
 }
 .numeros {
-    width: 65%;
-    margin: 0 4%;
+    margin: 0 0% 0 4%;
     padding: 1rem 0vw 2vh 0vw;
 }
+
+.tabular {
+    background-image: url("../midia/algarismos/figuras_tab.png");
+    background-position: center right;
+    background-size: 26%;
+    background-attachment: local;
+    background-repeat: no-repeat;
+}
+
 #paginas {
     height: 150vh;
 }
