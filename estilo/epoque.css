@@ -1006,9 +1006,9 @@ footer {
     #fotos {
         max-width: 640px;
         min-width: 480px;
-        left: 55%;
+        left: 58%;
         top: 60%;
-        transform: translate(-55%, -48%);
+        transform: translate(-54%, -48%);
     }
     .slider {
         max-width: 620px;
